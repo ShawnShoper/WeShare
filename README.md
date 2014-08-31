@@ -1,0 +1,1 @@
+WeShare is a app for people to share they file , picture , music and the others they want to share;
