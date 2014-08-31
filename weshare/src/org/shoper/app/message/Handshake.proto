@@ -1,0 +1,10 @@
+package message;
+option java_package = "org.shoper.app.message";
+option java_outer_classname = "Handshake";
+
+message Handshake{
+	optional string request_time = 2;
+	optional string response_time = 3;
+	optional int	server_statu = 4;
+	optional string desction = 5;
+}

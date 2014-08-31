@@ -1,0 +1,98 @@
+[2014/08/16 09:28:46 CST] [DEBG] (org/shoper/app/utils.Debug:14) asd
+[2014/08/16 12:28:47 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:29:12 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:31:01 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:34:18 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:34:54 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:35:57 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:37:16 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:37:51 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:38:31 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/16 12:39:00 CST] [WARN] (org/shoper/app/utils.Warn:26) open conf1ig/serverconfig.json: The system cannot find the path specified.
+[2014/08/17 22:56:53 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 22:58:09 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 22:58:11 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 22:58:47 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:00:26 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:01:08 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:01:18 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:02:37 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:02:45 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:03:03 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:05:44 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:05:50 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:05:56 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:06:03 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:07:04 CST] [INFO] (org/shoper/app/utils/log.Info:18) read server config info
+[2014/08/17 23:57:29 CST] [INFO] (main.getConnectionInfo:28) read server config info
+[2014/08/17 23:57:29 CST] [WARN] (main.getConnectionInfo:53) read config info
+[2014/08/17 23:57:50 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/17 23:57:50 CST] [WARN] (main.getConnectionInfo:50) read config info
+[2014/08/17 23:59:26 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/17 23:59:26 CST] [WARN] (main.getConnectionInfo:50) read config info
+[2014/08/17 23:59:34 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/17 23:59:34 CST] [WARN] (main.getConnectionInfo:31) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:00:32 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:00:32 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:01:04 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:01:04 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:01:36 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:01:36 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:02:07 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:02:07 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:02:27 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:02:27 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:02:47 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:02:47 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:02:57 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:02:57 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:03:10 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:03:10 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:03:18 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:03:18 CST] [WARN] (main.getConnectionInfo:49) read config info
+[2014/08/18 00:03:33 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:03:33 CST] [WARN] (main.getConnectionInfo:51) read config info
+[2014/08/18 00:04:04 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:04:04 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:05:13 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:05:13 CST] [WARN] (main.getConnectionInfo:51) read config info
+[2014/08/18 00:05:34 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:05:34 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.open config/serverconfig.json: The system cannot find the file specified.
+[2014/08/18 00:06:01 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:06:01 CST] [WARN] (main.getConnectionInfo:50) read config info
+[2014/08/18 00:06:06 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:06:06 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.
+[2014/08/18 00:06:22 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:06:22 CST] [WARN] (main.getConnectionInfo:30) open file fail, and create new file to write info msg.
+[2014/08/18 00:06:57 CST] [INFO] (main.getConnectionInfo:25) read server config info
+[2014/08/18 00:06:57 CST] [WARN] (main.getConnectionInfo:50) read config info
+[2014/08/18 00:23:40 CST] [INFO] (main.getConnectionInfo:24) read server config info
+[2014/08/18 00:23:40 CST] [WARN] (main.getConnectionInfo:45) read config info
+[2014/08/18 00:24:13 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:24:13 CST] [WARN] (main.getConnectionInfo:44) read config info
+[2014/08/18 00:24:13 CST] [EROR] (main.main:67) config file has not include Server_Ip field
+[2014/08/18 00:24:25 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:24:25 CST] [WARN] (main.getConnectionInfo:44) read config info
+[2014/08/18 00:24:25 CST] [EROR] (main.main:67) config file has not include Server_Ip field
+[2014/08/18 00:27:42 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:27:42 CST] [WARN] (main.getConnectionInfo:44) read config info
+[2014/08/18 00:27:42 CST] [EROR] (main.main:67) In server config file ,the server_id or server_port can't be empty
+[2014/08/18 00:28:08 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:28:08 CST] [WARN] (main.getConnectionInfo:44) read config info
+[2014/08/18 00:28:08 CST] [EROR] (main.main:67) In server config file ,the server_id or server_port can't be empty
+[2014/08/18 00:28:18 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:28:18 CST] [WARN] (main.getConnectionInfo:28) open file fail, and create new file to write info msg.
+[2014/08/18 00:28:50 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:28:50 CST] [WARN] (main.getConnectionInfo:43) read config info
+[2014/08/18 00:29:15 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:29:15 CST] [INFO] (main.getConnectionInfo:43) write config info
+[2014/08/18 00:29:19 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/18 00:29:19 CST] [INFO] (main.getConnectionInfo:43) write config info
+[2014/08/22 22:59:01 CST] [INFO] (main.getConnectionInfo:23) read server config info
+[2014/08/22 22:59:01 CST] [INFO] (main.getConnectionInfo:43) write config info
+[2014/08/24 22:36:02 CST] [INFO] (main.getConnectionInfo:24) get server config info
+[2014/08/24 22:36:02 CST] [INFO] (main.getConnectionInfo:44) read config info
+[2014/08/26 23:26:30 CST] [INFO] (org/shoper/app/server/tcp.getConnectionInfo:27) get server config info
+[2014/08/26 23:26:30 CST] [INFO] (org/shoper/app/server/tcp.getConnectionInfo:47) read config info
+[2014/08/27 00:05:40 CST] [INFO] (org/shoper/app/server/tcp.getConnectionInfo:27) get server config info
+[2014/08/27 00:05:40 CST] [INFO] (org/shoper/app/server/tcp.getConnectionInfo:47) read config info

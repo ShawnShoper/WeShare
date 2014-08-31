@@ -1,0 +1,1840 @@
+DATA	p\go.crypto\curve25519\const_amd64.s	/^DATA ·REDMASK51(SB)\/8, $0x0007FFFFFFFFFFFF$/;"	l
+DATA	p\go.crypto\curve25519\const_amd64.s	/^DATA ·_121666_213(SB)\/8, $996687872$/;"	l
+DATA	p\go.crypto\curve25519\const_amd64.s	/^DATA ·_2P0(SB)\/8, $0xFFFFFFFFFFFDA$/;"	l
+DATA	p\go.crypto\curve25519\const_amd64.s	/^DATA ·_2P1234(SB)\/8, $0xFFFFFFFFFFFFE$/;"	l
+GLOBL	p\go.crypto\curve25519\const_amd64.s	/^GLOBL ·REDMASK51(SB), $8$/;"	l
+GLOBL	p\go.crypto\curve25519\const_amd64.s	/^GLOBL ·_121666_213(SB), $8$/;"	l
+GLOBL	p\go.crypto\curve25519\const_amd64.s	/^GLOBL ·_2P0(SB), $8$/;"	l
+GLOBL	p\go.crypto\curve25519\const_amd64.s	/^GLOBL ·_2P1234(SB), $8$/;"	l
+TEXT	p\go.crypto\curve25519\cswap_amd64.s	/^TEXT ·cswap(SB),7,$0$/;"	l
+REDUCELOOP	p\go.crypto\curve25519\freeze_amd64.s	/^REDUCELOOP:$/;"	l
+TEXT	p\go.crypto\curve25519\freeze_amd64.s	/^TEXT ·freeze(SB),7,$96-8$/;"	l
+TEXT	p\go.crypto\curve25519\ladderstep_amd64.s	/^TEXT ·ladderstep(SB),0,$384-8$/;"	l
+TEXT	p\go.crypto\curve25519\mul_amd64.s	/^TEXT ·mul(SB),0,$128-24$/;"	l
+TEXT	p\go.crypto\curve25519\square_amd64.s	/^TEXT ·square(SB),7,$96-16$/;"	l
+account_name	p\go.crypto\otr\libotr_test_helper.c	/^const char *account_name(void *opdata, const char *account, const char *protocol) {$/;"	f
+account_name_free	p\go.crypto\otr\libotr_test_helper.c	/^void account_name_free(void *opdata, const char *account_name) {$/;"	f
+display_otr_message	p\go.crypto\otr\libotr_test_helper.c	/^int display_otr_message(void *opdata, const char *accountname, const char *protocol, const char *username, const char *msg) {$/;"	f
+g_session_established	p\go.crypto\otr\libotr_test_helper.c	/^static int g_session_established = 0;$/;"	v	file:
+gone_insecure	p\go.crypto\otr\libotr_test_helper.c	/^void gone_insecure(void *opdata, ConnContext *context) {$/;"	f
+gone_secure	p\go.crypto\otr\libotr_test_helper.c	/^void gone_secure(void *opdata, ConnContext *context) {$/;"	f
+inject_message	p\go.crypto\otr\libotr_test_helper.c	/^void inject_message(void *opdata, const char *accountname, const char *protocol, const char *recipient, const char *message) {$/;"	f
+is_logged_in	p\go.crypto\otr\libotr_test_helper.c	/^int is_logged_in(void *opdata, const char *accountname, const char *protocol, const char *recipient) {$/;"	f
+kPrivateKeyData	p\go.crypto\otr\libotr_test_helper.c	/^static const char kPrivateKeyData[] = "(privkeys (account (name \\"account\\") (protocol proto) (private-key (dsa (p #00FC07ABCF0DC916AFF6E9AE47BEF60C7AB9B4D6B2469E436630E36F8A489BE812486A09F30B71224508654940A835301ACC525A4FF133FC152CC53DCC59D65C30A54F1993FE13FE63E5823D4C746DB21B90F9B9C00B49EC7404AB1D929BA7FBA12F2E45C6E0A651689750E8528AB8C031D3561FECEE72EBB4A090D450A9B7A857#) (q #00997BD266EF7B1F60A5C23F3A741F2AEFD07A2081#) (g #535E360E8A95EBA46A4F7DE50AD6E9B2A6DB785A66B64EB9F20338D2A3E8FB0E94725848F1AA6CC567CB83A1CC517EC806F2E92EAE71457E80B2210A189B91250779434B41FC8A8873F6DB94BEA7D177F5D59E7E114EE10A49CFD9CEF88AE43387023B672927BA74B04EB6BBB5E57597766A2F9CE3857D7ACE3E1E3BC1FC6F26#) (y #0AC8670AD767D7A8D9D14CC1AC6744CD7D76F993B77FFD9E39DF01E5A6536EF65E775FCEF2A983E2A19BD6415500F6979715D9FD1257E1FE2B6F5E1E74B333079E7C880D39868462A93454B41877BE62E5EF0A041C2EE9C9E76BD1E12AE25D9628DECB097025DD625EF49C3258A1A3C0FF501E3DC673B76D7BABF349009B6ECF#) (x #14D0345A3562C480A039E3C72764F72D79043216#)))))\\n";$/;"	v	file:
+log_message	p\go.crypto\otr\libotr_test_helper.c	/^void log_message(void *opdata, const char *message) {$/;"	f
+main	p\go.crypto\otr\libotr_test_helper.c	/^main() {$/;"	f
+max_message_size	p\go.crypto\otr\libotr_test_helper.c	/^int max_message_size(void *opdata, ConnContext *context) {$/;"	f
+new_fingerprint	p\go.crypto\otr\libotr_test_helper.c	/^void new_fingerprint(void *opdata, OtrlUserState us, const char *accountname, const char *protocol, const char *username, unsigned char fingerprint[20]) {$/;"	f
+notify	p\go.crypto\otr\libotr_test_helper.c	/^void notify(void *opdata, OtrlNotifyLevel level, const char *accountname, const char *protocol, const char *username, const char *title, const char *primary, const char *secondary) {$/;"	f
+policy	p\go.crypto\otr\libotr_test_helper.c	/^OtrlPolicy policy(void *opdata, ConnContext *context) {$/;"	f
+protocol_name	p\go.crypto\otr\libotr_test_helper.c	/^const char *protocol_name(void *opdata, const char *protocol) {$/;"	f
+protocol_name_free	p\go.crypto\otr\libotr_test_helper.c	/^void protocol_name_free(void *opdata, const char *protocol_name) {$/;"	f
+still_secure	p\go.crypto\otr\libotr_test_helper.c	/^void still_secure(void *opdata, ConnContext *context, int is_reply) {$/;"	f
+uiops	p\go.crypto\otr\libotr_test_helper.c	/^OtrlMessageAppOps uiops = {$/;"	v
+update_context_list	p\go.crypto\otr\libotr_test_helper.c	/^void update_context_list(void *opdata) {$/;"	f
+write_fingerprints	p\go.crypto\otr\libotr_test_helper.c	/^void write_fingerprints(void *opdata) {$/;"	f
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·ALPHA130(SB)\/8, $0x4C08000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·ALPHA32(SB)\/8, $0x45E8000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·ALPHA64(SB)\/8, $0x47E8000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·ALPHA96(SB)\/8, $0x49E8000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·DOFFSET0(SB)\/8, $0x4330000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·DOFFSET1(SB)\/8, $0x4530000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·DOFFSET2(SB)\/8, $0x4730000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·DOFFSET3(SB)\/8, $0x4930000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·DOFFSET3MINUSTWO128(SB)\/8, $0x492FFFFE00000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·HOFFSET0(SB)\/8, $0x43300001FFFFFFFB$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·HOFFSET1(SB)\/8, $0x45300001FFFFFFFE$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·HOFFSET2(SB)\/8, $0x47300001FFFFFFFE$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·HOFFSET3(SB)\/8, $0x49300003FFFFFFFE$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·ROUNDING(SB)\/2, $0x137f$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·SCALE(SB)\/8, $0x37F4000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·TWO32(SB)\/8, $0x41F0000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·TWO64(SB)\/8, $0x43F0000000000000$/;"	l
+DATA	p\go.crypto\poly1305\const_amd64.s	/^DATA ·TWO96(SB)\/8, $0x45F0000000000000$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·ALPHA130(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·ALPHA32(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·ALPHA64(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·ALPHA96(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·DOFFSET0(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·DOFFSET1(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·DOFFSET2(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·DOFFSET3(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·DOFFSET3MINUSTWO128(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·HOFFSET0(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·HOFFSET1(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·HOFFSET2(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·HOFFSET3(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·ROUNDING(SB), $2$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·SCALE(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·TWO32(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·TWO64(SB), $8$/;"	l
+GLOBL	p\go.crypto\poly1305\const_amd64.s	/^GLOBL ·TWO96(SB), $8$/;"	l
+ADDATMOST15BYTES	p\go.crypto\poly1305\poly1305_amd64.s	/^	ADDATMOST15BYTES:$/;"	l
+INITIALATLEAST16BYTES	p\go.crypto\poly1305\poly1305_amd64.s	/^	INITIALATLEAST16BYTES:$/;"	l
+MULTIPLYADDATLEAST16BYTES	p\go.crypto\poly1305\poly1305_amd64.s	/^	MULTIPLYADDATLEAST16BYTES:$/;"	l
+MULTIPLYADDATMOST15BYTES	p\go.crypto\poly1305\poly1305_amd64.s	/^	MULTIPLYADDATMOST15BYTES:$/;"	l
+NOMOREBYTES	p\go.crypto\poly1305\poly1305_amd64.s	/^	NOMOREBYTES:$/;"	l
+TEXT	p\go.crypto\poly1305\poly1305_amd64.s	/^TEXT ·poly1305(SB),0,$224-32$/;"	l
+BYTESATLEAST256	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	BYTESATLEAST256:$/;"	l
+BYTESATLEAST64	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	BYTESATLEAST64:$/;"	l
+BYTESATLEAST65	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	BYTESATLEAST65:$/;"	l
+BYTESBETWEEN1AND255	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	BYTESBETWEEN1AND255:$/;"	l
+DONE	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	DONE:$/;"	l
+MAINLOOP1	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	MAINLOOP1:$/;"	l
+MAINLOOP2	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	MAINLOOP2:$/;"	l
+NOCOPY	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	NOCOPY:$/;"	l
+START	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^	START:$/;"	l
+TEXT	p\go.crypto\salsa20\salsa\salsa2020_amd64.s	/^TEXT ·salsa2020XORKeyStream(SB),0,$512-40$/;"	l
+blp_checkpoint	p\vitess\data\bootstrap\_vt_schema.sql	/^CREATE TABLE _vt.blp_checkpoint ($/;"	t
+blp_checkpoint.group_id	p\vitess\data\bootstrap\_vt_schema.sql	/^  group_id bigint(20) unsigned default 0,$/;"	F
+blp_checkpoint.host	p\vitess\data\bootstrap\_vt_schema.sql	/^  host varchar(32) NOT NULL,$/;"	F
+blp_checkpoint.keyrange_end	p\vitess\data\bootstrap\_vt_schema.sql	/^  keyrange_end varchar(32) NOT NULL,$/;"	F
+blp_checkpoint.keyrange_start	p\vitess\data\bootstrap\_vt_schema.sql	/^  keyrange_start varchar(32) NOT NULL,$/;"	F
+blp_checkpoint.master_filename	p\vitess\data\bootstrap\_vt_schema.sql	/^  master_filename varchar(255) NOT NULL,$/;"	F
+blp_checkpoint.master_position	p\vitess\data\bootstrap\_vt_schema.sql	/^  master_position bigint(20) unsigned NOT NULL,$/;"	F
+blp_checkpoint.port	p\vitess\data\bootstrap\_vt_schema.sql	/^  port int NOT NULL,$/;"	F
+blp_checkpoint.relay_filename	p\vitess\data\bootstrap\_vt_schema.sql	/^  relay_filename varchar(255) default NULL,$/;"	F
+blp_checkpoint.relay_position	p\vitess\data\bootstrap\_vt_schema.sql	/^  relay_position bigint(20) unsigned default 0,$/;"	F
+blp_checkpoint.time_updated	p\vitess\data\bootstrap\_vt_schema.sql	/^  time_updated int(10) unsigned NOT NULL,$/;"	F
+blp_checkpoint.txn_timestamp	p\vitess\data\bootstrap\_vt_schema.sql	/^  txn_timestamp int(10) unsigned NOT NULL,$/;"	F
+blp_checkpoint.uid	p\vitess\data\bootstrap\_vt_schema.sql	/^  uid int(10) unsigned NOT NULL,$/;"	F
+reparent_log	p\vitess\data\bootstrap\_vt_schema.sql	/^CREATE TABLE _vt.reparent_log ($/;"	t
+reparent_log.last_position	p\vitess\data\bootstrap\_vt_schema.sql	/^  last_position varchar(255),$/;"	F
+reparent_log.new_addr	p\vitess\data\bootstrap\_vt_schema.sql	/^  new_addr varchar(255),$/;"	F
+reparent_log.new_position	p\vitess\data\bootstrap\_vt_schema.sql	/^  new_position varchar(255),$/;"	F
+reparent_log.time_created_ns	p\vitess\data\bootstrap\_vt_schema.sql	/^  time_created_ns bigint primary key,$/;"	F
+reparent_log.wait_position	p\vitess\data\bootstrap\_vt_schema.sql	/^  wait_position varchar(255),$/;"	F
+replication_log	p\vitess\data\bootstrap\_vt_schema.sql	/^CREATE TABLE _vt.replication_log ($/;"	t
+replication_log.note	p\vitess\data\bootstrap\_vt_schema.sql	/^  note varchar(255));$/;"	F
+replication_log.time_created_ns	p\vitess\data\bootstrap\_vt_schema.sql	/^  time_created_ns bigint primary key,$/;"	F
+main	p\vitess\go\cmd\zkns2pdns\test.py	/^def main(args):$/;"	f
+sys	p\vitess\go\cmd\zkns2pdns\test.py	/^import sys$/;"	i
+BUILD_BUG_ON	p\vitess\go\mysql\vtmysql.c	17;"	d	file:
+clear_result	p\vitess\go\mysql\vtmysql.c	/^void clear_result(VT_CONN *conn) {$/;"	f
+vt_close	p\vitess\go\mysql\vtmysql.c	/^void vt_close(VT_CONN *conn) {$/;"	f
+vt_close_result	p\vitess\go\mysql\vtmysql.c	/^void vt_close_result(VT_CONN *conn) {$/;"	f
+vt_connect	p\vitess\go\mysql\vtmysql.c	/^int vt_connect($/;"	f
+vt_errno	p\vitess\go\mysql\vtmysql.c	/^unsigned int vt_errno(VT_CONN *conn) {$/;"	f
+vt_error	p\vitess\go\mysql\vtmysql.c	/^const char *vt_error(VT_CONN *conn) {$/;"	f
+vt_execute	p\vitess\go\mysql\vtmysql.c	/^int vt_execute(VT_CONN *conn, const char *stmt_str, unsigned long length, int stream) {$/;"	f
+vt_fetch_next	p\vitess\go\mysql\vtmysql.c	/^VT_ROW vt_fetch_next(VT_CONN *conn) {$/;"	f
+vt_library_init	p\vitess\go\mysql\vtmysql.c	/^void vt_library_init(void) {$/;"	f
+vt_thread_id	p\vitess\go\mysql\vtmysql.c	/^unsigned long vt_thread_id(VT_CONN *conn) {$/;"	f
+VT_CONN	p\vitess\go\mysql\vtmysql.h	/^} VT_CONN;$/;"	t	typeref:struct:vt_conn
+VT_ROW	p\vitess\go\mysql\vtmysql.h	/^} VT_ROW;$/;"	t	typeref:struct:vt_row
+affected_rows	p\vitess\go\mysql\vtmysql.h	/^  my_ulonglong affected_rows;$/;"	m	struct:vt_conn
+fields	p\vitess\go\mysql\vtmysql.h	/^  MYSQL_FIELD  *fields;$/;"	m	struct:vt_conn
+has_error	p\vitess\go\mysql\vtmysql.h	/^  int           has_error;$/;"	m	struct:vt_row
+insert_id	p\vitess\go\mysql\vtmysql.h	/^  my_ulonglong insert_id;$/;"	m	struct:vt_conn
+lengths	p\vitess\go\mysql\vtmysql.h	/^  unsigned long *lengths;$/;"	m	struct:vt_row
+mysql	p\vitess\go\mysql\vtmysql.h	/^  MYSQL        *mysql;$/;"	m	struct:vt_conn
+mysql_row	p\vitess\go\mysql\vtmysql.h	/^  MYSQL_ROW     mysql_row;$/;"	m	struct:vt_row
+num_fields	p\vitess\go\mysql\vtmysql.h	/^  unsigned int num_fields;$/;"	m	struct:vt_conn
+result	p\vitess\go\mysql\vtmysql.h	/^  MYSQL_RES    *result;$/;"	m	struct:vt_conn
+vt_conn	p\vitess\go\mysql\vtmysql.h	/^typedef struct vt_conn {$/;"	s
+vt_row	p\vitess\go\mysql\vtmysql.h	/^typedef struct vt_row {$/;"	s
+alter_statement	p\vitess\go\vt\sqlparser\sql.y	/^alter_statement:$/;"	l
+any_command	p\vitess\go\vt\sqlparser\sql.y	/^any_command:$/;"	l
+as_opt	p\vitess\go\vt\sqlparser\sql.y	/^as_opt:$/;"	l
+asc_desc_opt	p\vitess\go\vt\sqlparser\sql.y	/^asc_desc_opt:$/;"	l
+boolean_expression	p\vitess\go\vt\sqlparser\sql.y	/^boolean_expression:$/;"	l
+case_expression	p\vitess\go\vt\sqlparser\sql.y	/^case_expression:$/;"	l
+column_list	p\vitess\go\vt\sqlparser\sql.y	/^column_list:$/;"	l
+column_list_opt	p\vitess\go\vt\sqlparser\sql.y	/^column_list_opt:$/;"	l
+column_name	p\vitess\go\vt\sqlparser\sql.y	/^column_name:$/;"	l
+command	p\vitess\go\vt\sqlparser\sql.y	/^command:$/;"	l
+comment_list	p\vitess\go\vt\sqlparser\sql.y	/^comment_list:$/;"	l
+comment_opt	p\vitess\go\vt\sqlparser\sql.y	/^comment_opt:$/;"	l
+compare	p\vitess\go\vt\sqlparser\sql.y	/^compare:$/;"	l
+condition	p\vitess\go\vt\sqlparser\sql.y	/^condition:$/;"	l
+constraint_opt	p\vitess\go\vt\sqlparser\sql.y	/^constraint_opt:$/;"	l
+create_statement	p\vitess\go\vt\sqlparser\sql.y	/^create_statement:$/;"	l
+delete_statement	p\vitess\go\vt\sqlparser\sql.y	/^delete_statement:$/;"	l
+distinct_opt	p\vitess\go\vt\sqlparser\sql.y	/^distinct_opt:$/;"	l
+drop_statement	p\vitess\go\vt\sqlparser\sql.y	/^drop_statement:$/;"	l
+exists_opt	p\vitess\go\vt\sqlparser\sql.y	/^exists_opt:$/;"	l
+expression	p\vitess\go\vt\sqlparser\sql.y	/^expression:$/;"	l
+for_update_opt	p\vitess\go\vt\sqlparser\sql.y	/^for_update_opt:$/;"	l
+force_eof	p\vitess\go\vt\sqlparser\sql.y	/^force_eof:$/;"	l
+group_by_opt	p\vitess\go\vt\sqlparser\sql.y	/^group_by_opt:$/;"	l
+having_opt	p\vitess\go\vt\sqlparser\sql.y	/^having_opt:$/;"	l
+ignore_opt	p\vitess\go\vt\sqlparser\sql.y	/^ignore_opt:$/;"	l
+index_hint_list	p\vitess\go\vt\sqlparser\sql.y	/^index_hint_list:$/;"	l
+insert_statement	p\vitess\go\vt\sqlparser\sql.y	/^insert_statement:$/;"	l
+join_type	p\vitess\go\vt\sqlparser\sql.y	/^join_type:$/;"	l
+keyword_as_func	p\vitess\go\vt\sqlparser\sql.y	/^keyword_as_func:$/;"	l
+limit_opt	p\vitess\go\vt\sqlparser\sql.y	/^limit_opt:$/;"	l
+met	p\vitess\go\vt\sqlparser\sql.y	/^met:$/;"	l
+non_rename_operation	p\vitess\go\vt\sqlparser\sql.y	/^non_rename_operation:$/;"	l
+not_exists_opt	p\vitess\go\vt\sqlparser\sql.y	/^not_exists_opt:$/;"	l
+on_dup_opt	p\vitess\go\vt\sqlparser\sql.y	/^on_dup_opt:$/;"	l
+order	p\vitess\go\vt\sqlparser\sql.y	/^order:$/;"	l
+order_by_opt	p\vitess\go\vt\sqlparser\sql.y	/^order_by_opt:$/;"	l
+order_list	p\vitess\go\vt\sqlparser\sql.y	/^order_list:$/;"	l
+parenthesised_list	p\vitess\go\vt\sqlparser\sql.y	/^parenthesised_list:$/;"	l
+parenthesised_lists	p\vitess\go\vt\sqlparser\sql.y	/^parenthesised_lists:$/;"	l
+rename_statement	p\vitess\go\vt\sqlparser\sql.y	/^rename_statement:$/;"	l
+select_expression	p\vitess\go\vt\sqlparser\sql.y	/^select_expression:$/;"	l
+select_expression_list	p\vitess\go\vt\sqlparser\sql.y	/^select_expression_list:$/;"	l
+select_statement	p\vitess\go\vt\sqlparser\sql.y	/^select_statement:$/;"	l
+set_statement	p\vitess\go\vt\sqlparser\sql.y	/^set_statement:$/;"	l
+simple_table_expression	p\vitess\go\vt\sqlparser\sql.y	/^simple_table_expression:$/;"	l
+table_expression	p\vitess\go\vt\sqlparser\sql.y	/^table_expression:$/;"	l
+table_expression_list	p\vitess\go\vt\sqlparser\sql.y	/^table_expression_list:$/;"	l
+to_opt	p\vitess\go\vt\sqlparser\sql.y	/^to_opt:$/;"	l
+unary_operator	p\vitess\go\vt\sqlparser\sql.y	/^unary_operator:$/;"	l
+union_op	p\vitess\go\vt\sqlparser\sql.y	/^union_op:$/;"	l
+update_expression	p\vitess\go\vt\sqlparser\sql.y	/^update_expression:$/;"	l
+update_list	p\vitess\go\vt\sqlparser\sql.y	/^update_list:$/;"	l
+update_statement	p\vitess\go\vt\sqlparser\sql.y	/^update_statement:$/;"	l
+using_opt	p\vitess\go\vt\sqlparser\sql.y	/^using_opt:$/;"	l
+value	p\vitess\go\vt\sqlparser\sql.y	/^value:$/;"	l
+value_expression	p\vitess\go\vt\sqlparser\sql.y	/^value_expression:$/;"	l
+value_expression_list	p\vitess\go\vt\sqlparser\sql.y	/^value_expression_list:$/;"	l
+values	p\vitess\go\vt\sqlparser\sql.y	/^values:$/;"	l
+when_expression	p\vitess\go\vt\sqlparser\sql.y	/^when_expression:$/;"	l
+when_expression_list	p\vitess\go\vt\sqlparser\sql.y	/^when_expression_list:$/;"	l
+where_expression_opt	p\vitess\go\vt\sqlparser\sql.y	/^where_expression_opt:$/;"	l
+log	p\vitess\go\zk\zkctl\zksrv.sh	/^log() {$/;"	f
+BSONBufferTooShort	p\vitess\py\cbson\cbson.c	/^static PyObject *BSONBufferTooShort;$/;"	v	file:
+BSONError	p\vitess\py\cbson\cbson.c	/^static PyObject *BSONError;$/;"	v	file:
+BufIter	p\vitess\py\cbson\cbson.c	/^} BufIter;$/;"	t	typeref:struct:_BufIter	file:
+ElementTypes	p\vitess\py\cbson\cbson.c	/^enum ElementTypes {$/;"	g	file:
+INDEX_OF	p\vitess\py\cbson\cbson.c	60;"	d	file:
+MAX_BSON_DEPTH	p\vitess\py\cbson\cbson.c	785;"	d	file:
+PTR_AT	p\vitess\py\cbson\cbson.c	63;"	d	file:
+PY_SSIZE_T_MAX	p\vitess\py\cbson\cbson.c	32;"	d	file:
+PY_SSIZE_T_MIN	p\vitess\py\cbson\cbson.c	33;"	d	file:
+Py_ssize_t	p\vitess\py\cbson\cbson.c	/^typedef int Py_ssize_t;$/;"	t	file:
+Slice	p\vitess\py\cbson\cbson.c	/^} Slice;$/;"	t	typeref:struct:_Slice	file:
+VAL_AT	p\vitess\py\cbson\cbson.c	66;"	d	file:
+_BufIter	p\vitess\py\cbson\cbson.c	/^typedef struct _BufIter {$/;"	s	file:
+_Slice	p\vitess\py\cbson\cbson.c	/^typedef struct _Slice {$/;"	s	file:
+_decode_document	p\vitess\py\cbson\cbson.c	/^_decode_document(BufIter* buf_iter, int is_array) {$/;"	f	file:
+_encode_element	p\vitess\py\cbson\cbson.c	/^_encode_element(PyObject* key, PyObject* value, int depth) {$/;"	f	file:
+_encode_key	p\vitess\py\cbson\cbson.c	/^_encode_key(PyObject* key, char** remaining, char first, Py_ssize_t extra) {$/;"	f	file:
+binary_function	p\vitess\py\cbson\cbson.c	/^  binary_function,$/;"	e	enum:ElementTypes	file:
+binary_generic	p\vitess\py\cbson\cbson.c	/^  binary_generic,$/;"	e	enum:ElementTypes	file:
+binary_md5	p\vitess\py\cbson\cbson.c	/^  binary_md5,$/;"	e	enum:ElementTypes	file:
+binary_old	p\vitess\py\cbson\cbson.c	/^  binary_old,$/;"	e	enum:ElementTypes	file:
+binary_user_defined	p\vitess\py\cbson\cbson.c	/^  binary_user_defined,$/;"	e	enum:ElementTypes	file:
+binary_uuid	p\vitess\py\cbson\cbson.c	/^  binary_uuid,$/;"	e	enum:ElementTypes	file:
+buf_iter_from_buffer	p\vitess\py\cbson\cbson.c	/^static int buf_iter_from_buffer(PyObject* buffer_obj, BufIter* buf_iter, Py_buffer* pbuffer) {$/;"	f	file:
+cbson_functions	p\vitess\py\cbson\cbson.c	/^static struct PyMethodDef cbson_functions[] = {$/;"	v	typeref:struct:PyMethodDef	file:
+db_pointer	p\vitess\py\cbson\cbson.c	/^  db_pointer,$/;"	e	enum:ElementTypes	file:
+decode_array	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_array(BufIter* buf_iter) {$/;"	f	file:
+decode_binary	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_binary(BufIter* buf_iter) {$/;"	f	file:
+decode_bool	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_bool(BufIter* buf_iter) {$/;"	f	file:
+decode_db_ptr	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_db_ptr(BufIter* buf_iter){$/;"	f	file:
+decode_document	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_document(BufIter* buf_iter){$/;"	f	file:
+decode_double	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_double(BufIter* buf_iter) {$/;"	f	file:
+decode_element	p\vitess\py\cbson\cbson.c	/^typedef PyObject* (*decode_element)(BufIter* buf_iter);$/;"	t	file:
+decode_int32	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_int32(BufIter* buf_iter) {$/;"	f	file:
+decode_int64	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_int64(BufIter* buf_iter) {$/;"	f	file:
+decode_js	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_js(BufIter* buf_iter){$/;"	f	file:
+decode_js_with_scope	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_js_with_scope(BufIter* buf_iter) {$/;"	f	file:
+decode_next	p\vitess\py\cbson\cbson.c	/^decode_next(PyObject *self, PyObject* args) {$/;"	f	file:
+decode_null	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_null(BufIter* buf_iter){$/;"	f	file:
+decode_object_id	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_object_id(BufIter* buf_iter){$/;"	f	file:
+decode_regex	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_regex(BufIter* buf_iter){$/;"	f	file:
+decode_string	p\vitess\py\cbson\cbson.c	/^static inline PyObject* decode_string(BufIter* buf_iter) {$/;"	f	file:
+decode_symbol	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_symbol(BufIter* buf_iter){$/;"	f	file:
+decode_timestamp	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_timestamp(BufIter* buf_iter) {$/;"	f	file:
+decode_uint64	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_uint64(BufIter* buf_iter) {$/;"	f	file:
+decode_undefined	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_undefined(BufIter* buf_iter) {$/;"	f	file:
+decode_utc	p\vitess\py\cbson\cbson.c	/^static PyObject* decode_utc(BufIter* buf_iter) {$/;"	f	file:
+decoders	p\vitess\py\cbson\cbson.c	/^static decode_element decoders[] = {$/;"	v	file:
+decoders	p\vitess\py\cbson\cbson.c	/^static decode_element decoders[];$/;"	v	file:
+dumps	p\vitess\py\cbson\cbson.c	/^dumps(PyObject* self, PyObject* args) {$/;"	f	file:
+element_type_names	p\vitess\py\cbson\cbson.c	/^static char* element_type_names[] = {$/;"	v	file:
+element_types	p\vitess\py\cbson\cbson.c	/^static PyObject* element_types[16] = {$/;"	v	file:
+encode_array	p\vitess\py\cbson\cbson.c	/^encode_array(PyObject* key, PyObject* value, int depth) {$/;"	f	file:
+encode_binary	p\vitess\py\cbson\cbson.c	/^encode_binary(PyObject* key, PyObject* value, char subtype) {$/;"	f	file:
+encode_boolean	p\vitess\py\cbson\cbson.c	/^encode_boolean(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_document	p\vitess\py\cbson\cbson.c	/^encode_document(PyObject* doc, int depth) {$/;"	f	file:
+encode_double	p\vitess\py\cbson\cbson.c	/^encode_double(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_integer	p\vitess\py\cbson\cbson.c	/^encode_integer(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_null	p\vitess\py\cbson\cbson.c	/^encode_null(PyObject* key) {$/;"	f	file:
+encode_string	p\vitess\py\cbson\cbson.c	/^encode_string(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_subdocument	p\vitess\py\cbson\cbson.c	/^encode_subdocument(PyObject* key, PyObject* value, int depth) {$/;"	f	file:
+end	p\vitess\py\cbson\cbson.c	/^  const char* end;   \/* last byte of buffer *\/$/;"	m	struct:_BufIter	file:
+initcbson	p\vitess\py\cbson\cbson.c	/^initcbson(void) {$/;"	f
+js	p\vitess\py\cbson\cbson.c	/^  js,$/;"	e	enum:ElementTypes	file:
+loads	p\vitess\py\cbson\cbson.c	/^loads(PyObject *self, PyObject* args) {$/;"	f	file:
+max	p\vitess\py\cbson\cbson.c	/^  max,$/;"	e	enum:ElementTypes	file:
+min	p\vitess\py\cbson\cbson.c	/^  min,$/;"	e	enum:ElementTypes	file:
+next	p\vitess\py\cbson\cbson.c	/^static inline int next(BufIter* buf_iter, uint32_t inc, const char* tag) {$/;"	f	file:
+next_cstring	p\vitess\py\cbson\cbson.c	/^static inline int next_cstring(BufIter* buf_iter, const char* tag) {$/;"	f	file:
+object_id	p\vitess\py\cbson\cbson.c	/^  object_id,$/;"	e	enum:ElementTypes	file:
+regex	p\vitess\py\cbson\cbson.c	/^  regex,$/;"	e	enum:ElementTypes	file:
+scan_int32	p\vitess\py\cbson\cbson.c	/^static inline int scan_int32(BufIter* buf_iter, uint32_t* result,$/;"	f	file:
+scan_int64	p\vitess\py\cbson\cbson.c	/^static inline int scan_int64(BufIter* buf_iter, uint64_t* result,$/;"	f	file:
+scoped_js	p\vitess\py\cbson\cbson.c	/^  scoped_js,$/;"	e	enum:ElementTypes	file:
+size	p\vitess\py\cbson\cbson.c	/^  uint32_t size;$/;"	m	struct:_Slice	file:
+slice	p\vitess\py\cbson\cbson.c	/^  Slice slice; \/* what we are currently looking at *\/$/;"	m	struct:_BufIter	file:
+start	p\vitess\py\cbson\cbson.c	/^  const char* start; \/* first byte of buffer *\/$/;"	m	struct:_BufIter	file:
+start	p\vitess\py\cbson\cbson.c	/^  const char* start;$/;"	m	struct:_Slice	file:
+symbol	p\vitess\py\cbson\cbson.c	/^  symbol,$/;"	e	enum:ElementTypes	file:
+timestamp	p\vitess\py\cbson\cbson.c	/^  timestamp,$/;"	e	enum:ElementTypes	file:
+too_short	p\vitess\py\cbson\cbson.c	/^static inline uint32_t too_short(BufIter* buf_iter, uint32_t remaining) {$/;"	f	file:
+utc	p\vitess\py\cbson\cbson.c	/^  utc,$/;"	e	enum:ElementTypes	file:
+Extension	p\vitess\py\cbson\setup.py	/^from distutils.core import setup, Extension$/;"	i
+cbson	p\vitess\py\cbson\setup.py	/^cbson = Extension('cbson',$/;"	v
+description	p\vitess\py\cbson\setup.py	/^      description = 'Fast BSON decoding via C',$/;"	v
+ext_modules	p\vitess\py\cbson\setup.py	/^      ext_modules = [cbson])$/;"	v
+setup	p\vitess\py\cbson\setup.py	/^from distutils.core import setup, Extension$/;"	i
+sources	p\vitess\py\cbson\setup.py	/^                  sources = ['cbson.c'])$/;"	v
+version	p\vitess\py\cbson\setup.py	/^      version = '0.1',$/;"	v
+BSON	p\vitess\py\cbson\test_cbson.py	/^def BSON(*l):$/;"	f
+BSON_TAG	p\vitess\py\cbson\test_cbson.py	/^def BSON_TAG(type_id):$/;"	f
+NULL_BYTE	p\vitess\py\cbson\test_cbson.py	/^NULL_BYTE = '\\x00'$/;"	v
+cbson	p\vitess\py\cbson\test_cbson.py	/^import cbson$/;"	i
+doctest	p\vitess\py\cbson\test_cbson.py	/^  import doctest$/;"	i
+os	p\vitess\py\cbson\test_cbson.py	/^import os$/;"	i
+os	p\vitess\py\cbson\test_cbson.py	/^import os.path$/;"	i
+path	p\vitess\py\cbson\test_cbson.py	/^import os.path$/;"	i
+struct	p\vitess\py\cbson\test_cbson.py	/^import struct$/;"	i
+sys	p\vitess\py\cbson\test_cbson.py	/^import sys$/;"	i
+test_array	p\vitess\py\cbson\test_cbson.py	/^def test_array():$/;"	f
+test_bool	p\vitess\py\cbson\test_cbson.py	/^def test_bool():$/;"	f
+test_decode_next	p\vitess\py\cbson\test_cbson.py	/^def test_decode_next():$/;"	f
+test_decode_next_eob	p\vitess\py\cbson\test_cbson.py	/^def test_decode_next_eob():$/;"	f
+test_dict	p\vitess\py\cbson\test_cbson.py	/^def test_dict():$/;"	f
+test_dict_in_array	p\vitess\py\cbson\test_cbson.py	/^def test_dict_in_array():$/;"	f
+test_encode_invalid	p\vitess\py\cbson\test_cbson.py	/^def test_encode_invalid():$/;"	f
+test_encode_recursive	p\vitess\py\cbson\test_cbson.py	/^def test_encode_recursive():$/;"	f
+test_eob1	p\vitess\py\cbson\test_cbson.py	/^def test_eob1():$/;"	f
+test_eob2	p\vitess\py\cbson\test_cbson.py	/^def test_eob2():$/;"	f
+test_eob_cstring	p\vitess\py\cbson\test_cbson.py	/^def test_eob_cstring():$/;"	f
+test_load_binary	p\vitess\py\cbson\test_cbson.py	/^def test_load_binary():$/;"	f
+test_load_empty	p\vitess\py\cbson\test_cbson.py	/^def test_load_empty():$/;"	f
+test_load_int	p\vitess\py\cbson\test_cbson.py	/^def test_load_int():$/;"	f
+test_load_string	p\vitess\py\cbson\test_cbson.py	/^def test_load_string():$/;"	f
+test_nested_dict	p\vitess\py\cbson\test_cbson.py	/^def test_nested_dict():$/;"	f
+test_none	p\vitess\py\cbson\test_cbson.py	/^def test_none():$/;"	f
+test_unpack_uint64	p\vitess\py\cbson\test_cbson.py	/^def test_unpack_uint64():$/;"	f
+AtomicWriter	p\vitess\py\checkers\checker.py	/^class AtomicWriter(object):$/;"	c
+Checker	p\vitess\py\checkers\checker.py	/^class Checker(object):$/;"	c
+Datastore	p\vitess\py\checkers\checker.py	/^class Datastore(object):$/;"	c
+DatastoreThread	p\vitess\py\checkers\checker.py	/^class DatastoreThread(threading.Thread):$/;"	c
+Mismatch	p\vitess\py\checkers\checker.py	/^class Mismatch(Exception):$/;"	c
+MultiDatastore	p\vitess\py\checkers\checker.py	/^class MultiDatastore(object):$/;"	c
+MySQLdb	p\vitess\py\checkers\checker.py	/^import MySQLdb$/;"	i
+MySQLdb	p\vitess\py\checkers\checker.py	/^import MySQLdb.cursors$/;"	i
+Queue	p\vitess\py\checkers\checker.py	/^import Queue$/;"	i
+Stats	p\vitess\py\checkers\checker.py	/^class Stats(object):$/;"	c
+__enter__	p\vitess\py\checkers\checker.py	/^  def __enter__(self):$/;"	m	class:AtomicWriter	file:
+__exit__	p\vitess\py\checkers\checker.py	/^  def __exit__(self, *args, **kwargs):$/;"	m	class:AtomicWriter	file:
+__init__	p\vitess\py\checkers\checker.py	/^  def __init__(self, connection_params, stats=None):$/;"	m	class:Datastore
+__init__	p\vitess\py\checkers\checker.py	/^  def __init__(self, connection_params_list, nickname, stats=None):$/;"	m	class:MultiDatastore
+__init__	p\vitess\py\checkers\checker.py	/^  def __init__(self, datastore, retries=3):$/;"	m	class:DatastoreThread
+__init__	p\vitess\py\checkers\checker.py	/^  def __init__(self, destination_url, sources_urls, table, directory='.',$/;"	m	class:Checker
+__init__	p\vitess\py\checkers\checker.py	/^  def __init__(self, filename, directory):$/;"	m	class:AtomicWriter
+__init__	p\vitess\py\checkers\checker.py	/^  def __init__(self, interval=0, name=""):$/;"	m	class:Stats
+__init__	p\vitess\py\checkers\checker.py	/^  def __init__(self, missing, unexpected, different):$/;"	m	class:Mismatch
+__str__	p\vitess\py\checkers\checker.py	/^  def __str__(self):$/;"	m	class:Mismatch	file:
+_run	p\vitess\py\checkers\checker.py	/^  def _run(self):$/;"	m	class:Checker
+calculate_batch_size	p\vitess\py\checkers\checker.py	/^  def calculate_batch_size(self):$/;"	m	class:Checker
+checkpoint	p\vitess\py\checkers\checker.py	/^  def checkpoint(self, pk, done=False):$/;"	m	class:Checker
+clean	p\vitess\py\checkers\checker.py	/^def clean(s):$/;"	f
+clear	p\vitess\py\checkers\checker.py	/^  def clear(self):$/;"	m	class:Stats
+clear_local	p\vitess\py\checkers\checker.py	/^  def clear_local(self):$/;"	m	class:Stats
+close	p\vitess\py\checkers\checker.py	/^  def close(self):$/;"	m	class:AtomicWriter
+collections	p\vitess\py\checkers\checker.py	/^import collections$/;"	i
+cursor	p\vitess\py\checkers\checker.py	/^  def cursor(self):$/;"	m	class:Datastore
+cursors	p\vitess\py\checkers\checker.py	/^import MySQLdb.cursors$/;"	i
+datetime	p\vitess\py\checkers\checker.py	/^import datetime$/;"	i
+destination_worker	p\vitess\py\checkers\checker.py	/^  def destination_worker(self):$/;"	m	class:Checker
+dict_diff	p\vitess\py\checkers\checker.py	/^  def dict_diff(self, left, right):$/;"	m	class:Mismatch
+difflib	p\vitess\py\checkers\checker.py	/^import difflib$/;"	i
+get	p\vitess\py\checkers\checker.py	/^  def get(self):$/;"	m	class:DatastoreThread
+get_pk	p\vitess\py\checkers\checker.py	/^  def get_pk(self, row):$/;"	m	class:Checker
+get_range	p\vitess\py\checkers\checker.py	/^def get_range(start, end):$/;"	f
+get_table_data	p\vitess\py\checkers\checker.py	/^  def get_table_data(self, table_name, params):$/;"	m	class:Checker
+handle_mismatch	p\vitess\py\checkers\checker.py	/^  def handle_mismatch(self, mismatch):$/;"	m	class:Checker
+heapq	p\vitess\py\checkers\checker.py	/^import heapq$/;"	i
+itertools	p\vitess\py\checkers\checker.py	/^import itertools$/;"	i
+json	p\vitess\py\checkers\checker.py	/^import json$/;"	i
+logging	p\vitess\py\checkers\checker.py	/^import logging$/;"	i
+main	p\vitess\py\checkers\checker.py	/^def main():$/;"	f
+maybe_print_local	p\vitess\py\checkers\checker.py	/^  def maybe_print_local(self, force=False):$/;"	m	class:Stats
+merge_sorted	p\vitess\py\checkers\checker.py	/^def merge_sorted(seqs, key=None):$/;"	f
+merger_comparer_worker	p\vitess\py\checkers\checker.py	/^  def merger_comparer_worker(self):$/;"	m	class:Checker
+optparse	p\vitess\py\checkers\checker.py	/^import optparse$/;"	i
+os	p\vitess\py\checkers\checker.py	/^import os$/;"	i
+parse_database_url	p\vitess\py\checkers\checker.py	/^def parse_database_url(url, password_map):$/;"	f
+pickle	p\vitess\py\checkers\checker.py	/^import cPickle as pickle$/;"	i
+pprint	p\vitess\py\checkers\checker.py	/^import pprint$/;"	i
+print_total	p\vitess\py\checkers\checker.py	/^  def print_total(self):$/;"	m	class:Stats
+query	p\vitess\py\checkers\checker.py	/^  def query(self, sql, params):$/;"	m	class:DatastoreThread
+query	p\vitess\py\checkers\checker.py	/^  def query(self, sql, params):$/;"	m	class:MultiDatastore
+query	p\vitess\py\checkers\checker.py	/^  def query(self, sql, params, retries=3):$/;"	m	class:Datastore
+re	p\vitess\py\checkers\checker.py	/^import re$/;"	i
+restore_checkpoint	p\vitess\py\checkers\checker.py	/^  def restore_checkpoint(self):$/;"	m	class:Checker
+run	p\vitess\py\checkers\checker.py	/^  def run(self):$/;"	m	class:Checker
+run	p\vitess\py\checkers\checker.py	/^  def run(self):$/;"	m	class:DatastoreThread
+sorted_row_list_difference	p\vitess\py\checkers\checker.py	/^def sorted_row_list_difference(expected, actual, key_length):$/;"	f
+sources_worker	p\vitess\py\checkers\checker.py	/^  def sources_worker(self):$/;"	m	class:Checker
+sql_tuple_comparison	p\vitess\py\checkers\checker.py	/^def sql_tuple_comparison(tablename, columns, column_name_prefix=''):$/;"	f
+sys	p\vitess\py\checkers\checker.py	/^import sys$/;"	i
+tempfile	p\vitess\py\checkers\checker.py	/^import tempfile$/;"	i
+threading	p\vitess\py\checkers\checker.py	/^import threading$/;"	i
+time	p\vitess\py\checkers\checker.py	/^import time$/;"	i
+update	p\vitess\py\checkers\checker.py	/^  def update(self, key, from_time, items=0):$/;"	m	class:Stats
+urlparse	p\vitess\py\checkers\checker.py	/^import urlparse$/;"	i
+write	p\vitess\py\checkers\checker.py	/^  def write(self, s):$/;"	m	class:AtomicWriter
+ws	p\vitess\py\checkers\checker.py	/^ws = re.compile(r'\\s+')$/;"	v
+FLock	p\vitess\py\io\lockfile.py	/^class FLock(object):$/;"	c
+__init__	p\vitess\py\io\lockfile.py	/^  def __init__(self, path):$/;"	m	class:FLock
+acquire	p\vitess\py\io\lockfile.py	/^  def acquire(self, blocking=True):$/;"	m	class:FLock
+errno	p\vitess\py\io\lockfile.py	/^import errno$/;"	i
+fcntl	p\vitess\py\io\lockfile.py	/^import fcntl$/;"	i
+logging	p\vitess\py\io\lockfile.py	/^import logging$/;"	i
+os	p\vitess\py\io\lockfile.py	/^import os$/;"	i
+release	p\vitess\py\io\lockfile.py	/^  def release(self):$/;"	m	class:FLock
+BsonRpcClient	p\vitess\py\net\bsonrpc.py	/^class BsonRpcClient(gorpc.GoRpcClient):$/;"	c
+WRAPPED_FIELD	p\vitess\py\net\bsonrpc.py	/^WRAPPED_FIELD = '_Val_'$/;"	v
+__init__	p\vitess\py\net\bsonrpc.py	/^  def __init__(self, addr, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:BsonRpcClient
+authenticate	p\vitess\py\net\bsonrpc.py	/^  def authenticate(self):$/;"	m	class:BsonRpcClient
+bson	p\vitess\py\net\bsonrpc.py	/^import bson$/;"	i
+cbson	p\vitess\py\net\bsonrpc.py	/^  import cbson$/;"	i
+codec	p\vitess\py\net\bsonrpc.py	/^  from bson import codec$/;"	i
+decode_document	p\vitess\py\net\bsonrpc.py	/^  decode_document = cbson.decode_next$/;"	v
+decode_document	p\vitess\py\net\bsonrpc.py	/^  decode_document = codec.decode_document$/;"	v
+decode_response	p\vitess\py\net\bsonrpc.py	/^  def decode_response(self, response, data):$/;"	m	class:BsonRpcClient
+dial	p\vitess\py\net\bsonrpc.py	/^  def dial(self):$/;"	m	class:BsonRpcClient
+encode_request	p\vitess\py\net\bsonrpc.py	/^  def encode_request(self, req):$/;"	m	class:BsonRpcClient
+gorpc	p\vitess\py\net\bsonrpc.py	/^from net import gorpc$/;"	i
+hmac	p\vitess\py\net\bsonrpc.py	/^import hmac$/;"	i
+len_struct	p\vitess\py\net\bsonrpc.py	/^len_struct = struct.Struct('<i')$/;"	v
+len_struct_size	p\vitess\py\net\bsonrpc.py	/^len_struct_size = len_struct.size$/;"	v
+struct	p\vitess\py\net\bsonrpc.py	/^import struct$/;"	i
+unpack_length	p\vitess\py\net\bsonrpc.py	/^unpack_length = len_struct.unpack_from$/;"	v
+AppError	p\vitess\py\net\gorpc.py	/^class AppError(GoRpcError):$/;"	c
+GoRpcClient	p\vitess\py\net\gorpc.py	/^class GoRpcClient(object):$/;"	c
+GoRpcError	p\vitess\py\net\gorpc.py	/^class GoRpcError(Exception):$/;"	c
+GoRpcRequest	p\vitess\py\net\gorpc.py	/^class GoRpcRequest(object):$/;"	c
+GoRpcResponse	p\vitess\py\net\gorpc.py	/^class GoRpcResponse(object):$/;"	c
+ProgrammingError	p\vitess\py\net\gorpc.py	/^class ProgrammingError(GoRpcError):$/;"	c
+TimeoutError	p\vitess\py\net\gorpc.py	/^class TimeoutError(GoRpcError):$/;"	c
+_GoRpcConn	p\vitess\py\net\gorpc.py	/^class _GoRpcConn(object):$/;"	c
+__del__	p\vitess\py\net\gorpc.py	/^  __del__ = close$/;"	v	class:GoRpcClient
+__init__	p\vitess\py\net\gorpc.py	/^  def __init__(self, header, args):$/;"	m	class:GoRpcRequest
+__init__	p\vitess\py\net\gorpc.py	/^  def __init__(self, timeout):$/;"	m	class:_GoRpcConn
+__init__	p\vitess\py\net\gorpc.py	/^  def __init__(self, uri, timeout, certfile=None, keyfile=None):$/;"	m	class:GoRpcClient
+_check_deadline_exceeded	p\vitess\py\net\gorpc.py	/^  def _check_deadline_exceeded(self, timeout):$/;"	m	class:GoRpcClient
+_lastStreamResponseError	p\vitess\py\net\gorpc.py	/^_lastStreamResponseError = 'EOS'$/;"	v
+_read_response	p\vitess\py\net\gorpc.py	/^  def _read_response(self, response, timeout):$/;"	m	class:GoRpcClient
+body	p\vitess\py\net\gorpc.py	/^  body = None # the actual request object - usually a dictionary$/;"	v	class:GoRpcRequest
+call	p\vitess\py\net\gorpc.py	/^  def call(self, method, request, response=None):$/;"	m	class:GoRpcClient
+close	p\vitess\py\net\gorpc.py	/^  def close(self):$/;"	m	class:GoRpcClient
+close	p\vitess\py\net\gorpc.py	/^  def close(self):$/;"	m	class:_GoRpcConn
+decode_response	p\vitess\py\net\gorpc.py	/^  def decode_response(self, response, data):$/;"	m	class:GoRpcClient
+default_read_buffer_size	p\vitess\py\net\gorpc.py	/^default_read_buffer_size = 8192$/;"	v
+dial	p\vitess\py\net\gorpc.py	/^  def dial(self):$/;"	m	class:GoRpcClient
+dial	p\vitess\py\net\gorpc.py	/^  def dial(self, uri, keyfile=None, certfile=None):$/;"	m	class:_GoRpcConn
+encode_request	p\vitess\py\net\gorpc.py	/^  def encode_request(self, req):$/;"	m	class:GoRpcClient
+errno	p\vitess\py\net\gorpc.py	/^import errno$/;"	i
+error	p\vitess\py\net\gorpc.py	/^  def error(self):$/;"	m	class:GoRpcResponse
+header	p\vitess\py\net\gorpc.py	/^  header = None # standard fields that route the request on the server side$/;"	v	class:GoRpcRequest
+header	p\vitess\py\net\gorpc.py	/^  header = None$/;"	v	class:GoRpcResponse
+is_closed	p\vitess\py\net\gorpc.py	/^  def is_closed(self):$/;"	m	class:GoRpcClient
+is_closed	p\vitess\py\net\gorpc.py	/^  def is_closed(self):$/;"	m	class:_GoRpcConn
+make_header	p\vitess\py\net\gorpc.py	/^def make_header(method, sequence_id):$/;"	f
+next_sequence_id	p\vitess\py\net\gorpc.py	/^  def next_sequence_id(self):$/;"	m	class:GoRpcClient
+read_some	p\vitess\py\net\gorpc.py	/^  def read_some(self, size=None):$/;"	m	class:_GoRpcConn
+reply	p\vitess\py\net\gorpc.py	/^  reply = None # the decoded object - usually a dictionary$/;"	v	class:GoRpcResponse
+select	p\vitess\py\net\gorpc.py	/^import select$/;"	i
+sequence_id	p\vitess\py\net\gorpc.py	/^  def sequence_id(self):$/;"	m	class:GoRpcRequest
+sequence_id	p\vitess\py\net\gorpc.py	/^  def sequence_id(self):$/;"	m	class:GoRpcResponse
+socket	p\vitess\py\net\gorpc.py	/^import socket$/;"	i
+ssl	p\vitess\py\net\gorpc.py	/^import ssl$/;"	i
+stream_call	p\vitess\py\net\gorpc.py	/^  def stream_call(self, method, request):$/;"	m	class:GoRpcClient
+stream_next	p\vitess\py\net\gorpc.py	/^  def stream_next(self):$/;"	m	class:GoRpcClient
+time	p\vitess\py\net\gorpc.py	/^import time$/;"	i
+urlparse	p\vitess\py\net\gorpc.py	/^import urlparse$/;"	i
+write_request	p\vitess\py\net\gorpc.py	/^  def write_request(self, request_data):$/;"	m	class:_GoRpcConn
+packages	p\vitess\py\setup.py	/^      packages=["vtdb", "net"],$/;"	v
+platforms	p\vitess\py\setup.py	/^      platforms = "Any",$/;"	v
+setup	p\vitess\py\setup.py	/^from distutils.core import setup$/;"	i
+BaseCursor	p\vitess\py\vtdb\cursor.py	/^class BaseCursor(object):$/;"	c
+BatchCursor	p\vitess\py\vtdb\cursor.py	/^class BatchCursor(BaseCursor):$/;"	c
+BatchQueryItem	p\vitess\py\vtdb\cursor.py	/^class BatchQueryItem(object):$/;"	c
+StreamCursor	p\vitess\py\vtdb\cursor.py	/^class StreamCursor(object):$/;"	c
+TabletCursor	p\vitess\py\vtdb\cursor.py	/^class TabletCursor(BaseCursor):$/;"	c
+__init__	p\vitess\py\vtdb\cursor.py	/^  def __init__(self, connection):$/;"	m	class:BaseCursor
+__init__	p\vitess\py\vtdb\cursor.py	/^  def __init__(self, connection):$/;"	m	class:BatchCursor
+__init__	p\vitess\py\vtdb\cursor.py	/^  def __init__(self, connection):$/;"	m	class:StreamCursor
+__init__	p\vitess\py\vtdb\cursor.py	/^  def __init__(self, sql, bind_variables, key, keys):$/;"	m	class:BatchQueryItem
+__iter__	p\vitess\py\vtdb\cursor.py	/^  def __iter__(self):$/;"	m	class:BaseCursor	file:
+__iter__	p\vitess\py\vtdb\cursor.py	/^  def __iter__(self):$/;"	m	class:StreamCursor	file:
+_execute	p\vitess\py\vtdb\cursor.py	/^  def _execute(self, sql, bind_variables, **kargs):$/;"	m	class:BaseCursor
+arraysize	p\vitess\py\vtdb\cursor.py	/^  arraysize = 1$/;"	v	class:BaseCursor
+arraysize	p\vitess\py\vtdb\cursor.py	/^  arraysize = 1$/;"	v	class:StreamCursor
+callproc	p\vitess\py\vtdb\cursor.py	/^  def callproc(self):$/;"	m	class:BaseCursor
+callproc	p\vitess\py\vtdb\cursor.py	/^  def callproc(self):$/;"	m	class:StreamCursor
+close	p\vitess\py\vtdb\cursor.py	/^  def close(self):$/;"	m	class:BaseCursor
+close	p\vitess\py\vtdb\cursor.py	/^  def close(self):$/;"	m	class:StreamCursor
+connection	p\vitess\py\vtdb\cursor.py	/^  connection = None$/;"	v	class:BaseCursor
+connection	p\vitess\py\vtdb\cursor.py	/^  connection = None$/;"	v	class:StreamCursor
+conversions	p\vitess\py\vtdb\cursor.py	/^  conversions = None$/;"	v	class:StreamCursor
+dbexceptions	p\vitess\py\vtdb\cursor.py	/^from vtdb import dbexceptions$/;"	i
+description	p\vitess\py\vtdb\cursor.py	/^  description = None$/;"	v	class:BaseCursor
+description	p\vitess\py\vtdb\cursor.py	/^  description = None$/;"	v	class:StreamCursor
+execute	p\vitess\py\vtdb\cursor.py	/^  def execute(self, sql, bind_variables, **kargs):$/;"	m	class:StreamCursor
+execute	p\vitess\py\vtdb\cursor.py	/^  def execute(self, sql, bind_variables=None):$/;"	m	class:TabletCursor
+execute	p\vitess\py\vtdb\cursor.py	/^  def execute(self, sql, bind_variables=None, key=None, keys=None):$/;"	m	class:BatchCursor
+executemany	p\vitess\py\vtdb\cursor.py	/^  def executemany(self, *pargs):$/;"	m	class:BaseCursor
+executemany	p\vitess\py\vtdb\cursor.py	/^  def executemany(self, *pargs):$/;"	m	class:StreamCursor
+fetchall	p\vitess\py\vtdb\cursor.py	/^  def fetchall(self):$/;"	m	class:BaseCursor
+fetchall	p\vitess\py\vtdb\cursor.py	/^  def fetchall(self):$/;"	m	class:StreamCursor
+fetchmany	p\vitess\py\vtdb\cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:BaseCursor
+fetchmany	p\vitess\py\vtdb\cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:StreamCursor
+fetchone	p\vitess\py\vtdb\cursor.py	/^  def fetchone(self):$/;"	m	class:BaseCursor
+fetchone	p\vitess\py\vtdb\cursor.py	/^  def fetchone(self):$/;"	m	class:StreamCursor
+flush	p\vitess\py\vtdb\cursor.py	/^  def flush(self):$/;"	m	class:BatchCursor
+index	p\vitess\py\vtdb\cursor.py	/^  index = None$/;"	v	class:BaseCursor
+index	p\vitess\py\vtdb\cursor.py	/^  index = None$/;"	v	class:StreamCursor
+lastrowid	p\vitess\py\vtdb\cursor.py	/^  lastrowid = None$/;"	v	class:BaseCursor
+next	p\vitess\py\vtdb\cursor.py	/^  def next(self):$/;"	m	class:BaseCursor
+next	p\vitess\py\vtdb\cursor.py	/^  def next(self):$/;"	m	class:StreamCursor
+nextset	p\vitess\py\vtdb\cursor.py	/^  def nextset(self):$/;"	m	class:BaseCursor
+nextset	p\vitess\py\vtdb\cursor.py	/^  def nextset(self):$/;"	m	class:StreamCursor
+results	p\vitess\py\vtdb\cursor.py	/^  results = None$/;"	v	class:BaseCursor
+rowcount	p\vitess\py\vtdb\cursor.py	/^  rowcount = 0$/;"	v	class:BaseCursor
+rownumber	p\vitess\py\vtdb\cursor.py	/^  def rownumber(self):$/;"	m	class:BaseCursor
+rownumber	p\vitess\py\vtdb\cursor.py	/^  def rownumber(self):$/;"	m	class:StreamCursor
+setinputsizes	p\vitess\py\vtdb\cursor.py	/^  def setinputsizes(self, sizes):$/;"	m	class:BaseCursor
+setinputsizes	p\vitess\py\vtdb\cursor.py	/^  def setinputsizes(self, sizes):$/;"	m	class:StreamCursor
+setoutputsize	p\vitess\py\vtdb\cursor.py	/^  def setoutputsize(self, size, column=None):$/;"	m	class:BaseCursor
+setoutputsize	p\vitess\py\vtdb\cursor.py	/^  def setoutputsize(self, size, column=None):$/;"	m	class:StreamCursor
+BindVarsProxy	p\vitess\py\vtdb\dbapi.py	/^class BindVarsProxy(object):$/;"	c
+__getitem__	p\vitess\py\vtdb\dbapi.py	/^  def __getitem__(self, name):$/;"	m	class:BindVarsProxy	file:
+__init__	p\vitess\py\vtdb\dbapi.py	/^  def __init__(self, bind_vars):$/;"	m	class:BindVarsProxy
+dbexceptions	p\vitess\py\vtdb\dbapi.py	/^from vtdb import dbexceptions$/;"	i
+export_bind_vars	p\vitess\py\vtdb\dbapi.py	/^  def export_bind_vars(self):$/;"	m	class:BindVarsProxy
+prepare_query_bind_vars	p\vitess\py\vtdb\dbapi.py	/^def prepare_query_bind_vars(query, bind_vars):$/;"	f
+DatabaseError	p\vitess\py\vtdb\dbexceptions.py	/^class DatabaseError(exceptions.StandardError):$/;"	c
+Error	p\vitess\py\vtdb\dbexceptions.py	/^class Error(exceptions.StandardError):$/;"	c
+IntegrityError	p\vitess\py\vtdb\dbexceptions.py	/^class IntegrityError(DatabaseError):$/;"	c
+InterfaceError	p\vitess\py\vtdb\dbexceptions.py	/^class InterfaceError(Error):$/;"	c
+InternalError	p\vitess\py\vtdb\dbexceptions.py	/^class InternalError(DatabaseError):$/;"	c
+NotSupportedError	p\vitess\py\vtdb\dbexceptions.py	/^class NotSupportedError(ProgrammingError):$/;"	c
+OperationalError	p\vitess\py\vtdb\dbexceptions.py	/^class OperationalError(DatabaseError):$/;"	c
+PartialCommitError	p\vitess\py\vtdb\dbexceptions.py	/^class PartialCommitError(IntegrityError):$/;"	c
+ProgrammingError	p\vitess\py\vtdb\dbexceptions.py	/^class ProgrammingError(DatabaseError):$/;"	c
+Warning	p\vitess\py\vtdb\dbexceptions.py	/^class Warning(exceptions.StandardError):$/;"	c
+exceptions	p\vitess\py\vtdb\dbexceptions.py	/^import exceptions$/;"	i
+BINARY	p\vitess\py\vtdb\field_types.py	/^BINARY   = DBAPITypeObject(VT_TINY_BLOB, VT_MEDIUM_BLOB, VT_LONG_BLOB, VT_BLOB)$/;"	v
+Binary	p\vitess\py\vtdb\field_types.py	/^def Binary(x):$/;"	f
+DATETIME	p\vitess\py\vtdb\field_types.py	/^DATETIME = DBAPITypeObject(VT_TIMESTAMP, VT_DATE, VT_TIME, VT_DATETIME, VT_NEWDATE)$/;"	v
+DBAPITypeObject	p\vitess\py\vtdb\field_types.py	/^class DBAPITypeObject:$/;"	c
+Decimal	p\vitess\py\vtdb\field_types.py	/^from decimal import Decimal$/;"	i
+NUMBER	p\vitess\py\vtdb\field_types.py	/^NUMBER   = DBAPITypeObject(VT_DECIMAL, VT_TINY, VT_SHORT, VT_LONG, VT_FLOAT, VT_DOUBLE, VT_LONGLONG, VT_INT24, VT_YEAR, VT_NEWDECIMAL)$/;"	v
+NoneType	p\vitess\py\vtdb\field_types.py	/^NoneType = type(None)$/;"	v
+ROWID	p\vitess\py\vtdb\field_types.py	/^ROWID    = DBAPITypeObject()$/;"	v
+STRING	p\vitess\py\vtdb\field_types.py	/^STRING   = DBAPITypeObject(VT_ENUM, VT_VAR_STRING, VT_STRING)$/;"	v
+VT_BIT	p\vitess\py\vtdb\field_types.py	/^VT_BIT = 16$/;"	v
+VT_BLOB	p\vitess\py\vtdb\field_types.py	/^VT_BLOB = 252$/;"	v
+VT_DATE	p\vitess\py\vtdb\field_types.py	/^VT_DATE = 10$/;"	v
+VT_DATETIME	p\vitess\py\vtdb\field_types.py	/^VT_DATETIME = 12$/;"	v
+VT_DECIMAL	p\vitess\py\vtdb\field_types.py	/^VT_DECIMAL = 0$/;"	v
+VT_DOUBLE	p\vitess\py\vtdb\field_types.py	/^VT_DOUBLE = 5$/;"	v
+VT_ENUM	p\vitess\py\vtdb\field_types.py	/^VT_ENUM = 247$/;"	v
+VT_FLOAT	p\vitess\py\vtdb\field_types.py	/^VT_FLOAT = 4$/;"	v
+VT_GEOMETRY	p\vitess\py\vtdb\field_types.py	/^VT_GEOMETRY = 255$/;"	v
+VT_INT24	p\vitess\py\vtdb\field_types.py	/^VT_INT24 = 9$/;"	v
+VT_LONG	p\vitess\py\vtdb\field_types.py	/^VT_LONG = 3$/;"	v
+VT_LONGLONG	p\vitess\py\vtdb\field_types.py	/^VT_LONGLONG = 8$/;"	v
+VT_LONG_BLOB	p\vitess\py\vtdb\field_types.py	/^VT_LONG_BLOB = 251$/;"	v
+VT_MEDIUM_BLOB	p\vitess\py\vtdb\field_types.py	/^VT_MEDIUM_BLOB = 250$/;"	v
+VT_NEWDATE	p\vitess\py\vtdb\field_types.py	/^VT_NEWDATE = 14$/;"	v
+VT_NEWDECIMAL	p\vitess\py\vtdb\field_types.py	/^VT_NEWDECIMAL = 246$/;"	v
+VT_NULL	p\vitess\py\vtdb\field_types.py	/^VT_NULL = 6$/;"	v
+VT_SET	p\vitess\py\vtdb\field_types.py	/^VT_SET = 248$/;"	v
+VT_SHORT	p\vitess\py\vtdb\field_types.py	/^VT_SHORT = 2$/;"	v
+VT_STRING	p\vitess\py\vtdb\field_types.py	/^VT_STRING = 254$/;"	v
+VT_TIME	p\vitess\py\vtdb\field_types.py	/^VT_TIME = 11$/;"	v
+VT_TIMESTAMP	p\vitess\py\vtdb\field_types.py	/^VT_TIMESTAMP = 7$/;"	v
+VT_TINY	p\vitess\py\vtdb\field_types.py	/^VT_TINY = 1$/;"	v
+VT_TINY_BLOB	p\vitess\py\vtdb\field_types.py	/^VT_TINY_BLOB = 249$/;"	v
+VT_VARCHAR	p\vitess\py\vtdb\field_types.py	/^VT_VARCHAR = 15$/;"	v
+VT_VAR_STRING	p\vitess\py\vtdb\field_types.py	/^VT_VAR_STRING = 253$/;"	v
+VT_YEAR	p\vitess\py\vtdb\field_types.py	/^VT_YEAR = 13$/;"	v
+__cmp__	p\vitess\py\vtdb\field_types.py	/^  def __cmp__(self, other):$/;"	m	class:DBAPITypeObject	file:
+__init__	p\vitess\py\vtdb\field_types.py	/^  def __init__(self, *values):$/;"	m	class:DBAPITypeObject
+array	p\vitess\py\vtdb\field_types.py	/^from array import array$/;"	i
+conversions	p\vitess\py\vtdb\field_types.py	/^conversions = {$/;"	v
+convert_bind_vars	p\vitess\py\vtdb\field_types.py	/^def convert_bind_vars(bind_variables):$/;"	f
+datetime	p\vitess\py\vtdb\field_types.py	/^import datetime$/;"	i
+times	p\vitess\py\vtdb\field_types.py	/^from vtdb import times$/;"	i
+Keyspace	p\vitess\py\vtdb\keyspace.py	/^class Keyspace:$/;"	c
+ZK_KEYSPACE_PATH	p\vitess\py\vtdb\keyspace.py	/^ZK_KEYSPACE_PATH = '\/zk\/local\/vt\/ns'$/;"	v
+__init__	p\vitess\py\vtdb\keyspace.py	/^  def __init__(self, name, data):$/;"	m	class:Keyspace
+_make_shard_names	p\vitess\py\vtdb\keyspace.py	/^  def _make_shard_names(self):$/;"	m	class:Keyspace
+db_types	p\vitess\py\vtdb\keyspace.py	/^  db_types = None$/;"	v	class:Keyspace
+dbexceptions	p\vitess\py\vtdb\keyspace.py	/^from vtdb import dbexceptions$/;"	i
+json	p\vitess\py\vtdb\keyspace.py	/^import json$/;"	i
+keyspace_id_to_shard_index	p\vitess\py\vtdb\keyspace.py	/^  def keyspace_id_to_shard_index(self, keyspace_id):$/;"	m	class:Keyspace
+name	p\vitess\py\vtdb\keyspace.py	/^  name = None$/;"	v	class:Keyspace
+pack_keyspace_id	p\vitess\py\vtdb\keyspace.py	/^pack_keyspace_id = struct.Struct('!Q').pack$/;"	v
+read_keyspace	p\vitess\py\vtdb\keyspace.py	/^def read_keyspace(zkocc_client, keyspace_name):$/;"	f
+shard_count	p\vitess\py\vtdb\keyspace.py	/^  shard_count = None$/;"	v	class:Keyspace
+shard_max_keys	p\vitess\py\vtdb\keyspace.py	/^  shard_max_keys = None # Sorted list of the max keys for each shard.$/;"	v	class:Keyspace
+shard_names	p\vitess\py\vtdb\keyspace.py	/^  shard_names = None # Sorted list of shard names -$/;"	v	class:Keyspace
+struct	p\vitess\py\vtdb\keyspace.py	/^import struct$/;"	i
+DebugQueue	p\vitess\py\vtdb\qpool.py	/^class DebugQueue:$/;"	c
+ExecuteQueryQueueItem	p\vitess\py\vtdb\qpool.py	/^class ExecuteQueryQueueItem(object):$/;"	c
+FetchManyQueryQueueItem	p\vitess\py\vtdb\qpool.py	/^class FetchManyQueryQueueItem(object):$/;"	c
+FetchQueryQueueItem	p\vitess\py\vtdb\qpool.py	/^class FetchQueryQueueItem(object):$/;"	c
+QueryThreadPool	p\vitess\py\vtdb\qpool.py	/^class QueryThreadPool(object):$/;"	c
+Queue	p\vitess\py\vtdb\qpool.py	/^from Queue import Queue$/;"	i
+ResultQueueItem	p\vitess\py\vtdb\qpool.py	/^class ResultQueueItem(object):$/;"	c
+ResultRowsQueueItem	p\vitess\py\vtdb\qpool.py	/^class ResultRowsQueueItem(object):$/;"	c
+StopQueueItem	p\vitess\py\vtdb\qpool.py	/^class StopQueueItem(object):$/;"	c
+Thread	p\vitess\py\vtdb\qpool.py	/^from threading import Thread$/;"	i
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, *args):$/;"	m	class:DebugQueue
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, cursor, execute_args, execute_kargs, result_queue):$/;"	m	class:ExecuteQueryQueueItem
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, cursor, result_queue):$/;"	m	class:FetchQueryQueueItem
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, cursor, result_queue, fetch_size):$/;"	m	class:FetchManyQueryQueueItem
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, result=None, error=None):$/;"	m	class:ResultQueueItem
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, rows=None, error=None):$/;"	m	class:ResultRowsQueueItem
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, thread_name):$/;"	m	class:StopQueueItem
+__init__	p\vitess\py\vtdb\qpool.py	/^  def __init__(self, thread_pool_size=1):$/;"	m	class:QueryThreadPool
+__str__	p\vitess\py\vtdb\qpool.py	/^  def __str__(self):$/;"	m	class:ExecuteQueryQueueItem	file:
+__str__	p\vitess\py\vtdb\qpool.py	/^  def __str__(self):$/;"	m	class:FetchManyQueryQueueItem	file:
+__str__	p\vitess\py\vtdb\qpool.py	/^  def __str__(self):$/;"	m	class:FetchQueryQueueItem	file:
+__str__	p\vitess\py\vtdb\qpool.py	/^  def __str__(self):$/;"	m	class:ResultQueueItem	file:
+__str__	p\vitess\py\vtdb\qpool.py	/^  def __str__(self):$/;"	m	class:ResultRowsQueueItem	file:
+drain_query_queue	p\vitess\py\vtdb\qpool.py	/^def drain_query_queue(query_queue, thread_name):$/;"	f
+execute_query	p\vitess\py\vtdb\qpool.py	/^  def execute_query(self, cursor_list, *execute_args, **execute_kargs):$/;"	m	class:QueryThreadPool
+execute_vector_query	p\vitess\py\vtdb\qpool.py	/^  def execute_vector_query(self, cursor_list, query_list, bind_vars_list):$/;"	m	class:QueryThreadPool
+fetchall_results	p\vitess\py\vtdb\qpool.py	/^  def fetchall_results(self, cursor_list):$/;"	m	class:QueryThreadPool
+fetchmany_results_generator	p\vitess\py\vtdb\qpool.py	/^  def fetchmany_results_generator(self, cursor_list, fetch_size=100):$/;"	m	class:QueryThreadPool
+get	p\vitess\py\vtdb\qpool.py	/^  def get(self):$/;"	m	class:DebugQueue
+logging	p\vitess\py\vtdb\qpool.py	/^import logging$/;"	i
+put	p\vitess\py\vtdb\qpool.py	/^  def put(self, qq_item):$/;"	m	class:DebugQueue
+shutdown	p\vitess\py\vtdb\qpool.py	/^  def shutdown(self):$/;"	m	class:QueryThreadPool
+ShardedClient	p\vitess\py\vtdb\sharded.py	/^class ShardedClient(object):$/;"	c
+Txn	p\vitess\py\vtdb\sharded.py	/^class Txn(object):$/;"	c
+__enter__	p\vitess\py\vtdb\sharded.py	/^  def __enter__(self):$/;"	m	class:ShardedClient	file:
+__exit__	p\vitess\py\vtdb\sharded.py	/^  def __exit__(self, exc, value, tb):$/;"	m	class:ShardedClient	file:
+__init__	p\vitess\py\vtdb\sharded.py	/^  def __init__(self, zkocc_client, keyspace_name, db_type, use_streaming, timeout, user, password, dbname):$/;"	m	class:ShardedClient
+_begin	p\vitess\py\vtdb\sharded.py	/^  def _begin(self, shard_idx):$/;"	m	class:ShardedClient
+_dial_shard	p\vitess\py\vtdb\sharded.py	/^  def _dial_shard(self, shard_idx):$/;"	m	class:ShardedClient
+_execute_batch	p\vitess\py\vtdb\sharded.py	/^  def _execute_batch(self, query_list, bind_vars_list, shard_idx):$/;"	m	class:ShardedClient
+_execute_for_keyspace_ids	p\vitess\py\vtdb\sharded.py	/^  def _execute_for_keyspace_ids(self, query, bind_vars, keyspace_id_list):$/;"	m	class:ShardedClient
+_execute_on_shard	p\vitess\py\vtdb\sharded.py	/^  def _execute_on_shard(self, query, bind_vars, shard_idx):$/;"	m	class:ShardedClient
+_execute_on_shards	p\vitess\py\vtdb\sharded.py	/^  def _execute_on_shards(self, query, bind_vars, shard_idx_list):$/;"	m	class:ShardedClient
+_stream_execute_for_keyspace_ids	p\vitess\py\vtdb\sharded.py	/^  def _stream_execute_for_keyspace_ids(self, query, bind_vars, keyspace_id_list):$/;"	m	class:ShardedClient
+_stream_execute_on_shard	p\vitess\py\vtdb\sharded.py	/^  def _stream_execute_on_shard(self, query, bind_vars, shard_idx):$/;"	m	class:ShardedClient
+_stream_execute_on_shards	p\vitess\py\vtdb\sharded.py	/^  def _stream_execute_on_shards(self, query, bind_vars, shard_idx_list):$/;"	m	class:ShardedClient
+_stream_next_on_shard	p\vitess\py\vtdb\sharded.py	/^  def _stream_next_on_shard(self, shard_idx):$/;"	m	class:ShardedClient
+_stream_next_on_shards	p\vitess\py\vtdb\sharded.py	/^  def _stream_next_on_shards(self, shard_idx_list=None):$/;"	m	class:ShardedClient
+begin	p\vitess\py\vtdb\sharded.py	/^  def begin(self):$/;"	m	class:ShardedClient
+commit	p\vitess\py\vtdb\sharded.py	/^  def commit(self):$/;"	m	class:ShardedClient
+connect	p\vitess\py\vtdb\sharded.py	/^def connect(zkocc_addrs, local_cell, keyspace_name, db_type, use_streaming, timeout, user, password, dbname):$/;"	f
+conns	p\vitess\py\vtdb\sharded.py	/^  conns = []$/;"	v	class:Txn
+cursor	p\vitess\py\vtdb\sharded.py	/^  def cursor(self, cursorclass=None):$/;"	m	class:ShardedClient
+cursor	p\vitess\py\vtdb\sharded.py	/^from vtdb import cursor$/;"	i
+cursorclass	p\vitess\py\vtdb\sharded.py	/^  cursorclass = cursor.ShardedCursor$/;"	v	class:ShardedClient
+db_name	p\vitess\py\vtdb\sharded.py	/^  db_name = ''$/;"	v	class:ShardedClient
+db_type	p\vitess\py\vtdb\sharded.py	/^  db_type = ''$/;"	v	class:ShardedClient
+dbapi	p\vitess\py\vtdb\sharded.py	/^from vtdb import dbapi$/;"	i
+dbexceptions	p\vitess\py\vtdb\sharded.py	/^from vtdb import dbexceptions$/;"	i
+gorpc	p\vitess\py\vtdb\sharded.py	/^from net import gorpc$/;"	i
+keyspace	p\vitess\py\vtdb\sharded.py	/^  keyspace = None$/;"	v	class:ShardedClient
+keyspace	p\vitess\py\vtdb\sharded.py	/^from vtdb import keyspace$/;"	i
+keyspace_name	p\vitess\py\vtdb\sharded.py	/^  keyspace_name = ''$/;"	v	class:ShardedClient
+max_attempts	p\vitess\py\vtdb\sharded.py	/^  max_attempts = 2$/;"	v	class:ShardedClient
+os	p\vitess\py\vtdb\sharded.py	/^import os$/;"	i
+password	p\vitess\py\vtdb\sharded.py	/^  password = ''$/;"	v	class:ShardedClient
+reconnect_delay	p\vitess\py\vtdb\sharded.py	/^  reconnect_delay = 0.005$/;"	v	class:ShardedClient
+rollback	p\vitess\py\vtdb\sharded.py	/^  def rollback(self):$/;"	m	class:ShardedClient
+stmts	p\vitess\py\vtdb\sharded.py	/^  stmts = []$/;"	v	class:Txn
+tablet3	p\vitess\py\vtdb\sharded.py	/^from vtdb import tablet3$/;"	i
+time	p\vitess\py\vtdb\sharded.py	/^import time$/;"	i
+timeout	p\vitess\py\vtdb\sharded.py	/^  timeout = 0$/;"	v	class:ShardedClient
+use_streaming	p\vitess\py\vtdb\sharded.py	/^  use_streaming = False$/;"	v	class:ShardedClient
+user	p\vitess\py\vtdb\sharded.py	/^  user = ''$/;"	v	class:ShardedClient
+zkns_query	p\vitess\py\vtdb\sharded.py	/^from zk import zkns_query$/;"	i
+zkocc	p\vitess\py\vtdb\sharded.py	/^from zk import zkocc$/;"	i
+zkocc_client	p\vitess\py\vtdb\sharded.py	/^  zkocc_client = None$/;"	v	class:ShardedClient
+ShardedCursor	p\vitess\py\vtdb\sharded_cursor.py	/^class ShardedCursor(object):$/;"	c
+SharededStreamCursor	p\vitess\py\vtdb\sharded_cursor.py	/^class SharededStreamCursor(object):$/;"	c
+__init__	p\vitess\py\vtdb\sharded_cursor.py	/^  def __init__(self, sconn):$/;"	m	class:ShardedCursor
+__iter__	p\vitess\py\vtdb\sharded_cursor.py	/^  def __iter__(self):$/;"	m	class:ShardedCursor	file:
+arraysize	p\vitess\py\vtdb\sharded_cursor.py	/^  arraysize = 1$/;"	v	class:ShardedCursor
+callproc	p\vitess\py\vtdb\sharded_cursor.py	/^  def callproc(self):$/;"	m	class:ShardedCursor
+close	p\vitess\py\vtdb\sharded_cursor.py	/^  def close(self):$/;"	m	class:ShardedCursor
+cursor	p\vitess\py\vtdb\sharded_cursor.py	/^from vtdb import cursor$/;"	i
+description	p\vitess\py\vtdb\sharded_cursor.py	/^  description = None$/;"	v	class:ShardedCursor
+execute	p\vitess\py\vtdb\sharded_cursor.py	/^  def execute(self, sql, bind_variables, keyspace_ids=()):$/;"	m	class:ShardedCursor
+execute	p\vitess\py\vtdb\sharded_cursor.py	/^  def execute(self, sql, bind_vars, keyspace_ids=()):$/;"	m	class:SharededStreamCursor
+executemany	p\vitess\py\vtdb\sharded_cursor.py	/^  def executemany(self, *pargs):$/;"	m	class:ShardedCursor
+fetchall	p\vitess\py\vtdb\sharded_cursor.py	/^  def fetchall(self):$/;"	m	class:ShardedCursor
+fetchall	p\vitess\py\vtdb\sharded_cursor.py	/^  def fetchall(self):$/;"	m	class:SharededStreamCursor
+fetchmany	p\vitess\py\vtdb\sharded_cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:ShardedCursor
+fetchmany	p\vitess\py\vtdb\sharded_cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:SharededStreamCursor
+fetchone	p\vitess\py\vtdb\sharded_cursor.py	/^  def fetchone(self):$/;"	m	class:ShardedCursor
+fetchone	p\vitess\py\vtdb\sharded_cursor.py	/^  def fetchone(self):$/;"	m	class:SharededStreamCursor
+index	p\vitess\py\vtdb\sharded_cursor.py	/^  index = None$/;"	v	class:ShardedCursor
+lastrowid	p\vitess\py\vtdb\sharded_cursor.py	/^  lastrowid = None$/;"	v	class:ShardedCursor
+next	p\vitess\py\vtdb\sharded_cursor.py	/^  def next(self):$/;"	m	class:ShardedCursor
+nextset	p\vitess\py\vtdb\sharded_cursor.py	/^  def nextset(self):$/;"	m	class:ShardedCursor
+results	p\vitess\py\vtdb\sharded_cursor.py	/^  results = None$/;"	v	class:ShardedCursor
+rowcount	p\vitess\py\vtdb\sharded_cursor.py	/^  rowcount = 0$/;"	v	class:ShardedCursor
+rownumber	p\vitess\py\vtdb\sharded_cursor.py	/^  def rownumber(self):$/;"	m	class:ShardedCursor
+sconn	p\vitess\py\vtdb\sharded_cursor.py	/^  sconn = None$/;"	v	class:ShardedCursor
+setinputsizes	p\vitess\py\vtdb\sharded_cursor.py	/^  def setinputsizes(self, sizes):$/;"	m	class:ShardedCursor
+setoutputsize	p\vitess\py\vtdb\sharded_cursor.py	/^  def setoutputsize(self, size, column=None):$/;"	m	class:ShardedCursor
+TabletConnection	p\vitess\py\vtdb\tablet2.py	/^class TabletConnection(object):$/;"	c
+__init__	p\vitess\py\vtdb\tablet2.py	/^  def __init__(self, addr, keyspace, shard, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:TabletConnection
+_execute	p\vitess\py\vtdb\tablet2.py	/^  def _execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_execute_batch	p\vitess\py\vtdb\tablet2.py	/^  def _execute_batch(self, sql_list, bind_variables_list):$/;"	m	class:TabletConnection
+_make_req	p\vitess\py\vtdb\tablet2.py	/^  def _make_req(self):$/;"	m	class:TabletConnection
+_make_row	p\vitess\py\vtdb\tablet2.py	/^def _make_row(row, conversions):$/;"	f
+_stream_execute	p\vitess\py\vtdb\tablet2.py	/^  def _stream_execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_stream_next	p\vitess\py\vtdb\tablet2.py	/^  def _stream_next(self, conversions, query_result, index):$/;"	m	class:TabletConnection
+begin	p\vitess\py\vtdb\tablet2.py	/^  def begin(self):$/;"	m	class:TabletConnection
+bsonrpc	p\vitess\py\vtdb\tablet2.py	/^from net import bsonrpc$/;"	i
+close	p\vitess\py\vtdb\tablet2.py	/^  def close(self):$/;"	m	class:TabletConnection
+commit	p\vitess\py\vtdb\tablet2.py	/^  def commit(self):$/;"	m	class:TabletConnection
+connect	p\vitess\py\vtdb\tablet2.py	/^def connect(*pargs, **kargs):$/;"	f
+cursor	p\vitess\py\vtdb\tablet2.py	/^  def cursor(self, cursorclass=None, **kargs):$/;"	m	class:TabletConnection
+cursor	p\vitess\py\vtdb\tablet2.py	/^from vtdb import cursor$/;"	i
+cursorclass	p\vitess\py\vtdb\tablet2.py	/^  cursorclass = cursor.TabletCursor$/;"	v	class:TabletConnection
+dbexceptions	p\vitess\py\vtdb\tablet2.py	/^from vtdb import dbexceptions$/;"	i
+dial	p\vitess\py\vtdb\tablet2.py	/^  def dial(self):$/;"	m	class:TabletConnection
+field_types	p\vitess\py\vtdb\tablet2.py	/^from vtdb import field_types$/;"	i
+gorpc	p\vitess\py\vtdb\tablet2.py	/^from net import gorpc$/;"	i
+izip	p\vitess\py\vtdb\tablet2.py	/^from itertools import izip$/;"	i
+logging	p\vitess\py\vtdb\tablet2.py	/^import logging$/;"	i
+rollback	p\vitess\py\vtdb\tablet2.py	/^  def rollback(self):$/;"	m	class:TabletConnection
+session_id	p\vitess\py\vtdb\tablet2.py	/^  session_id = 0$/;"	v	class:TabletConnection
+transaction_id	p\vitess\py\vtdb\tablet2.py	/^  transaction_id = 0$/;"	v	class:TabletConnection
+FatalError	p\vitess\py\vtdb\tablet3.py	/^class FatalError(dbexceptions.OperationalError):$/;"	c
+RetryError	p\vitess\py\vtdb\tablet3.py	/^class RetryError(dbexceptions.OperationalError):$/;"	c
+TabletConnection	p\vitess\py\vtdb\tablet3.py	/^class TabletConnection(object):$/;"	c
+TimeoutError	p\vitess\py\vtdb\tablet3.py	/^class TimeoutError(dbexceptions.OperationalError):$/;"	c
+__init__	p\vitess\py\vtdb\tablet3.py	/^  def __init__(self, addr, keyspace, shard, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:TabletConnection
+__str__	p\vitess\py\vtdb\tablet3.py	/^  def __str__(self):$/;"	m	class:TabletConnection	file:
+_errno_map	p\vitess\py\vtdb\tablet3.py	/^_errno_map = {$/;"	v
+_errno_pattern	p\vitess\py\vtdb\tablet3.py	/^_errno_pattern = re.compile('\\(errno (\\d+)\\)')$/;"	v
+_execute	p\vitess\py\vtdb\tablet3.py	/^  def _execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_execute_batch	p\vitess\py\vtdb\tablet3.py	/^  def _execute_batch(self, sql_list, bind_variables_list):$/;"	m	class:TabletConnection
+_make_req	p\vitess\py\vtdb\tablet3.py	/^  def _make_req(self):$/;"	m	class:TabletConnection
+_make_row	p\vitess\py\vtdb\tablet3.py	/^def _make_row(row, conversions):$/;"	f
+_stream_conversions	p\vitess\py\vtdb\tablet3.py	/^  _stream_conversions = None$/;"	v	class:TabletConnection
+_stream_execute	p\vitess\py\vtdb\tablet3.py	/^  def _stream_execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_stream_fields	p\vitess\py\vtdb\tablet3.py	/^  _stream_fields = None$/;"	v	class:TabletConnection
+_stream_next	p\vitess\py\vtdb\tablet3.py	/^  def _stream_next(self):$/;"	m	class:TabletConnection
+_stream_result	p\vitess\py\vtdb\tablet3.py	/^  _stream_result = None$/;"	v	class:TabletConnection
+_stream_result_index	p\vitess\py\vtdb\tablet3.py	/^  _stream_result_index = None$/;"	v	class:TabletConnection
+begin	p\vitess\py\vtdb\tablet3.py	/^  def begin(self):$/;"	m	class:TabletConnection
+bsonrpc	p\vitess\py\vtdb\tablet3.py	/^from net import bsonrpc$/;"	i
+close	p\vitess\py\vtdb\tablet3.py	/^  def close(self):$/;"	m	class:TabletConnection
+commit	p\vitess\py\vtdb\tablet3.py	/^  def commit(self):$/;"	m	class:TabletConnection
+connect	p\vitess\py\vtdb\tablet3.py	/^def connect(*pargs, **kargs):$/;"	f
+convert_exception	p\vitess\py\vtdb\tablet3.py	/^def convert_exception(exc, *args):$/;"	f
+cursor	p\vitess\py\vtdb\tablet3.py	/^  def cursor(self, cursorclass=None, **kargs):$/;"	m	class:TabletConnection
+cursor	p\vitess\py\vtdb\tablet3.py	/^from vtdb import cursor$/;"	i
+cursorclass	p\vitess\py\vtdb\tablet3.py	/^  cursorclass = cursor.TabletCursor$/;"	v	class:TabletConnection
+dbexceptions	p\vitess\py\vtdb\tablet3.py	/^from vtdb import dbexceptions$/;"	i
+dial	p\vitess\py\vtdb\tablet3.py	/^  def dial(self):$/;"	m	class:TabletConnection
+field_types	p\vitess\py\vtdb\tablet3.py	/^from vtdb import field_types$/;"	i
+gorpc	p\vitess\py\vtdb\tablet3.py	/^from net import gorpc$/;"	i
+is_closed	p\vitess\py\vtdb\tablet3.py	/^  def is_closed(self):$/;"	m	class:TabletConnection
+izip	p\vitess\py\vtdb\tablet3.py	/^from itertools import izip$/;"	i
+logging	p\vitess\py\vtdb\tablet3.py	/^import logging$/;"	i
+re	p\vitess\py\vtdb\tablet3.py	/^import re$/;"	i
+rollback	p\vitess\py\vtdb\tablet3.py	/^  def rollback(self):$/;"	m	class:TabletConnection
+session_id	p\vitess\py\vtdb\tablet3.py	/^  session_id = 0$/;"	v	class:TabletConnection
+transaction_id	p\vitess\py\vtdb\tablet3.py	/^  transaction_id = 0$/;"	v	class:TabletConnection
+Date	p\vitess\py\vtdb\times.py	/^Date = date$/;"	v
+DateFromTicks	p\vitess\py\vtdb\times.py	/^def DateFromTicks(ticks):$/;"	f
+DateOrNone	p\vitess\py\vtdb\times.py	/^def DateOrNone(s):$/;"	f
+DateTimeDeltaType	p\vitess\py\vtdb\times.py	/^DateTimeDeltaType = timedelta$/;"	v
+DateTimeOrNone	p\vitess\py\vtdb\times.py	/^def DateTimeOrNone(s):$/;"	f
+DateTimeToString	p\vitess\py\vtdb\times.py	/^def DateTimeToString(dt):$/;"	f
+DateTimeType	p\vitess\py\vtdb\times.py	/^DateTimeType = datetime$/;"	v
+DateToString	p\vitess\py\vtdb\times.py	/^def DateToString(d):$/;"	f
+Time	p\vitess\py\vtdb\times.py	/^Time = time$/;"	v
+TimeDelta	p\vitess\py\vtdb\times.py	/^TimeDelta = timedelta$/;"	v
+TimeDeltaOrNone	p\vitess\py\vtdb\times.py	/^def TimeDeltaOrNone(s):$/;"	f
+TimeFromTicks	p\vitess\py\vtdb\times.py	/^def TimeFromTicks(ticks):$/;"	f
+TimeOrNone	p\vitess\py\vtdb\times.py	/^def TimeOrNone(s):$/;"	f
+Timestamp	p\vitess\py\vtdb\times.py	/^Timestamp = datetime$/;"	v
+TimestampFromTicks	p\vitess\py\vtdb\times.py	/^def TimestampFromTicks(ticks):$/;"	f
+date	p\vitess\py\vtdb\times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+datetime	p\vitess\py\vtdb\times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+localtime	p\vitess\py\vtdb\times.py	/^from time import localtime$/;"	i
+modf	p\vitess\py\vtdb\times.py	/^from math import modf$/;"	i
+time	p\vitess\py\vtdb\times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+timedelta	p\vitess\py\vtdb\times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+__add_keyspace	p\vitess\py\vtdb\topology.py	/^def __add_keyspace(ks):$/;"	f	file:
+__keyspace_map	p\vitess\py\vtdb\topology.py	/^__keyspace_map = {}$/;"	v
+get_host_port_by_name	p\vitess\py\vtdb\topology.py	/^def get_host_port_by_name(zkocc_client, db_key, encrypted=False):$/;"	f
+get_keyspace	p\vitess\py\vtdb\topology.py	/^def get_keyspace(name):$/;"	f
+json	p\vitess\py\vtdb\topology.py	/^import json$/;"	i
+keyspace	p\vitess\py\vtdb\topology.py	/^from vtdb import keyspace$/;"	i
+logging	p\vitess\py\vtdb\topology.py	/^import logging$/;"	i
+random	p\vitess\py\vtdb\topology.py	/^import random$/;"	i
+read_keyspaces	p\vitess\py\vtdb\topology.py	/^def read_keyspaces(zkocc_client):$/;"	f
+read_topology	p\vitess\py\vtdb\topology.py	/^def read_topology(zkocc_client, read_fqdb_keys=True):$/;"	f
+zkocc	p\vitess\py\vtdb\topology.py	/^from zk import zkocc$/;"	i
+BinlogPosition	p\vitess\py\vtdb\update_stream_service.py	/^  BinlogPosition = None$/;"	v	class:UpdateStreamResponse
+BinlogPosition	p\vitess\py\vtdb\update_stream_service.py	/^class BinlogPosition(object):$/;"	c
+Error	p\vitess\py\vtdb\update_stream_service.py	/^  Error = None$/;"	v	class:UpdateStreamResponse
+EventData	p\vitess\py\vtdb\update_stream_service.py	/^  EventData = None$/;"	v	class:UpdateStreamResponse
+EventData	p\vitess\py\vtdb\update_stream_service.py	/^class EventData(object):$/;"	c
+GroupId	p\vitess\py\vtdb\update_stream_service.py	/^  GroupId = None$/;"	v	class:BinlogPosition
+MasterFilename	p\vitess\py\vtdb\update_stream_service.py	/^  MasterFilename = None$/;"	v	class:ReplPosition
+MasterPosition	p\vitess\py\vtdb\update_stream_service.py	/^  MasterPosition = None$/;"	v	class:ReplPosition
+PkRows	p\vitess\py\vtdb\update_stream_service.py	/^  PkRows = None$/;"	v	class:EventData
+Position	p\vitess\py\vtdb\update_stream_service.py	/^  Position = None$/;"	v	class:BinlogPosition
+RelayFilename	p\vitess\py\vtdb\update_stream_service.py	/^  RelayFilename = None$/;"	v	class:ReplPosition
+RelayPosition	p\vitess\py\vtdb\update_stream_service.py	/^  RelayPosition = None$/;"	v	class:ReplPosition
+ReplPosition	p\vitess\py\vtdb\update_stream_service.py	/^class ReplPosition(object):$/;"	c
+Sql	p\vitess\py\vtdb\update_stream_service.py	/^  Sql = None$/;"	v	class:EventData
+SqlType	p\vitess\py\vtdb\update_stream_service.py	/^  SqlType = None$/;"	v	class:EventData
+TableName	p\vitess\py\vtdb\update_stream_service.py	/^  TableName = None$/;"	v	class:EventData
+Timestamp	p\vitess\py\vtdb\update_stream_service.py	/^  Timestamp = None$/;"	v	class:BinlogPosition
+UpdateStreamConnection	p\vitess\py\vtdb\update_stream_service.py	/^class UpdateStreamConnection(object):$/;"	c
+UpdateStreamResponse	p\vitess\py\vtdb\update_stream_service.py	/^class UpdateStreamResponse(object):$/;"	c
+Xid	p\vitess\py\vtdb\update_stream_service.py	/^  Xid = None$/;"	v	class:BinlogPosition
+__init__	p\vitess\py\vtdb\update_stream_service.py	/^  def __init__(self, addr, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:UpdateStreamConnection
+__init__	p\vitess\py\vtdb\update_stream_service.py	/^  def __init__(self, master_filename, master_position):$/;"	m	class:ReplPosition
+__init__	p\vitess\py\vtdb\update_stream_service.py	/^  def __init__(self, master_filename, master_position, group_id=0): $/;"	m	class:BinlogPosition
+__init__	p\vitess\py\vtdb\update_stream_service.py	/^  def __init__(self, raw_response):$/;"	m	class:EventData
+__init__	p\vitess\py\vtdb\update_stream_service.py	/^  def __init__(self, response_dict):$/;"	m	class:UpdateStreamResponse
+bsonrpc	p\vitess\py\vtdb\update_stream_service.py	/^from net import bsonrpc$/;"	i
+close	p\vitess\py\vtdb\update_stream_service.py	/^  def close(self):$/;"	m	class:UpdateStreamConnection
+dbexceptions	p\vitess\py\vtdb\update_stream_service.py	/^from vtdb import dbexceptions$/;"	i
+dial	p\vitess\py\vtdb\update_stream_service.py	/^  def dial(self):$/;"	m	class:UpdateStreamConnection
+format	p\vitess\py\vtdb\update_stream_service.py	/^  def format(self):$/;"	m	class:UpdateStreamResponse
+gorpc	p\vitess\py\vtdb\update_stream_service.py	/^from net import gorpc$/;"	i
+izip	p\vitess\py\vtdb\update_stream_service.py	/^from itertools import izip$/;"	i
+logging	p\vitess\py\vtdb\update_stream_service.py	/^import logging$/;"	i
+stream_next	p\vitess\py\vtdb\update_stream_service.py	/^  def stream_next(self):$/;"	m	class:UpdateStreamConnection
+stream_start	p\vitess\py\vtdb\update_stream_service.py	/^  def stream_start(self, start_position):$/;"	m	class:UpdateStreamConnection
+RECONNECT_DELAY	p\vitess\py\vtdb\vt_occ2.py	/^RECONNECT_DELAY = 0.002$/;"	v
+VtOCCConnection	p\vitess\py\vtdb\vt_occ2.py	/^class VtOCCConnection(tablet2.TabletConnection):$/;"	c
+_execute	p\vitess\py\vtdb\vt_occ2.py	/^  def _execute(self, sql, bind_variables):$/;"	m	class:VtOCCConnection
+_execute_batch	p\vitess\py\vtdb\vt_occ2.py	/^  def _execute_batch(self, sql_list, bind_variables_list):$/;"	m	class:VtOCCConnection
+_run_with_reconnect	p\vitess\py\vtdb\vt_occ2.py	/^  def _run_with_reconnect(self, *args, **kargs):$/;"	f	function:reconnect
+_stream_execute	p\vitess\py\vtdb\vt_occ2.py	/^  def _stream_execute(self, sql, bind_variables):$/;"	m	class:VtOCCConnection
+_time_failed	p\vitess\py\vtdb\vt_occ2.py	/^  _time_failed = 0$/;"	v	class:VtOCCConnection
+begin	p\vitess\py\vtdb\vt_occ2.py	/^  def begin(self):$/;"	m	class:VtOCCConnection
+commit	p\vitess\py\vtdb\vt_occ2.py	/^  def commit(self):$/;"	m	class:VtOCCConnection
+connect	p\vitess\py\vtdb\vt_occ2.py	/^def connect(*pargs, **kargs):$/;"	f
+dbapi	p\vitess\py\vtdb\vt_occ2.py	/^from vtdb import dbapi$/;"	i
+dbexceptions	p\vitess\py\vtdb\vt_occ2.py	/^from vtdb import dbexceptions$/;"	i
+errno	p\vitess\py\vtdb\vt_occ2.py	/^import errno$/;"	i
+logging	p\vitess\py\vtdb\vt_occ2.py	/^import logging$/;"	i
+max_attempts	p\vitess\py\vtdb\vt_occ2.py	/^  max_attempts = 2$/;"	v	class:VtOCCConnection
+max_recovery_time	p\vitess\py\vtdb\vt_occ2.py	/^  def max_recovery_time(self):$/;"	m	class:VtOCCConnection
+re	p\vitess\py\vtdb\vt_occ2.py	/^import re$/;"	i
+reconnect	p\vitess\py\vtdb\vt_occ2.py	/^def reconnect(method):$/;"	f
+socket	p\vitess\py\vtdb\vt_occ2.py	/^import socket$/;"	i
+tablet2	p\vitess\py\vtdb\vt_occ2.py	/^from vtdb import tablet3 as tablet2$/;"	i
+time	p\vitess\py\vtdb\vt_occ2.py	/^import time$/;"	i
+ZkJsonObject	p\vitess\py\zk\zkjson.py	/^class ZkJsonObject(object):$/;"	c
+_default	p\vitess\py\zk\zkjson.py	/^def _default(o):$/;"	f
+_default_kargs	p\vitess\py\zk\zkjson.py	/^_default_kargs = {'default': _default,$/;"	v
+_serializable_attributes	p\vitess\py\zk\zkjson.py	/^  _serializable_attributes = ()$/;"	v	class:ZkJsonObject
+dump	p\vitess\py\zk\zkjson.py	/^def dump(*pargs, **kargs):$/;"	f
+dumps	p\vitess\py\zk\zkjson.py	/^def dumps(*pargs, **kargs):$/;"	f
+from_json	p\vitess\py\zk\zkjson.py	/^  def from_json(cls, data):$/;"	m	class:ZkJsonObject
+json	p\vitess\py\zk\zkjson.py	/^import json$/;"	i
+load	p\vitess\py\zk\zkjson.py	/^load = json.load$/;"	v
+loads	p\vitess\py\zk\zkjson.py	/^loads = json.loads$/;"	v
+to_json	p\vitess\py\zk\zkjson.py	/^  def to_json(self):$/;"	m	class:ZkJsonObject
+SrvEntry	p\vitess\py\zk\zkns_query.py	/^SrvEntry = collections.namedtuple('SrvEntry',$/;"	v
+ZknsAddr	p\vitess\py\zk\zkns_query.py	/^class ZknsAddr(zkjson.ZkJsonObject):$/;"	c
+ZknsAddrs	p\vitess\py\zk\zkns_query.py	/^class ZknsAddrs(zkjson.ZkJsonObject):$/;"	c
+ZknsError	p\vitess\py\zk\zkns_query.py	/^class ZknsError(Exception):$/;"	c
+__init__	p\vitess\py\zk\zkns_query.py	/^  def __init__(self):$/;"	m	class:ZknsAddrs
+_get_addrs	p\vitess\py\zk\zkns_query.py	/^def _get_addrs(zconn, zk_path):$/;"	f
+_serializable_attributes	p\vitess\py\zk\zkns_query.py	/^  _serializable_attributes = ('entries',)$/;"	v	class:ZknsAddrs
+_serializable_attributes	p\vitess\py\zk\zkns_query.py	/^  _serializable_attributes = ('uid', 'host', 'port', 'named_port_map')$/;"	v	class:ZknsAddr
+_sorted_by_srv_priority	p\vitess\py\zk\zkns_query.py	/^def _sorted_by_srv_priority(entries):$/;"	f
+collections	p\vitess\py\zk\zkns_query.py	/^import collections$/;"	i
+json	p\vitess\py\zk\zkns_query.py	/^import json$/;"	i
+lookup_name	p\vitess\py\zk\zkns_query.py	/^def lookup_name(zconn, zkns_name):$/;"	f
+random	p\vitess\py\zk\zkns_query.py	/^import random$/;"	i
+zkjson	p\vitess\py\zk\zkns_query.py	/^from zk import zkjson$/;"	i
+FakeZkOccConnection	p\vitess\py\zk\zkocc.py	/^class FakeZkOccConnection(object):$/;"	c
+SimpleZkOccConnection	p\vitess\py\zk\zkocc.py	/^class SimpleZkOccConnection(object):$/;"	c
+ZkOccConnection	p\vitess\py\zk\zkocc.py	/^class ZkOccConnection(object):$/;"	c
+ZkOccError	p\vitess\py\zk\zkocc.py	/^class ZkOccError(Exception):$/;"	c
+__init__	p\vitess\py\zk\zkocc.py	/^  def __init__(self, addr, timeout, user=None, password=None):$/;"	m	class:SimpleZkOccConnection
+__init__	p\vitess\py\zk\zkocc.py	/^  def __init__(self, addrs, local_cell, timeout, user=None, password=None):$/;"	m	class:ZkOccConnection
+__init__	p\vitess\py\zk\zkocc.py	/^  def __init__(self, local_cell):$/;"	m	class:FakeZkOccConnection
+_resolve_path	p\vitess\py\zk\zkocc.py	/^  def _resolve_path(self, zk_path):$/;"	m	class:FakeZkOccConnection
+_resolve_path	p\vitess\py\zk\zkocc.py	/^  def _resolve_path(self, zk_path):$/;"	m	class:ZkOccConnection
+bsonrpc	p\vitess\py\zk\zkocc.py	/^from net import bsonrpc$/;"	i
+children	p\vitess\py\zk\zkocc.py	/^  def children(self, path):$/;"	m	class:FakeZkOccConnection
+children	p\vitess\py\zk\zkocc.py	/^  def children(self, path):$/;"	m	class:SimpleZkOccConnection
+children	p\vitess\py\zk\zkocc.py	/^  def children(self, path):$/;"	m	class:ZkOccConnection
+close	p\vitess\py\zk\zkocc.py	/^  def close(self):$/;"	m	class:FakeZkOccConnection
+close	p\vitess\py\zk\zkocc.py	/^  def close(self):$/;"	m	class:SimpleZkOccConnection
+close	p\vitess\py\zk\zkocc.py	/^  def close(self):$/;"	m	class:ZkOccConnection
+dial	p\vitess\py\zk\zkocc.py	/^  def dial(self):$/;"	m	class:FakeZkOccConnection
+dial	p\vitess\py\zk\zkocc.py	/^  def dial(self):$/;"	m	class:SimpleZkOccConnection
+dial	p\vitess\py\zk\zkocc.py	/^  def dial(self):$/;"	m	class:ZkOccConnection
+from_data_path	p\vitess\py\zk\zkocc.py	/^  def from_data_path(cls, local_cell, data_path):$/;"	m	class:FakeZkOccConnection
+get	p\vitess\py\zk\zkocc.py	/^  def get(self, path):$/;"	m	class:FakeZkOccConnection
+get	p\vitess\py\zk\zkocc.py	/^  def get(self, path):$/;"	m	class:SimpleZkOccConnection
+get	p\vitess\py\zk\zkocc.py	/^  def get(self, path):$/;"	m	class:ZkOccConnection
+getv	p\vitess\py\zk\zkocc.py	/^  def getv(self, paths):$/;"	m	class:FakeZkOccConnection
+getv	p\vitess\py\zk\zkocc.py	/^  def getv(self, paths):$/;"	m	class:SimpleZkOccConnection
+getv	p\vitess\py\zk\zkocc.py	/^  def getv(self, paths):$/;"	m	class:ZkOccConnection
+gorpc	p\vitess\py\zk\zkocc.py	/^from net import gorpc$/;"	i
+itertools	p\vitess\py\zk\zkocc.py	/^import itertools$/;"	i
+json	p\vitess\py\zk\zkocc.py	/^import json$/;"	i
+logging	p\vitess\py\zk\zkocc.py	/^import logging$/;"	i
+max_attempts	p\vitess\py\zk\zkocc.py	/^  max_attempts = 2$/;"	v	class:ZkOccConnection
+os	p\vitess\py\zk\zkocc.py	/^import os$/;"	i
+random	p\vitess\py\zk\zkocc.py	/^import random$/;"	i
+replace_zk_data	p\vitess\py\zk\zkocc.py	/^  def replace_zk_data(self, before, after):$/;"	m	class:FakeZkOccConnection
+MockChecker	p\vitess\test\checkers_test.py	/^class MockChecker(checker.Checker):$/;"	c
+TestCheckers	p\vitess\test\checkers_test.py	/^class TestCheckers(TestCheckersBase):$/;"	c
+TestCheckersBase	p\vitess\test\checkers_test.py	/^class TestCheckersBase(unittest.TestCase):$/;"	c
+TestDifferentEncoding	p\vitess\test\checkers_test.py	/^class TestDifferentEncoding(TestCheckersBase):$/;"	c
+TestRlookup	p\vitess\test\checkers_test.py	/^class TestRlookup(TestCheckersBase):$/;"	c
+TestSortedRowListDifference	p\vitess\test\checkers_test.py	/^class TestSortedRowListDifference(unittest.TestCase):$/;"	c
+__init__	p\vitess\test\checkers_test.py	/^  def __init__(self, *args, **kwargs):$/;"	m	class:MockChecker
+checker	p\vitess\test\checkers_test.py	/^from checkers import checker$/;"	i
+db_configuration	p\vitess\test\checkers_test.py	/^db_configuration = {$/;"	v
+destination_tablet	p\vitess\test\checkers_test.py	/^destination_tablet = tablet.Tablet(62344)$/;"	v
+handle_mismatch	p\vitess\test\checkers_test.py	/^  def handle_mismatch(self, mismatch):$/;"	m	class:MockChecker
+keyrange	p\vitess\test\checkers_test.py	/^  keyrange = {"end": 900}$/;"	v	class:TestCheckersBase
+logging	p\vitess\test\checkers_test.py	/^import logging$/;"	i
+main	p\vitess\test\checkers_test.py	/^def main():$/;"	f
+make_checker	p\vitess\test\checkers_test.py	/^  def make_checker(self, destination_table_name="test", **kwargs):$/;"	m	class:TestCheckersBase
+optparse	p\vitess\test\checkers_test.py	/^import optparse$/;"	i
+os	p\vitess\test\checkers_test.py	/^import os$/;"	i
+query_all	p\vitess\test\checkers_test.py	/^  def query_all(self, sql, write=False):$/;"	m	class:TestCheckers
+setUp	p\vitess\test\checkers_test.py	/^  def setUp(self):$/;"	m	class:TestCheckers
+setUp	p\vitess\test\checkers_test.py	/^  def setUp(self):$/;"	m	class:TestDifferentEncoding
+setUp	p\vitess\test\checkers_test.py	/^  def setUp(self):$/;"	m	class:TestRlookup
+setUpClass	p\vitess\test\checkers_test.py	/^  def setUpClass(cls):$/;"	m	class:TestCheckers
+setUpClass	p\vitess\test\checkers_test.py	/^  def setUpClass(cls):$/;"	m	class:TestDifferentEncoding
+setUpModule	p\vitess\test\checkers_test.py	/^def setUpModule():$/;"	f
+skip_teardown	p\vitess\test\checkers_test.py	/^skip_teardown = False$/;"	v
+source_tablets	p\vitess\test\checkers_test.py	/^source_tablets = [tablet.Tablet(62044),$/;"	v
+sys	p\vitess\test\checkers_test.py	/^import sys$/;"	i
+tablet	p\vitess\test\checkers_test.py	/^import tablet$/;"	i
+tablets	p\vitess\test\checkers_test.py	/^tablets = [destination_tablet] + source_tablets$/;"	v
+tearDown	p\vitess\test\checkers_test.py	/^  def tearDown(self):$/;"	m	class:TestCheckers
+tearDown	p\vitess\test\checkers_test.py	/^  def tearDown(self):$/;"	m	class:TestRlookup
+tearDownModule	p\vitess\test\checkers_test.py	/^def tearDownModule():$/;"	f
+tempfile	p\vitess\test\checkers_test.py	/^import tempfile$/;"	i
+test_additional_value	p\vitess\test\checkers_test.py	/^  def test_additional_value(self):$/;"	m	class:TestCheckers
+test_additional_value	p\vitess\test\checkers_test.py	/^  def test_additional_value(self):$/;"	m	class:TestRlookup
+test_batch_size	p\vitess\test\checkers_test.py	/^  def test_batch_size(self):$/;"	m	class:TestCheckers
+test_different_value	p\vitess\test\checkers_test.py	/^  def test_different_value(self):$/;"	m	class:TestCheckers
+test_different_value	p\vitess\test\checkers_test.py	/^  def test_different_value(self):$/;"	m	class:TestRlookup
+test_more_mismatches	p\vitess\test\checkers_test.py	/^  def test_more_mismatches(self):$/;"	m	class:TestCheckers
+test_ok	p\vitess\test\checkers_test.py	/^  def test_ok(self):$/;"	m	class:TestCheckers
+test_ok	p\vitess\test\checkers_test.py	/^  def test_ok(self):$/;"	m	class:TestRlookup
+test_problem	p\vitess\test\checkers_test.py	/^  def test_problem(self):$/;"	m	class:TestDifferentEncoding
+test_sorted_row_list_difference	p\vitess\test\checkers_test.py	/^  def test_sorted_row_list_difference(self):$/;"	m	class:TestSortedRowListDifference
+unittest	p\vitess\test\checkers_test.py	/^import unittest$/;"	i
+utils	p\vitess\test\checkers_test.py	/^import utils$/;"	i
+warnings	p\vitess\test\checkers_test.py	/^import warnings$/;"	i
+BaseTest	p\vitess\test\connection_test.py	/^class BaseTest(unittest.TestCase):$/;"	c
+BsonConnection	p\vitess\test\connection_test.py	/^class BsonConnection(bsonrpc.BsonRpcClient):$/;"	c
+LOGFILE	p\vitess\test\connection_test.py	/^LOGFILE = "\/tmp\/vtocc.log"$/;"	v
+QUERYLOGFILE	p\vitess\test\connection_test.py	/^QUERYLOGFILE = "\/tmp\/vtocc_queries.log"$/;"	v
+TestAuthentication	p\vitess\test\connection_test.py	/^class TestAuthentication(BaseTest):$/;"	c
+TestConnection	p\vitess\test\connection_test.py	/^class TestConnection(BaseTest):$/;"	c
+__init__	p\vitess\test\connection_test.py	/^  def __init__(self, addr, timeout, user=None, password=None):$/;"	m	class:BsonConnection
+_setUpClass	p\vitess\test\connection_test.py	/^  def _setUpClass(klass):$/;"	m	class:BaseTest
+_tearDownClass	p\vitess\test\connection_test.py	/^  def _tearDownClass(klass):$/;"	m	class:BaseTest
+authenticate	p\vitess\test\connection_test.py	/^  def authenticate(self, user, password):$/;"	m	class:TestAuthentication
+bsonrpc	p\vitess\test\connection_test.py	/^from net import bsonrpc$/;"	i
+call	p\vitess\test\connection_test.py	/^  def call(self, *args, **kwargs):$/;"	m	class:TestAuthentication
+credentials	p\vitess\test\connection_test.py	/^  credentials = {"ala": ["ma kota", "miala kota"]}$/;"	v	class:BaseTest
+credentials_file	p\vitess\test\connection_test.py	/^  credentials_file = os.path.join(mysqldir, 'authcredentials.json')$/;"	v	class:BaseTest
+dbconfig	p\vitess\test\connection_test.py	/^  dbconfig = {$/;"	v	class:BaseTest
+dbconfig_file	p\vitess\test\connection_test.py	/^  dbconfig_file = os.path.join(mysqldir, "dbconf.json")$/;"	v	class:BaseTest
+dbexceptions	p\vitess\test\connection_test.py	/^from vtdb import dbexceptions$/;"	i
+dump_config_files	p\vitess\test\connection_test.py	/^  def dump_config_files(klass):$/;"	m	class:BaseTest
+gorpc	p\vitess\test\connection_test.py	/^from net import gorpc$/;"	i
+hmac	p\vitess\test\connection_test.py	/^import hmac$/;"	i
+init_mysql	p\vitess\test\connection_test.py	/^  def init_mysql(klass):$/;"	m	class:BaseTest
+json	p\vitess\test\connection_test.py	/^import json$/;"	i
+kill_vtocc	p\vitess\test\connection_test.py	/^  def kill_vtocc(klass):$/;"	m	class:BaseTest
+logging	p\vitess\test\connection_test.py	/^import logging$/;"	i
+mysql_port	p\vitess\test\connection_test.py	/^  mysql_port = 9460$/;"	v	class:BaseTest
+mysql_socket	p\vitess\test\connection_test.py	/^  mysql_socket = os.path.join(mysqldir, "mysql.sock")$/;"	v	class:BaseTest
+mysqldir	p\vitess\test\connection_test.py	/^  mysqldir = os.path.join(vtdataroot, "vt_0000009460")$/;"	v	class:BaseTest
+os	p\vitess\test\connection_test.py	/^import os$/;"	i
+setUp	p\vitess\test\connection_test.py	/^  def setUp(self):$/;"	m	class:TestAuthentication
+setUp	p\vitess\test\connection_test.py	/^  def setUp(self):$/;"	m	class:TestConnection
+shutil	p\vitess\test\connection_test.py	/^import shutil$/;"	i
+start_vtocc	p\vitess\test\connection_test.py	/^  def start_vtocc(klass):$/;"	m	class:BaseTest
+subprocess	p\vitess\test\connection_test.py	/^import subprocess$/;"	i
+sys	p\vitess\test\connection_test.py	/^import sys$/;"	i
+tabletuid	p\vitess\test\connection_test.py	/^  tabletuid = "9460"$/;"	v	class:BaseTest
+test_authenticated_methods_are_available	p\vitess\test\connection_test.py	/^  def test_authenticated_methods_are_available(self):$/;"	m	class:TestAuthentication
+test_challenge_is_used	p\vitess\test\connection_test.py	/^  def test_challenge_is_used(self):$/;"	m	class:TestAuthentication
+test_correct_credentials	p\vitess\test\connection_test.py	/^  def test_correct_credentials(self):$/;"	m	class:TestAuthentication
+test_incorrect_credentials	p\vitess\test\connection_test.py	/^  def test_incorrect_credentials(self):$/;"	m	class:TestAuthentication
+test_incorrect_user	p\vitess\test\connection_test.py	/^  def test_incorrect_user(self):$/;"	m	class:TestAuthentication
+test_only_few_requests_are_allowed	p\vitess\test\connection_test.py	/^  def test_only_few_requests_are_allowed(self):$/;"	m	class:TestAuthentication
+test_reconnect	p\vitess\test\connection_test.py	/^  def test_reconnect(self):$/;"	m	class:TestConnection
+test_secondary_credentials	p\vitess\test\connection_test.py	/^  def test_secondary_credentials(self):$/;"	m	class:TestAuthentication
+test_vtocc_has_gone_away	p\vitess\test\connection_test.py	/^  def test_vtocc_has_gone_away(self):$/;"	m	class:TestConnection
+test_vtocc_not_there	p\vitess\test\connection_test.py	/^  def test_vtocc_not_there(self):$/;"	m	class:TestConnection
+time	p\vitess\test\connection_test.py	/^import time$/;"	i
+unittest	p\vitess\test\connection_test.py	/^import unittest$/;"	i
+vt_occ2	p\vitess\test\connection_test.py	/^from vtdb import vt_occ2$/;"	i
+vtdataroot	p\vitess\test\connection_test.py	/^  vtdataroot = os.getenv("VTDATAROOT") or "\/vt"$/;"	v	class:BaseTest
+vtocc_port	p\vitess\test\connection_test.py	/^  vtocc_port = 9461$/;"	v	class:BaseTest
+vtocc_uri	p\vitess\test\connection_test.py	/^  def vtocc_uri(self):$/;"	m	class:BaseTest
+vtroot	p\vitess\test\connection_test.py	/^  vtroot = os.getenv("VTROOT")$/;"	v	class:BaseTest
+MultiDict	p\vitess\test\framework.py	/^class MultiDict(dict):$/;"	c
+PIPE	p\vitess\test\framework.py	/^from subprocess import Popen, PIPE$/;"	i
+Popen	p\vitess\test\framework.py	/^from subprocess import Popen, PIPE$/;"	i
+Tailer	p\vitess\test\framework.py	/^class Tailer(object):$/;"	c
+TestCase	p\vitess\test\framework.py	/^class TestCase(unittest.TestCase):$/;"	c
+__getattr__	p\vitess\test\framework.py	/^  def __getattr__(self, name):$/;"	m	class:MultiDict	file:
+__init__	p\vitess\test\framework.py	/^  def __init__(self, f):$/;"	m	class:Tailer
+assertContains	p\vitess\test\framework.py	/^  def assertContains(self, b, a):$/;"	m	class:TestCase
+execute	p\vitess\test\framework.py	/^def execute(cmd, trap_output=False, verbose=False, **kargs):$/;"	f
+mget	p\vitess\test\framework.py	/^  def mget(self, mkey, default=None):$/;"	m	class:MultiDict
+os	p\vitess\test\framework.py	/^import os$/;"	i
+read	p\vitess\test\framework.py	/^  def read(self):$/;"	m	class:Tailer
+reset	p\vitess\test\framework.py	/^  def reset(self):$/;"	m	class:Tailer
+setenv	p\vitess\test\framework.py	/^  def setenv(cls, env):$/;"	m	class:TestCase
+shlex	p\vitess\test\framework.py	/^import shlex$/;"	i
+unittest	p\vitess\test\framework.py	/^import unittest$/;"	i
+fixed_values	p\vitess\test\loadgen.py	/^fixed_values = {$/;"	v
+init_data	p\vitess\test\loadgen.py	/^def init_data(env):$/;"	f
+json	p\vitess\test\loadgen.py	/^import json$/;"	i
+logging	p\vitess\test\loadgen.py	/^import logging$/;"	i
+optparse	p\vitess\test\loadgen.py	/^import optparse$/;"	i
+os	p\vitess\test\loadgen.py	/^import os$/;"	i
+subprocess	p\vitess\test\loadgen.py	/^import subprocess$/;"	i
+sys	p\vitess\test\loadgen.py	/^import sys$/;"	i
+test_env	p\vitess\test\loadgen.py	/^from queryservice_tests import test_env$/;"	i
+utils	p\vitess\test\loadgen.py	/^import utils$/;"	i
+cache_tests	p\vitess\test\queryservice_test.py	/^from queryservice_tests import cache_tests$/;"	i
+env	p\vitess\test\queryservice_test.py	/^        env = test_env.VtoccTestEnv()$/;"	v
+env	p\vitess\test\queryservice_test.py	/^        env = test_env.VttabletTestEnv()$/;"	v
+framework	p\vitess\test\queryservice_test.py	/^import framework$/;"	i
+help	p\vitess\test\queryservice_test.py	/^                    help="Environment that will be used. Valid options: vttablet, vtocc")$/;"	v
+help	p\vitess\test\queryservice_test.py	/^                    help="starts a memcached, and tests rowcache")$/;"	v
+logging	p\vitess\test\queryservice_test.py	/^import logging$/;"	i
+nocache_tests	p\vitess\test\queryservice_test.py	/^from queryservice_tests import nocache_tests$/;"	i
+optparse	p\vitess\test\queryservice_test.py	/^import optparse$/;"	i
+parser	p\vitess\test\queryservice_test.py	/^  parser = optparse.OptionParser(usage="usage: %prog [options] [test_names]")$/;"	v
+stream_tests	p\vitess\test\queryservice_test.py	/^from queryservice_tests import stream_tests$/;"	i
+suite	p\vitess\test\queryservice_test.py	/^  suite = unittest.TestSuite()$/;"	v
+sys	p\vitess\test\queryservice_test.py	/^import sys$/;"	i
+test_env	p\vitess\test\queryservice_test.py	/^from queryservice_tests import test_env$/;"	i
+unittest	p\vitess\test\queryservice_test.py	/^import unittest$/;"	i
+utils	p\vitess\test\queryservice_test.py	/^import utils$/;"	i
+Case	p\vitess\test\queryservice_tests\cache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+MultiCase	p\vitess\test\queryservice_tests\cache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+bindings	p\vitess\test\queryservice_tests\cache_cases.py	/^       bindings={"bid": None},$/;"	v
+cache_absent	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_absent=0,$/;"	v
+cache_absent	p\vitess\test\queryservice_tests\cache_cases.py	/^       cache_absent=1),$/;"	v
+cache_hits	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_hits=0,$/;"	v
+cache_hits	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_hits=1),$/;"	v
+cache_hits	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_hits=1,$/;"	v
+cache_hits	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_hits=2)]),$/;"	v
+cache_hits	p\vitess\test\queryservice_tests\cache_cases.py	/^       cache_hits=1),$/;"	v
+cache_hits	p\vitess\test\queryservice_tests\cache_cases.py	/^       cache_hits=1,$/;"	v
+cache_hits	p\vitess\test\queryservice_tests\cache_cases.py	/^       cache_hits=2),$/;"	v
+cache_invalidations	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_invalidations=0)]),$/;"	v
+cache_invalidations	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_invalidations=1),$/;"	v
+cache_invalidations	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_invalidations=1)]),$/;"	v
+cache_invalidations	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_invalidations=2),$/;"	v
+cache_misses	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_misses=0,$/;"	v
+cache_misses	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_misses=1)]),$/;"	v
+cache_misses	p\vitess\test\queryservice_tests\cache_cases.py	/^            cache_misses=2)]),$/;"	v
+cache_misses	p\vitess\test\queryservice_tests\cache_cases.py	/^       cache_misses=1),$/;"	v
+cases	p\vitess\test\queryservice_tests\cache_cases.py	/^cases = [$/;"	v
+query_plan	p\vitess\test\queryservice_tests\cache_cases.py	/^       query_plan="SELECT_PK",$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^            result=[(2L, 'bar', 'abcd2', 'efgh'), (2L, 'foo', 'abcd2', 'fghi')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^            result=[(2L, 'bar', 'abcd2', 'fghi'), (2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^            result=[(2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[('bar', 1)],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[('foo', 1)],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[('foo', 2, 'abcd2', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[(1, 'foo', 'abcd1', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[(2, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[(2L, 'bar', 'abcd2', 'efgh'), (2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[(2L, 'bar', 'abcd2', 'fghi'), (2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\cache_cases.py	/^       result=[],$/;"	v
+rewritten	p\vitess\test\queryservice_tests\cache_cases.py	/^            rewritten="select eid, bid from vtocc_cached use index (aname) where eid = 2 and name = 'abcd2' limit 10001",$/;"	v
+rewritten	p\vitess\test\queryservice_tests\cache_cases.py	/^            rewritten=[$/;"	v
+rewritten	p\vitess\test\queryservice_tests\cache_cases.py	/^       rewritten="select eid, bid from vtocc_cached use index (aname) where eid = 2 and name = 'abcd2' limit 10001",$/;"	v
+rewritten	p\vitess\test\queryservice_tests\cache_cases.py	/^       rewritten=[$/;"	v
+rewritten	p\vitess\test\queryservice_tests\cache_cases.py	/^       rewritten=[],$/;"	v
+sql	p\vitess\test\queryservice_tests\cache_cases.py	/^            sql="select eid, bid, name, foo from vtocc_cached",$/;"	v
+TestCache	p\vitess\test\queryservice_tests\cache_tests.py	/^class TestCache(framework.TestCase):$/;"	c
+TestWillNotBeCached	p\vitess\test\queryservice_tests\cache_tests.py	/^class TestWillNotBeCached(framework.TestCase):$/;"	c
+_verify_mismatch	p\vitess\test\queryservice_tests\cache_tests.py	/^  def _verify_mismatch(self, query, bindvars=None):$/;"	m	class:TestCache
+cache_cases	p\vitess\test\queryservice_tests\cache_tests.py	/^import cache_cases$/;"	i
+dbexceptions	p\vitess\test\queryservice_tests\cache_tests.py	/^from vtdb import dbexceptions$/;"	i
+framework	p\vitess\test\queryservice_tests\cache_tests.py	/^import framework$/;"	i
+setUp	p\vitess\test\queryservice_tests\cache_tests.py	/^  def setUp(self):$/;"	m	class:TestWillNotBeCached
+tearDown	p\vitess\test\queryservice_tests\cache_tests.py	/^  def tearDown(self):$/;"	m	class:TestWillNotBeCached
+test_bigdata	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_bigdata(self):$/;"	m	class:TestCache
+test_cache_sqls	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_cache_sqls(self):$/;"	m	class:TestCache
+test_charcol	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_charcol(self):$/;"	m	class:TestWillNotBeCached
+test_nocache	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_nocache(self):$/;"	m	class:TestWillNotBeCached
+test_nodata	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_nodata(self):$/;"	m	class:TestCache
+test_nopass	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_nopass(self):$/;"	m	class:TestCache
+test_nopk	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_nopk(self):$/;"	m	class:TestWillNotBeCached
+test_num_str	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_num_str(self):$/;"	m	class:TestCache
+test_overrides	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_overrides(self):$/;"	m	class:TestCache
+test_rename	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_rename(self):$/;"	m	class:TestCache
+test_types	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_types(self):$/;"	m	class:TestCache
+test_uncache	p\vitess\test\queryservice_tests\cache_tests.py	/^  def test_uncache(self):$/;"	m	class:TestCache
+vt_occ2	p\vitess\test\queryservice_tests\cache_tests.py	/^from vtdb import vt_occ2$/;"	i
+Case	p\vitess\test\queryservice_tests\cases_framework.py	/^class Case(object):$/;"	c
+Log	p\vitess\test\queryservice_tests\cases_framework.py	/^class Log(object):$/;"	c
+MultiCase	p\vitess\test\queryservice_tests\cases_framework.py	/^class MultiCase(object):$/;"	c
+__init__	p\vitess\test\queryservice_tests\cases_framework.py	/^  def __init__(self, doc, sqls_and_cases):$/;"	m	class:MultiCase
+__init__	p\vitess\test\queryservice_tests\cases_framework.py	/^  def __init__(self, line):$/;"	m	class:Log
+__init__	p\vitess\test\queryservice_tests\cases_framework.py	/^  def __init__(self, sql, bindings=None, result=None, rewritten=None, doc='',$/;"	m	class:Case
+__iter__	p\vitess\test\queryservice_tests\cases_framework.py	/^  def __iter__(self):$/;"	m	class:MultiCase	file:
+__str__	p\vitess\test\queryservice_tests\cases_framework.py	/^  def __str__(self):$/;"	m	class:Case	file:
+__str__	p\vitess\test\queryservice_tests\cases_framework.py	/^  def __str__(self):$/;"	m	class:MultiCase	file:
+cases_iterator	p\vitess\test\queryservice_tests\cases_framework.py	/^def cases_iterator(cases):$/;"	f
+check	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check(self, case):$/;"	m	class:Log
+check_cache_absent	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_cache_absent(self, case):$/;"	m	class:Log
+check_cache_hits	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_cache_hits(self, case):$/;"	m	class:Log
+check_cache_invalidations	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_cache_invalidations(self, case):$/;"	m	class:Log
+check_cache_misses	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_cache_misses(self, case):$/;"	m	class:Log
+check_number_of_queries	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_number_of_queries(self, case):$/;"	m	class:Log
+check_original_sql	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_original_sql(self, case):$/;"	m	class:Log
+check_query_plan	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_query_plan(self, case):$/;"	m	class:Log
+check_rewritten_sql	p\vitess\test\queryservice_tests\cases_framework.py	/^  def check_rewritten_sql(self, case):$/;"	m	class:Log
+fail	p\vitess\test\queryservice_tests\cases_framework.py	/^  def fail(self, reason, should, is_):$/;"	m	class:Log
+is_testing_cache	p\vitess\test\queryservice_tests\cases_framework.py	/^  def is_testing_cache(self):$/;"	m	class:Case
+json	p\vitess\test\queryservice_tests\cases_framework.py	/^import json$/;"	i
+normalizelog	p\vitess\test\queryservice_tests\cases_framework.py	/^  def normalizelog(self, data):$/;"	m	class:Case
+parse_streamlog	p\vitess\test\queryservice_tests\cases_framework.py	/^  def parse_streamlog(self, line):$/;"	m	class:Case
+re	p\vitess\test\queryservice_tests\cases_framework.py	/^import re$/;"	i
+run	p\vitess\test\queryservice_tests\cases_framework.py	/^  def run(self, cursor, querylog=None):$/;"	m	class:Case
+run	p\vitess\test\queryservice_tests\cases_framework.py	/^  def run(self, cursor, querylog=None):$/;"	m	class:MultiCase
+table_stats	p\vitess\test\queryservice_tests\cases_framework.py	/^  def table_stats(self):$/;"	m	class:Case
+table_stats_delta	p\vitess\test\queryservice_tests\cases_framework.py	/^  def table_stats_delta(self, old):$/;"	m	class:Case
+urllib2	p\vitess\test\queryservice_tests\cases_framework.py	/^import urllib2$/;"	i
+Case	p\vitess\test\queryservice_tests\nocache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+Decimal	p\vitess\test\queryservice_tests\nocache_cases.py	/^from decimal import Decimal$/;"	i
+MultiCase	p\vitess\test\queryservice_tests\nocache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^              bindings={"eid": 4, "id": 1, "name": "aaaa", "foo": "cccc"},$/;"	v
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^              bindings={'bv': 'abcd'},$/;"	v
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^              bindings={'bv': 1},$/;"	v
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^         bindings={"a": 1},$/;"	v
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^         bindings={"id": 1, "b": "\\x01", "d": "2012-01-01", "dt": "2012-01-01 15:45:45", "t": "15:45:45"},$/;"	v
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^         bindings={"id": 1, "deci": Decimal('1.99'), "num": Decimal('2.99'), "f": 3.99, "d": 4.99},$/;"	v
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^         bindings={"tiny": -128, "tinyu": 255, "small": -32768, "smallu": 65535, "medium": -8388608, "mediumu": 16777215, "normal": -2147483648, "normalu": 4294967295, "big": -9223372036854775808, "bigu": 18446744073709551615, "year": 2012},$/;"	v
+bindings	p\vitess\test\queryservice_tests\nocache_cases.py	/^         bindings={"vb": "a", "c": "b", "vc": "c", "b": "d", "tb": "e", "bl": "f", "ttx": "g", "tx": "h", "en": "a", "s": "a,b"},$/;"	v
+cases	p\vitess\test\queryservice_tests\nocache_cases.py	/^cases = [$/;"	v
+datetime	p\vitess\test\queryservice_tests\nocache_cases.py	/^import datetime$/;"	i
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^                    result=[(1L,)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[('ab', 1)]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[('bar',)]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(10L, 1L, 'abcd', '20'), (11L, 1L, 'bcde', '30')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(10L, 1L, 'abcd', 'bar'), (11L, 1L, 'bcde', 'bar')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(10L, 21L, 'abcd', 'bar'), (11L, 1L, 'bcde', 'bar')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(1L, 1L)]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(1L, 1L, 'aaaa', 'cccc')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(2L, 1L, 'aaaa', 'bbbb')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(3L, 1L, 'aaaa', 'cccc')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(4L, 1L, 'aaaa', 'cccc')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(5L, -1L, 'bbb', 'aaa')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(5L, 1L, '', ''), (7L, 1L, '', '')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(7L, 2L, '', '')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(8L, 1L, '', '')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(8L, 1L, 'foo', '')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(8L, 2L, 'foo', '')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[(8L, 3L, 'foo', '')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^              result=[],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^            result=[('bar',)]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^            result=[(1L, 1L, 'abcd', 'bar'), (1L, 2L, 'bcde', 'bar')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^            result=[(1L, 2L)]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^            result=[(2L,)]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^            result=[])]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^           result=[(1L, 10L, 'abcd', '20'), (2L, 11L, 'bcde', '30')]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^           result=[])]),$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[('a', 'b', 'c', 'd\\x00\\x00\\x00', 'e', 'f', 'g', 'h', 'a', 'a,b')],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(-128, 255, -32768, 65535, -8388608, 16777215, -2147483648L, 4294967295L, -9223372036854775808L, 18446744073709551615L, 2012)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, '\\x01', datetime.date(2012, 1, 1), datetime.datetime(2012, 1, 1, 15, 45, 45), datetime.timedelta(0, 56745))],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 1L), (1L, 2L)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 1L)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 1L, 'abcd', 'efgh'), (1L, 2L, 'bcde', 'fghi')],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 1L, 1L, 1L), (1L, 2L, 1L, 1L), (1L, 1L, 1L, 2L), (1L, 2L, 1L, 2L)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 1L, 1L, 1L), (1L, 2L, 1L, 2L)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 2L, 'bcde', 'fghi'), (1L, 1L, 'abcd', 'efgh')],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 2L, 'bcde', 'fghi')],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, 3L)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L, Decimal('1.99'), Decimal('2.99'), 3.9900000000000002, 4.9900000000000002)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L,), (1L,)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(1L,)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(2L, 1L), (2L, 2L)],$/;"	v
+result	p\vitess\test\queryservice_tests\nocache_cases.py	/^         result=[(3L,)],$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^                    rewritten=[$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten =[$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert \/* auto_increment *\/ into vtocc_e(name, foo) values ('aaaa', 'cccc') \/* _stream vtocc_e (eid id name ) (null 1 'YWFhYQ==' ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert \/* bind values *\/ into vtocc_a(eid, id, name, foo) values (4, 1, 'aaaa', 'cccc') \/* _stream vtocc_a (eid id ) (4 1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert \/* num default *\/ into vtocc_a(eid, name, foo) values (3, 'aaaa', 'cccc') \/* _stream vtocc_a (eid id ) (3 1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert \/* qualified *\/ into vtocc_a(eid, id, name, foo) values (3, 1, 'aaaa', 'cccc') \/* _stream vtocc_a (eid id ) (3 1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert \/* simple *\/ into vtocc_a values (2, 1, 'aaaa', 'bbbb') \/* _stream vtocc_a (eid id ) (2 1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert \/* string default *\/ into vtocc_f(id) values (1) \/* _stream vtocc_f (vb ) ('YWI=' ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (5, 1, '', ''), (7, 1, '', '') \/* _stream vtocc_a (eid id ) (5 1 ) (7 1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (7, 1+1, '', '')"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 1, '', '') on duplicate key update id = 2 \/* _stream vtocc_a (eid id ) (8 1 ) (8 2 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 1, '', '') on duplicate key update name = 'foo' \/* _stream vtocc_a (eid id ) (8 1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 1, '', '') on duplicate key update name = 'foo' \/* _stream vtocc_a (eid id ) (8 1 ); *\/",),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 2, '', '') on duplicate key update id = 2+1"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_a(id, eid, foo, name) values (-1, 5, 'aaa', 'bbb') \/* _stream vtocc_a (eid id ) (5 -1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten="insert into vtocc_d(eid, id) values (1, 1)"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^              rewritten=[$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^            rewritten="delete \/* pk *\/ from vtocc_a where (eid, id) in ((2, 1), (3, 2)) \/* _stream vtocc_a (eid id ) (2 1 ) (3 2 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^            rewritten=[$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^           rewritten=[$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^         rewritten="insert into vtocc_fracts values (1, '1.99', '2.99', 3.99, 4.99) \/* _stream vtocc_fracts (id ) (1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^         rewritten="insert into vtocc_misc values (1, '\\1', '2012-01-01', '2012-01-01 15:45:45', '15:45:45') \/* _stream vtocc_misc (id ) (1 ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^         rewritten="insert into vtocc_strings values ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'a', 'a,b') \/* _stream vtocc_strings (vb ) ('YQ==' ); *\/"),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^         rewritten='insert into vtocc_ints values (-128, 255, -32768, 65535, -8388608, 16777215, -2147483648, 4294967295, -9223372036854775808, 18446744073709551615, 2012) \/* _stream vtocc_ints (tiny ) (-128 ); *\/'),$/;"	v
+rewritten	p\vitess\test\queryservice_tests\nocache_cases.py	/^         rewritten=[$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select (select eid from vtocc_a where id = 1), eid from vtocc_a where id = 2',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* (condition) *\/ * from vtocc_a where (eid = 1)',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* * *\/ * from vtocc_a',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* between *\/ * from vtocc_a where id between 1 and 2',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* complex select list *\/ eid+1, id from vtocc_a',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* complex where (non-value operand) *\/ eid, id from vtocc_a where eid = id',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* distinct *\/ distinct * from vtocc_a',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* double union *\/ eid, id from vtocc_a union select eid, id from vtocc_b union select eid, id from vtocc_d',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* group by *\/ eid, sum(id) from vtocc_a group by eid',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* having *\/ sum(id) from vtocc_a having sum(id) = 3',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* in *\/ * from vtocc_a where id in (1, 2)',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* inequality *\/ * from vtocc_a where id > 1',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* limit *\/ eid, id from vtocc_a limit %(a)s',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* multi-table *\/ a.eid, a.id, b.eid, b.id  from vtocc_a as a, vtocc_b as b',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* natural join *\/ a.eid, a.id, b.eid, b.id from vtocc_a as a natural join vtocc_b as b',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* order *\/ * from vtocc_a order by id desc',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* parenthesised col *\/ (eid) from vtocc_a where eid = 1 and id = 1',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select \/* union *\/ eid, id from vtocc_a union select eid, id from vtocc_b',$/;"	v
+sql	p\vitess\test\queryservice_tests\nocache_cases.py	/^         sql='select eid from (select eid from vtocc_a where id=2) as a',$/;"	v
+TestNocache	p\vitess\test\queryservice_tests\nocache_tests.py	/^class TestNocache(framework.TestCase):$/;"	c
+_verify_error	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def _verify_error(self, query, bindvars, err):$/;"	m	class:TestNocache
+_verify_mismatch	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def _verify_mismatch(self, query, bindvars=None):$/;"	m	class:TestNocache
+_verify_query_stats	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def _verify_query_stats(self, query_stats, query, table, plan, count, rows, errors):$/;"	m	class:TestNocache
+dbexceptions	p\vitess\test\queryservice_tests\nocache_tests.py	/^from vtdb import dbexceptions$/;"	i
+framework	p\vitess\test\queryservice_tests\nocache_tests.py	/^import framework$/;"	i
+nocache_cases	p\vitess\test\queryservice_tests\nocache_tests.py	/^import nocache_cases$/;"	i
+test_batch	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_batch(self):$/;"	m	class:TestNocache
+test_binary	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_binary(self):$/;"	m	class:TestNocache
+test_bind_in_select	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_bind_in_select(self):$/;"	m	class:TestNocache
+test_commit	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_commit(self):$/;"	m	class:TestNocache
+test_consolidation	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_consolidation(self):$/;"	m	class:TestNocache
+test_customrules	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_customrules(self):$/;"	m	class:TestNocache
+test_data	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_data(self):$/;"	m	class:TestNocache
+test_for_update	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_for_update(self):$/;"	m	class:TestNocache
+test_health	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_health(self):$/;"	m	class:TestNocache
+test_idle_timeout	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_idle_timeout(self):$/;"	m	class:TestNocache
+test_integrity_error	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_integrity_error(self):$/;"	m	class:TestNocache
+test_max_result_size	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_max_result_size(self):$/;"	m	class:TestNocache
+test_nontx_dml	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_nontx_dml(self):$/;"	m	class:TestNocache
+test_pool_size	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_pool_size(self):$/;"	m	class:TestNocache
+test_query_cache	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_query_cache(self):$/;"	m	class:TestNocache
+test_query_stats	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_query_stats(self):$/;"	m	class:TestNocache
+test_query_timeout	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_query_timeout(self):$/;"	m	class:TestNocache
+test_rollback	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_rollback(self):$/;"	m	class:TestNocache
+test_schema_reload_time	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_schema_reload_time(self):$/;"	m	class:TestNocache
+test_simple_read	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_simple_read(self):$/;"	m	class:TestNocache
+test_sqls	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_sqls(self):$/;"	m	class:TestNocache
+test_trailing_comment	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_trailing_comment(self):$/;"	m	class:TestNocache
+test_transaction_cap	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_transaction_cap(self):$/;"	m	class:TestNocache
+test_transaction_timeout	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_transaction_timeout(self):$/;"	m	class:TestNocache
+test_types	p\vitess\test\queryservice_tests\nocache_tests.py	/^  def test_types(self):$/;"	m	class:TestNocache
+time	p\vitess\test\queryservice_tests\nocache_tests.py	/^import time$/;"	i
+vt_occ2	p\vitess\test\queryservice_tests\nocache_tests.py	/^from vtdb import vt_occ2$/;"	i
+TestStream	p\vitess\test\queryservice_tests\stream_tests.py	/^class TestStream(framework.TestCase):$/;"	c
+check_row_10	p\vitess\test\queryservice_tests\stream_tests.py	/^  def check_row_10(self, row):$/;"	m	class:TestStream
+cursor	p\vitess\test\queryservice_tests\stream_tests.py	/^from vtdb import cursor$/;"	i
+framework	p\vitess\test\queryservice_tests\stream_tests.py	/^import framework$/;"	i
+test_basic_stream	p\vitess\test\queryservice_tests\stream_tests.py	/^  def test_basic_stream(self):$/;"	m	class:TestStream
+test_union	p\vitess\test\queryservice_tests\stream_tests.py	/^  def test_union(self):$/;"	m	class:TestStream
+EnvironmentError	p\vitess\test\queryservice_tests\test_env.py	/^class EnvironmentError(Exception):$/;"	c
+TestEnv	p\vitess\test\queryservice_tests\test_env.py	/^class TestEnv(object):$/;"	c
+VtoccTestEnv	p\vitess\test\queryservice_tests\test_env.py	/^class VtoccTestEnv(TestEnv):$/;"	c
+VttabletTestEnv	p\vitess\test\queryservice_tests\test_env.py	/^class VttabletTestEnv(TestEnv):$/;"	c
+cases_framework	p\vitess\test\queryservice_tests\test_env.py	/^import cases_framework$/;"	i
+check_full_streamlog	p\vitess\test\queryservice_tests\test_env.py	/^  def check_full_streamlog(self, fi):$/;"	m	class:TestEnv
+check_streamlog	p\vitess\test\queryservice_tests\test_env.py	/^  def check_streamlog(self, cases, log):$/;"	m	class:TestEnv
+connect	p\vitess\test\queryservice_tests\test_env.py	/^  def connect(self):$/;"	m	class:TestEnv
+connect	p\vitess\test\queryservice_tests\test_env.py	/^  def connect(self):$/;"	m	class:VtoccTestEnv
+create_customrules	p\vitess\test\queryservice_tests\test_env.py	/^  def create_customrules(self, filename):$/;"	m	class:TestEnv
+create_schema_override	p\vitess\test\queryservice_tests\test_env.py	/^  def create_schema_override(self, filename):$/;"	m	class:TestEnv
+dbexceptions	p\vitess\test\queryservice_tests\test_env.py	/^from vtdb import dbexceptions$/;"	i
+debug_vars	p\vitess\test\queryservice_tests\test_env.py	/^  def debug_vars(self):$/;"	m	class:TestEnv
+execute	p\vitess\test\queryservice_tests\test_env.py	/^  def execute(self, query, binds=None, cursorclass=None):$/;"	m	class:TestEnv
+framework	p\vitess\test\queryservice_tests\test_env.py	/^import framework$/;"	i
+health	p\vitess\test\queryservice_tests\test_env.py	/^  def health(self):$/;"	m	class:TestEnv
+json	p\vitess\test\queryservice_tests\test_env.py	/^import json$/;"	i
+logfile	p\vitess\test\queryservice_tests\test_env.py	/^  logfile = "\/tmp\/vtocc.log"$/;"	v	class:VtoccTestEnv
+mysql	p\vitess\test\queryservice_tests\test_env.py	/^import MySQLdb as mysql$/;"	i
+mysql_connect	p\vitess\test\queryservice_tests\test_env.py	/^  def mysql_connect(self):$/;"	m	class:VtoccTestEnv
+mysql_connect	p\vitess\test\queryservice_tests\test_env.py	/^  def mysql_connect(self, dbname=''):$/;"	m	class:VttabletTestEnv
+mysqldir	p\vitess\test\queryservice_tests\test_env.py	/^  mysqldir = os.path.join(vtdataroot, "vt_0000009460")$/;"	v	class:VtoccTestEnv
+mysqlport	p\vitess\test\queryservice_tests\test_env.py	/^  mysqlport = 9460$/;"	v	class:VtoccTestEnv
+os	p\vitess\test\queryservice_tests\test_env.py	/^import os$/;"	i
+query_stats	p\vitess\test\queryservice_tests\test_env.py	/^  def query_stats(self):$/;"	m	class:TestEnv
+querylogfile	p\vitess\test\queryservice_tests\test_env.py	/^  querylogfile = "\/tmp\/vtocc_queries.log"$/;"	v	class:VtoccTestEnv
+run_cases	p\vitess\test\queryservice_tests\test_env.py	/^  def run_cases(self, cases):$/;"	m	class:TestEnv
+setUp	p\vitess\test\queryservice_tests\test_env.py	/^  def setUp(self):$/;"	m	class:VtoccTestEnv
+setUp	p\vitess\test\queryservice_tests\test_env.py	/^  def setUp(self):$/;"	m	class:VttabletTestEnv
+shutil	p\vitess\test\queryservice_tests\test_env.py	/^import shutil$/;"	i
+subprocess	p\vitess\test\queryservice_tests\test_env.py	/^import subprocess$/;"	i
+table_stats	p\vitess\test\queryservice_tests\test_env.py	/^  def table_stats(self):$/;"	m	class:TestEnv
+tablet	p\vitess\test\queryservice_tests\test_env.py	/^  tablet = tablet.Tablet(62344, 9461, 9460)$/;"	v	class:VttabletTestEnv
+tablet	p\vitess\test\queryservice_tests\test_env.py	/^import tablet$/;"	i
+tabletuid	p\vitess\test\queryservice_tests\test_env.py	/^  tabletuid = "9460"$/;"	v	class:VtoccTestEnv
+tearDown	p\vitess\test\queryservice_tests\test_env.py	/^  def tearDown(self):$/;"	m	class:VtoccTestEnv
+tearDown	p\vitess\test\queryservice_tests\test_env.py	/^  def tearDown(self):$/;"	m	class:VttabletTestEnv
+time	p\vitess\test\queryservice_tests\test_env.py	/^import time$/;"	i
+urllib2	p\vitess\test\queryservice_tests\test_env.py	/^import urllib2$/;"	i
+utils	p\vitess\test\queryservice_tests\test_env.py	/^import utils$/;"	i
+vt_occ2	p\vitess\test\queryservice_tests\test_env.py	/^from vtdb import vt_occ2$/;"	i
+vtdataroot	p\vitess\test\queryservice_tests\test_env.py	/^  vtdataroot = os.getenv("VTDATAROOT") or "\/vt"$/;"	v	class:VtoccTestEnv
+vtoccport	p\vitess\test\queryservice_tests\test_env.py	/^  vtoccport = 9461$/;"	v	class:VtoccTestEnv
+vtroot	p\vitess\test\queryservice_tests\test_env.py	/^  vtroot = os.getenv("VTROOT")$/;"	v	class:VtoccTestEnv
+vtroot	p\vitess\test\queryservice_tests\test_env.py	/^  vtroot = os.getenv("VTROOT")$/;"	v	class:VttabletTestEnv
+vttop	p\vitess\test\queryservice_tests\test_env.py	/^  vttop = os.getenv("VTTOP")$/;"	v	class:VtoccTestEnv
+vttop	p\vitess\test\queryservice_tests\test_env.py	/^  vttop = os.getenv("VTTOP")$/;"	v	class:VttabletTestEnv
+main	p\vitess\test\resharding.py	/^def main():$/;"	f
+run_all	p\vitess\test\resharding.py	/^def run_all():$/;"	f
+run_test_resharding	p\vitess\test\resharding.py	/^def run_test_resharding():$/;"	f
+setup	p\vitess\test\resharding.py	/^def setup():$/;"	f
+shard_0_master	p\vitess\test\resharding.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_replica	p\vitess\test\resharding.py	/^shard_0_replica = tablet.Tablet()$/;"	v
+shard_1_master	p\vitess\test\resharding.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_replica	p\vitess\test\resharding.py	/^shard_1_replica = tablet.Tablet()$/;"	v
+shard_2_master	p\vitess\test\resharding.py	/^shard_2_master = tablet.Tablet()$/;"	v
+shard_2_replica	p\vitess\test\resharding.py	/^shard_2_replica = tablet.Tablet()$/;"	v
+shard_3_master	p\vitess\test\resharding.py	/^shard_3_master = tablet.Tablet()$/;"	v
+shard_3_replica	p\vitess\test\resharding.py	/^shard_3_replica = tablet.Tablet()$/;"	v
+tablet	p\vitess\test\resharding.py	/^import tablet$/;"	i
+teardown	p\vitess\test\resharding.py	/^def teardown():$/;"	f
+utils	p\vitess\test\resharding.py	/^import utils$/;"	i
+MySQLdb	p\vitess\test\rowcache_invalidator.py	/^import MySQLdb$/;"	i
+OptionParser	p\vitess\test\rowcache_invalidator.py	/^from optparse import OptionParser$/;"	i
+RowCacheInvalidator	p\vitess\test\rowcache_invalidator.py	/^class RowCacheInvalidator(unittest.TestCase):$/;"	c
+_exec_vt_txn	p\vitess\test\rowcache_invalidator.py	/^def _exec_vt_txn(host, query_list=None):$/;"	f
+_get_master_current_position	p\vitess\test\rowcache_invalidator.py	/^def _get_master_current_position():$/;"	f
+_get_repl_current_position	p\vitess\test\rowcache_invalidator.py	/^def _get_repl_current_position():$/;"	f
+_vtdb_conn	p\vitess\test\rowcache_invalidator.py	/^def _vtdb_conn(host):$/;"	f
+framework	p\vitess\test\rowcache_invalidator.py	/^import framework$/;"	i
+json	p\vitess\test\rowcache_invalidator.py	/^import json$/;"	i
+main	p\vitess\test\rowcache_invalidator.py	/^def main():$/;"	f
+master_host	p\vitess\test\rowcache_invalidator.py	/^master_host = "localhost:%u" % master_tablet.port$/;"	v
+master_tablet	p\vitess\test\rowcache_invalidator.py	/^master_tablet = tablet.Tablet(62344)$/;"	v
+os	p\vitess\test\rowcache_invalidator.py	/^import os$/;"	i
+perform_delete	p\vitess\test\rowcache_invalidator.py	/^def perform_delete():$/;"	f
+perform_insert	p\vitess\test\rowcache_invalidator.py	/^def perform_insert(count):$/;"	f
+replica_host	p\vitess\test\rowcache_invalidator.py	/^replica_host = "localhost:%u" % replica_tablet.port$/;"	v
+replica_tablet	p\vitess\test\rowcache_invalidator.py	/^replica_tablet = tablet.Tablet(62345)$/;"	v
+setUp	p\vitess\test\rowcache_invalidator.py	/^  def setUp(self):$/;"	m	class:RowCacheInvalidator
+setup	p\vitess\test\rowcache_invalidator.py	/^def setup():$/;"	f
+setup_schema	p\vitess\test\rowcache_invalidator.py	/^def setup_schema():$/;"	f
+setup_tablets	p\vitess\test\rowcache_invalidator.py	/^def setup_tablets():$/;"	f
+sys	p\vitess\test\rowcache_invalidator.py	/^import sys$/;"	i
+tablet	p\vitess\test\rowcache_invalidator.py	/^import tablet$/;"	i
+tearDown	p\vitess\test\rowcache_invalidator.py	/^  def tearDown(self):$/;"	m	class:RowCacheInvalidator
+teardown	p\vitess\test\rowcache_invalidator.py	/^def teardown():$/;"	f
+test_cache_hit	p\vitess\test\rowcache_invalidator.py	/^  def test_cache_hit(self):$/;"	m	class:RowCacheInvalidator
+test_cache_invalidation	p\vitess\test\rowcache_invalidator.py	/^  def test_cache_invalidation(self):$/;"	m	class:RowCacheInvalidator
+test_purge_cache	p\vitess\test\rowcache_invalidator.py	/^  def test_purge_cache(self):$/;"	m	class:RowCacheInvalidator
+test_service_disabled	p\vitess\test\rowcache_invalidator.py	/^  def test_service_disabled(self):$/;"	m	class:RowCacheInvalidator
+test_stop_replication	p\vitess\test\rowcache_invalidator.py	/^  def test_stop_replication(self):$/;"	m	class:RowCacheInvalidator
+test_tablet_restart	p\vitess\test\rowcache_invalidator.py	/^  def test_tablet_restart(self):$/;"	m	class:RowCacheInvalidator
+threading	p\vitess\test\rowcache_invalidator.py	/^import threading$/;"	i
+time	p\vitess\test\rowcache_invalidator.py	/^import time$/;"	i
+traceback	p\vitess\test\rowcache_invalidator.py	/^import traceback$/;"	i
+unittest	p\vitess\test\rowcache_invalidator.py	/^import unittest$/;"	i
+update_stream_service	p\vitess\test\rowcache_invalidator.py	/^from vtdb import update_stream_service$/;"	i
+urllib2	p\vitess\test\rowcache_invalidator.py	/^import urllib2$/;"	i
+utils	p\vitess\test\rowcache_invalidator.py	/^import utils$/;"	i
+vt_occ2	p\vitess\test\rowcache_invalidator.py	/^from vtdb import vt_occ2$/;"	i
+warnings	p\vitess\test\rowcache_invalidator.py	/^import warnings$/;"	i
+check_tables	p\vitess\test\schema.py	/^def check_tables(tablet, expectedCount):$/;"	f
+create_vt_select_test	p\vitess\test\schema.py	/^create_vt_select_test = [$/;"	v
+main	p\vitess\test\schema.py	/^def main():$/;"	f
+os	p\vitess\test\schema.py	/^import os$/;"	i
+run_all	p\vitess\test\schema.py	/^def run_all():$/;"	f
+run_test_complex_schema	p\vitess\test\schema.py	/^def run_test_complex_schema():$/;"	f
+setup	p\vitess\test\schema.py	/^def setup():$/;"	f
+shard_0_backup	p\vitess\test\schema.py	/^shard_0_backup = tablet.Tablet()$/;"	v
+shard_0_master	p\vitess\test\schema.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_rdonly	p\vitess\test\schema.py	/^shard_0_rdonly = tablet.Tablet()$/;"	v
+shard_0_replica1	p\vitess\test\schema.py	/^shard_0_replica1 = tablet.Tablet()$/;"	v
+shard_0_replica2	p\vitess\test\schema.py	/^shard_0_replica2 = tablet.Tablet()$/;"	v
+shard_1_master	p\vitess\test\schema.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_replica1	p\vitess\test\schema.py	/^shard_1_replica1 = tablet.Tablet()$/;"	v
+socket	p\vitess\test\schema.py	/^import socket$/;"	i
+tablet	p\vitess\test\schema.py	/^import tablet$/;"	i
+teardown	p\vitess\test\schema.py	/^def teardown():$/;"	f
+utils	p\vitess\test\schema.py	/^import utils$/;"	i
+cert_dir	p\vitess\test\secure.py	/^cert_dir = utils.tmp_root + "\/certs"$/;"	v
+client_cert	p\vitess\test\secure.py	/^  client_cert = cert_dir + "\/client-cert.pem"$/;"	v
+client_config	p\vitess\test\secure.py	/^  client_config = cert_dir + "\/client.config"$/;"	v
+client_key	p\vitess\test\secure.py	/^  client_key = cert_dir + "\/client-key.pem"$/;"	v
+client_req	p\vitess\test\secure.py	/^  client_req = cert_dir + "\/client-req.pem"$/;"	v
+extra_my_cnf	p\vitess\test\secure.py	/^  extra_my_cnf = cert_dir + "\/secure.cnf"$/;"	v
+fd	p\vitess\test\secure.py	/^  fd = open(extra_my_cnf, "w")$/;"	v
+main	p\vitess\test\secure.py	/^def main():$/;"	f
+openssl	p\vitess\test\secure.py	/^def openssl(cmd):$/;"	f
+os	p\vitess\test\secure.py	/^import os$/;"	i
+run_all	p\vitess\test\secure.py	/^def run_all():$/;"	f
+run_test_secure	p\vitess\test\secure.py	/^def run_test_secure():$/;"	f
+server_cert	p\vitess\test\secure.py	/^  server_cert = cert_dir + "\/server-cert.pem"$/;"	v
+server_config	p\vitess\test\secure.py	/^  server_config = cert_dir + "\/server.config"$/;"	v
+server_key	p\vitess\test\secure.py	/^  server_key = cert_dir + "\/server-key.pem"$/;"	v
+server_req	p\vitess\test\secure.py	/^  server_req = cert_dir + "\/server-req.pem"$/;"	v
+setup	p\vitess\test\secure.py	/^def setup():$/;"	f
+setup_procs	p\vitess\test\secure.py	/^  setup_procs = [$/;"	v
+shard_0_master	p\vitess\test\secure.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_slave	p\vitess\test\secure.py	/^shard_0_slave = tablet.Tablet()$/;"	v
+subprocess	p\vitess\test\secure.py	/^import subprocess$/;"	i
+tablet	p\vitess\test\secure.py	/^import tablet$/;"	i
+tablet3	p\vitess\test\secure.py	/^from vtdb import tablet3$/;"	i
+teardown	p\vitess\test\secure.py	/^def teardown():$/;"	f
+topology	p\vitess\test\secure.py	/^from vtdb import topology$/;"	i
+utils	p\vitess\test\secure.py	/^import utils$/;"	i
+vt_server_cert	p\vitess\test\secure.py	/^  vt_server_cert = cert_dir + "\/vt-server-cert.pem"$/;"	v
+vt_server_key	p\vitess\test\secure.py	/^  vt_server_key = cert_dir + "\/vt-server-key.pem"$/;"	v
+vt_server_req	p\vitess\test\secure.py	/^  vt_server_req = cert_dir + "\/vt-server-req.pem"$/;"	v
+zkocc	p\vitess\test\secure.py	/^from zk import zkocc$/;"	i
+check_rows	p\vitess\test\sharded.py	/^def check_rows(to_look_for, driver="vtdb"):$/;"	f
+check_rows_schema_diff	p\vitess\test\sharded.py	/^def check_rows_schema_diff(driver):$/;"	f
+main	p\vitess\test\sharded.py	/^def main():$/;"	f
+run_all	p\vitess\test\sharded.py	/^def run_all():$/;"	f
+run_test_sharding	p\vitess\test\sharded.py	/^def run_test_sharding():$/;"	f
+setup	p\vitess\test\sharded.py	/^def setup():$/;"	f
+shard_0_master	p\vitess\test\sharded.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_replica	p\vitess\test\sharded.py	/^shard_0_replica = tablet.Tablet()$/;"	v
+shard_1_master	p\vitess\test\sharded.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_replica	p\vitess\test\sharded.py	/^shard_1_replica = tablet.Tablet()$/;"	v
+tablet	p\vitess\test\sharded.py	/^import tablet$/;"	i
+tablet2	p\vitess\test\sharded.py	/^from vtdb import tablet3 as tablet2$/;"	i
+teardown	p\vitess\test\sharded.py	/^def teardown():$/;"	f
+topology	p\vitess\test\sharded.py	/^from vtdb import topology$/;"	i
+utils	p\vitess\test\sharded.py	/^import utils$/;"	i
+zkocc	p\vitess\test\sharded.py	/^from zk import zkocc$/;"	i
+MySQLdb	p\vitess\test\tablet.py	/^import MySQLdb$/;"	i
+Tablet	p\vitess\test\tablet.py	/^class Tablet(object):$/;"	c
+__init__	p\vitess\test\tablet.py	/^  def __init__(self, tablet_uid=None, port=None, mysql_port=None, cell=None):$/;"	m	class:Tablet
+_write_db_configs_file	p\vitess\test\tablet.py	/^  def _write_db_configs_file(self, repl_extra_flags={}):$/;"	m	class:Tablet
+assert_table_count	p\vitess\test\tablet.py	/^  def assert_table_count(self, dbname, table, n, where=''):$/;"	m	class:Tablet
+check_db_var	p\vitess\test\tablet.py	/^  def check_db_var(self, name, value):$/;"	m	class:Tablet
+connect	p\vitess\test\tablet.py	/^  def connect(self, dbname=''):$/;"	m	class:Tablet
+create_db	p\vitess\test\tablet.py	/^  def create_db(self, name):$/;"	m	class:Tablet
+default_db_config	p\vitess\test\tablet.py	/^  default_db_config = {$/;"	v	class:Tablet
+default_uid	p\vitess\test\tablet.py	/^  default_uid = 62344$/;"	v	class:Tablet
+get_db_var	p\vitess\test\tablet.py	/^  def get_db_var(self, name):$/;"	m	class:Tablet
+has_db	p\vitess\test\tablet.py	/^  def has_db(self, name):$/;"	m	class:Tablet
+init_mysql	p\vitess\test\tablet.py	/^  def init_mysql(self, extra_my_cnf=None):$/;"	m	class:Tablet
+init_tablet	p\vitess\test\tablet.py	/^  def init_tablet(self, tablet_type, keyspace=None, shard=None, force=True, start=False, auth=False, dbname=None, memcache=False):$/;"	m	class:Tablet
+json	p\vitess\test\tablet.py	/^import json$/;"	i
+kill_memcache	p\vitess\test\tablet.py	/^  def kill_memcache(self):$/;"	m	class:Tablet
+kill_vttablet	p\vitess\test\tablet.py	/^  def kill_vttablet(self):$/;"	m	class:Tablet
+logfile	p\vitess\test\tablet.py	/^  def logfile(self):$/;"	m	class:Tablet
+mquery	p\vitess\test\tablet.py	/^  def mquery(self, dbname, query, write=False):$/;"	m	class:Tablet
+mysql_connection_parameters	p\vitess\test\tablet.py	/^  def mysql_connection_parameters(self, dbname):$/;"	m	class:Tablet
+mysqlctl	p\vitess\test\tablet.py	/^  def mysqlctl(self, cmd, quiet=False, extra_my_cnf=None):$/;"	m	class:Tablet
+os	p\vitess\test\tablet.py	/^import os$/;"	i
+populate	p\vitess\test\tablet.py	/^  def populate(self, dbname, create_sql, insert_sqls=[]):$/;"	m	class:Tablet
+querylog_file	p\vitess\test\tablet.py	/^  def querylog_file(self):$/;"	m	class:Tablet
+remove_tree	p\vitess\test\tablet.py	/^  def remove_tree(self):$/;"	m	class:Tablet
+scrap	p\vitess\test\tablet.py	/^  def scrap(self, force=False, skip_rebuild=False):$/;"	m	class:Tablet
+seq	p\vitess\test\tablet.py	/^  seq = 0$/;"	v	class:Tablet
+shutdown_mysql	p\vitess\test\tablet.py	/^  def shutdown_mysql(self):$/;"	m	class:Tablet
+shutil	p\vitess\test\tablet.py	/^import shutil$/;"	i
+start_memcache	p\vitess\test\tablet.py	/^  def start_memcache(self):$/;"	m	class:Tablet
+start_mysql	p\vitess\test\tablet.py	/^  def start_mysql(self):$/;"	m	class:Tablet
+start_vttablet	p\vitess\test\tablet.py	/^  def start_vttablet(self, port=None, auth=False, memcache=False, wait_for_state="OPEN", customrules=None, schema_override=None, cert=None, key=None, ca_cert=None, repl_extra_flags={}):$/;"	m	class:Tablet
+sys	p\vitess\test\tablet.py	/^import sys$/;"	i
+tablet_cell_map	p\vitess\test\tablet.py	/^tablet_cell_map = {$/;"	v
+tablet_dir	p\vitess\test\tablet.py	/^  def tablet_dir(self):$/;"	m	class:Tablet
+teardown_mysql	p\vitess\test\tablet.py	/^  def teardown_mysql(self):$/;"	m	class:Tablet
+time	p\vitess\test\tablet.py	/^import time$/;"	i
+utils	p\vitess\test\tablet.py	/^import utils$/;"	i
+vquery	p\vitess\test\tablet.py	/^  def vquery(self, query, path='', user=None, password=None, driver=None,$/;"	m	class:Tablet
+wait_check_db_var	p\vitess\test\tablet.py	/^  def wait_check_db_var(self, name, value):$/;"	m	class:Tablet
+wait_for_vttablet_state	p\vitess\test\tablet.py	/^  def wait_for_vttablet_state(self, expected, timeout=5.0, port=None):$/;"	m	class:Tablet
+warnings	p\vitess\test\tablet.py	/^import warnings$/;"	i
+MySQLdb	p\vitess\test\tabletmanager.py	/^import MySQLdb$/;"	i
+PIPE	p\vitess\test\tabletmanager.py	/^from subprocess import PIPE, call$/;"	i
+_check_db_addr	p\vitess\test\tabletmanager.py	/^def _check_db_addr(db_addr, expected_addr):$/;"	f
+_check_string_in_hook_result	p\vitess\test\tabletmanager.py	/^def _check_string_in_hook_result(text, expected):$/;"	f
+_run_hook	p\vitess\test\tabletmanager.py	/^def _run_hook(params, expectedStrings):$/;"	f
+_run_test_mysqlctl_clone	p\vitess\test\tabletmanager.py	/^def _run_test_mysqlctl_clone(server_mode):$/;"	f
+_run_test_reparent_graceful	p\vitess\test\tabletmanager.py	/^def _run_test_reparent_graceful(shard_id):$/;"	f
+_run_test_vtctl_clone	p\vitess\test\tabletmanager.py	/^def _run_test_vtctl_clone(server_mode):$/;"	f
+_run_test_vtctl_partial_clone	p\vitess\test\tabletmanager.py	/^def _run_test_vtctl_partial_clone(create, populate,$/;"	f
+_run_test_vtctl_snapshot_restore	p\vitess\test\tabletmanager.py	/^def _run_test_vtctl_snapshot_restore(server_mode):$/;"	f
+call	p\vitess\test\tabletmanager.py	/^from subprocess import PIPE, call$/;"	i
+devnull	p\vitess\test\tabletmanager.py	/^devnull = open('\/dev\/null', 'w')$/;"	v
+err	p\vitess\test\tabletmanager.py	/^  err = tablet_62344.mysqlctl("multirestore --end=0000000000000028 -strategy=skipAutoIncrement(vt_insert_test1),delayPrimaryKey,delaySecondaryIndexes,useMyIsam,populateBlpRecovery(6514) not_vt_test_keyspace %s" % tablet_urls).wait()$/;"	v
+err	p\vitess\test\tabletmanager.py	/^  err = tablet_62344.mysqlctl('-port %u -mysql-port %u multisnapshot --tables=vt_insert_test_1,vt_insert_test_2,vt_insert_test_3 --spec=-0000000000000003- vt_test_keyspace id' % (tablet_62344.port, tablet_62344.mysql_port)).wait()$/;"	v
+gzip	p\vitess\test\tabletmanager.py	/^import gzip$/;"	i
+insert_template	p\vitess\test\tabletmanager.py	/^  insert_template = "insert into %s (id, msg) values (%s, 'test %s')"$/;"	v
+main	p\vitess\test\tabletmanager.py	/^def main():$/;"	f
+new_spec	p\vitess\test\tabletmanager.py	/^  new_spec = '-0000000000000028-'$/;"	v
+old_tablets	p\vitess\test\tabletmanager.py	/^  old_tablets = [tablet_62044, tablet_41983, tablet_31981]$/;"	v
+os	p\vitess\test\tabletmanager.py	/^import os$/;"	i
+path	p\vitess\test\tabletmanager.py	/^    path = os.path.join(utils.vtdataroot, 'snapshot\/vt_0000062344\/data\/', kr, 'vt_insert_test_1.0.csv.gz')$/;"	v
+populate_vt_insert_test	p\vitess\test\tabletmanager.py	/^populate_vt_insert_test = [$/;"	v
+populate_vt_insert_test_varbinary	p\vitess\test\tabletmanager.py	/^populate_vt_insert_test_varbinary = [$/;"	v
+populate_vt_select_test	p\vitess\test\tabletmanager.py	/^populate_vt_select_test = [$/;"	v
+rows	p\vitess\test\tabletmanager.py	/^    rows = tablet_62344.mquery('not_vt_test_keyspace', 'select id from %s' % table)$/;"	v
+rows	p\vitess\test\tabletmanager.py	/^  rows = tablet_62344.mquery('_vt', 'select * from blp_checkpoint')$/;"	v
+run_all	p\vitess\test\tabletmanager.py	/^def run_all():$/;"	f
+run_test_hook	p\vitess\test\tabletmanager.py	/^def run_test_hook():$/;"	f
+run_test_mysqlctl_clone	p\vitess\test\tabletmanager.py	/^def run_test_mysqlctl_clone():$/;"	f
+run_test_mysqlctl_clone_server	p\vitess\test\tabletmanager.py	/^def run_test_mysqlctl_clone_server():$/;"	f
+run_test_mysqlctl_split	p\vitess\test\tabletmanager.py	/^def run_test_mysqlctl_split():$/;"	f
+run_test_rebuild	p\vitess\test\tabletmanager.py	/^def run_test_rebuild():$/;"	f
+run_test_reparent_down_master	p\vitess\test\tabletmanager.py	/^def run_test_reparent_down_master():$/;"	f
+run_test_reparent_from_outside	p\vitess\test\tabletmanager.py	/^def run_test_reparent_from_outside():$/;"	f
+run_test_reparent_graceful	p\vitess\test\tabletmanager.py	/^def run_test_reparent_graceful():$/;"	f
+run_test_reparent_graceful_range_based	p\vitess\test\tabletmanager.py	/^def run_test_reparent_graceful_range_based():$/;"	f
+run_test_reparent_lag_slave	p\vitess\test\tabletmanager.py	/^def run_test_reparent_lag_slave(shard_id='0'):$/;"	f
+run_test_reparent_slave_offline	p\vitess\test\tabletmanager.py	/^def run_test_reparent_slave_offline(shard_id='0'):$/;"	f
+run_test_restart_during_action	p\vitess\test\tabletmanager.py	/^def run_test_restart_during_action():$/;"	f
+run_test_sanity	p\vitess\test\tabletmanager.py	/^def run_test_sanity():$/;"	f
+run_test_scrap	p\vitess\test\tabletmanager.py	/^def run_test_scrap():$/;"	f
+run_test_sigterm	p\vitess\test\tabletmanager.py	/^def run_test_sigterm():$/;"	f
+run_test_vtctl_clone	p\vitess\test\tabletmanager.py	/^def run_test_vtctl_clone():$/;"	f
+run_test_vtctl_clone_server	p\vitess\test\tabletmanager.py	/^def run_test_vtctl_clone_server():$/;"	f
+run_test_vtctl_partial_clone	p\vitess\test\tabletmanager.py	/^def run_test_vtctl_partial_clone():$/;"	f
+run_test_vtctl_partial_clone_varbinary	p\vitess\test\tabletmanager.py	/^def run_test_vtctl_partial_clone_varbinary():$/;"	f
+run_test_vtctl_snapshot_restore	p\vitess\test\tabletmanager.py	/^def run_test_vtctl_snapshot_restore():$/;"	f
+run_test_vtctl_snapshot_restore_server	p\vitess\test\tabletmanager.py	/^def run_test_vtctl_snapshot_restore_server():$/;"	f
+run_test_vttablet_authenticated	p\vitess\test\tabletmanager.py	/^def run_test_vttablet_authenticated():$/;"	f
+setup	p\vitess\test\tabletmanager.py	/^def setup():$/;"	f
+shutil	p\vitess\test\tabletmanager.py	/^import shutil$/;"	i
+signal	p\vitess\test\tabletmanager.py	/^import signal$/;"	i
+socket	p\vitess\test\tabletmanager.py	/^import socket$/;"	i
+source_aliases	p\vitess\test\tabletmanager.py	/^  source_aliases = ' '.join(t.tablet_alias for t in old_tablets)$/;"	v
+sys	p\vitess\test\tabletmanager.py	/^import sys$/;"	i
+tablet	p\vitess\test\tabletmanager.py	/^import tablet$/;"	i
+tablet_31981	p\vitess\test\tabletmanager.py	/^tablet_31981 = tablet.Tablet(31981)$/;"	v
+tablet_41983	p\vitess\test\tabletmanager.py	/^tablet_41983 = tablet.Tablet(41983)$/;"	v
+tablet_62044	p\vitess\test\tabletmanager.py	/^tablet_62044 = tablet.Tablet(62044)$/;"	v
+tablet_62344	p\vitess\test\tabletmanager.py	/^tablet_62344 = tablet.Tablet(62344)$/;"	v
+tablet_urls	p\vitess\test\tabletmanager.py	/^  tablet_urls = ' '.join("vttp:\/\/localhost:%s\/vt_test_keyspace" % tablet.port for tablet in old_tablets)$/;"	v
+teardown	p\vitess\test\tabletmanager.py	/^def teardown():$/;"	f
+test_multisnapshot_and_restore	p\vitess\test\tabletmanager.py	/^def test_multisnapshot_and_restore():$/;"	f
+test_multisnapshot_and_restore_vtctl	p\vitess\test\tabletmanager.py	/^def test_multisnapshot_and_restore_vtctl():$/;"	f
+test_multisnapshot_mysqlctl	p\vitess\test\tabletmanager.py	/^def test_multisnapshot_mysqlctl():$/;"	f
+test_multisnapshot_vtctl	p\vitess\test\tabletmanager.py	/^def test_multisnapshot_vtctl():$/;"	f
+time	p\vitess\test\tabletmanager.py	/^import time$/;"	i
+utils	p\vitess\test\tabletmanager.py	/^import utils$/;"	i
+warnings	p\vitess\test\tabletmanager.py	/^import warnings$/;"	i
+vtocc_test	p\vitess\test\test_data\test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	t
+vtocc_test.binval	p\vitess\test\test_data\test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+vtocc_test.charval	p\vitess\test\test_data\test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+vtocc_test.floatval	p\vitess\test\test_data\test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+vtocc_test.intval	p\vitess\test\test_data\test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+GLOBAL_MASTER_START_POSITION	p\vitess\test\update_stream.py	/^GLOBAL_MASTER_START_POSITION = None$/;"	v
+MySQLdb	p\vitess\test\update_stream.py	/^import MySQLdb$/;"	i
+_exec_vt_txn	p\vitess\test\update_stream.py	/^def _exec_vt_txn(host, query_list=None):$/;"	f
+_get_master_current_position	p\vitess\test\update_stream.py	/^def _get_master_current_position():$/;"	f
+_get_master_stream_conn	p\vitess\test\update_stream.py	/^def _get_master_stream_conn():$/;"	f
+_get_repl_current_position	p\vitess\test\update_stream.py	/^def _get_repl_current_position():$/;"	f
+_get_replica_stream_conn	p\vitess\test\update_stream.py	/^def _get_replica_stream_conn():$/;"	f
+_get_stream_connections	p\vitess\test\update_stream.py	/^def _get_stream_connections():$/;"	f
+_vtdb_conn	p\vitess\test\update_stream.py	/^def _vtdb_conn(host):$/;"	f
+devnull	p\vitess\test\update_stream.py	/^devnull = open('\/dev\/null', 'w')$/;"	v
+json	p\vitess\test\update_stream.py	/^import json$/;"	i
+main	p\vitess\test\update_stream.py	/^def main():$/;"	f
+master_host	p\vitess\test\update_stream.py	/^master_host = "localhost:%u" % master_tablet.port$/;"	v
+master_tablet	p\vitess\test\update_stream.py	/^master_tablet = tablet.Tablet(62344)$/;"	v
+os	p\vitess\test\update_stream.py	/^import os$/;"	i
+perform_writes	p\vitess\test\update_stream.py	/^def perform_writes(count):$/;"	f
+populate_vt_a	p\vitess\test\update_stream.py	/^def populate_vt_a(count):$/;"	f
+populate_vt_b	p\vitess\test\update_stream.py	/^def populate_vt_b(count):$/;"	f
+populate_vt_c	p\vitess\test\update_stream.py	/^def populate_vt_c(count):$/;"	f
+populate_vt_insert_test	p\vitess\test\update_stream.py	/^populate_vt_insert_test = [$/;"	v
+populate_vt_select_test	p\vitess\test\update_stream.py	/^populate_vt_select_test = [$/;"	v
+replica_host	p\vitess\test\update_stream.py	/^replica_host = "localhost:%u" % replica_tablet.port$/;"	v
+replica_tablet	p\vitess\test\update_stream.py	/^replica_tablet = tablet.Tablet(62345)$/;"	v
+run_all	p\vitess\test\update_stream.py	/^def run_all():$/;"	f
+run_test_ddl	p\vitess\test\update_stream.py	/^def run_test_ddl():$/;"	f
+run_test_log_rotation	p\vitess\test\update_stream.py	/^def run_test_log_rotation():$/;"	f
+run_test_service_disabled	p\vitess\test\update_stream.py	/^def run_test_service_disabled():$/;"	f
+run_test_service_enabled	p\vitess\test\update_stream.py	/^def run_test_service_enabled():$/;"	f
+run_test_service_switch	p\vitess\test\update_stream.py	/^def run_test_service_switch():$/;"	f
+run_test_stream_parity	p\vitess\test\update_stream.py	/^def run_test_stream_parity():$/;"	f
+setup	p\vitess\test\update_stream.py	/^def setup():$/;"	f
+setup_schema	p\vitess\test\update_stream.py	/^def setup_schema():$/;"	f
+setup_tablets	p\vitess\test\update_stream.py	/^def setup_tablets():$/;"	f
+sys	p\vitess\test\update_stream.py	/^import sys$/;"	i
+tablet	p\vitess\test\update_stream.py	/^import tablet$/;"	i
+teardown	p\vitess\test\update_stream.py	/^def teardown():$/;"	f
+threading	p\vitess\test\update_stream.py	/^import threading$/;"	i
+time	p\vitess\test\update_stream.py	/^import time$/;"	i
+traceback	p\vitess\test\update_stream.py	/^import traceback$/;"	i
+update_stream_service	p\vitess\test\update_stream.py	/^from vtdb import update_stream_service$/;"	i
+utils	p\vitess\test\update_stream.py	/^import utils$/;"	i
+vt_occ2	p\vitess\test\update_stream.py	/^from vtdb import vt_occ2$/;"	i
+warnings	p\vitess\test\update_stream.py	/^import warnings$/;"	i
+Break	p\vitess\test\utils.py	/^class Break(Exception):$/;"	c
+CalledProcessError	p\vitess\test\utils.py	/^from subprocess import Popen, CalledProcessError, PIPE$/;"	i
+MySQLdb	p\vitess\test\utils.py	/^import MySQLdb$/;"	i
+OptionParser	p\vitess\test\utils.py	/^from optparse import OptionParser$/;"	i
+PIPE	p\vitess\test\utils.py	/^from subprocess import Popen, CalledProcessError, PIPE$/;"	i
+Popen	p\vitess\test\utils.py	/^from subprocess import Popen, CalledProcessError, PIPE$/;"	i
+TestError	p\vitess\test\utils.py	/^class TestError(Exception):$/;"	c
+_add_proc	p\vitess\test\utils.py	/^def _add_proc(proc):$/;"	f
+already_killed	p\vitess\test\utils.py	/^already_killed = []$/;"	v
+body	p\vitess\test\utils.py	/^  def body():$/;"	f	function:test_case
+check_db_read_only	p\vitess\test\utils.py	/^def check_db_read_only(uid):$/;"	f
+check_db_read_write	p\vitess\test\utils.py	/^def check_db_read_write(uid):$/;"	f
+check_db_var	p\vitess\test\utils.py	/^def check_db_var(uid, name, value):$/;"	f
+compiled_progs	p\vitess\test\utils.py	/^compiled_progs = []$/;"	v
+debug	p\vitess\test\utils.py	/^def debug(msg):$/;"	f
+devnull	p\vitess\test\utils.py	/^devnull = open('\/dev\/null', 'w')$/;"	v
+get_args	p\vitess\test\utils.py	/^def get_args():$/;"	f
+get_vars	p\vitess\test\utils.py	/^def get_vars(port):$/;"	f
+hostname	p\vitess\test\utils.py	/^hostname = socket.gethostname()$/;"	v
+json	p\vitess\test\utils.py	/^import json$/;"	i
+kill_sub_process	p\vitess\test\utils.py	/^def kill_sub_process(proc):$/;"	f
+kill_sub_processes	p\vitess\test\utils.py	/^def kill_sub_processes():$/;"	f
+mysql_query	p\vitess\test\utils.py	/^def mysql_query(uid, dbname, query):$/;"	f
+mysql_write_query	p\vitess\test\utils.py	/^def mysql_write_query(uid, dbname, query):$/;"	f
+options	p\vitess\test\utils.py	/^options = None$/;"	v
+os	p\vitess\test\utils.py	/^import os$/;"	i
+pause	p\vitess\test\utils.py	/^def pause(prompt):$/;"	f
+pid_map	p\vitess\test\utils.py	/^pid_map = {}$/;"	v
+prog_compile	p\vitess\test\utils.py	/^def prog_compile(names):$/;"	f
+remove_tmp_files	p\vitess\test\utils.py	/^def remove_tmp_files():$/;"	f
+reserve_ports	p\vitess\test\utils.py	/^def reserve_ports(count):$/;"	f
+run	p\vitess\test\utils.py	/^def run(cmd, trap_output=False, raise_on_error=True, **kargs):$/;"	f
+run_bg	p\vitess\test\utils.py	/^def run_bg(cmd, **kargs):$/;"	f
+run_fail	p\vitess\test\utils.py	/^def run_fail(cmd, **kargs):$/;"	f
+run_procs	p\vitess\test\utils.py	/^def run_procs(cmds, raise_on_error=True):$/;"	f
+run_vtctl	p\vitess\test\utils.py	/^def run_vtctl(clargs, log_level='WARNING', auto_log=False, **kwargs):$/;"	f
+shlex	p\vitess\test\utils.py	/^import shlex$/;"	i
+shutil	p\vitess\test\utils.py	/^import shutil$/;"	i
+signal	p\vitess\test\utils.py	/^import signal$/;"	i
+socket	p\vitess\test\utils.py	/^import socket$/;"	i
+sys	p\vitess\test\utils.py	/^import sys$/;"	i
+test_case	p\vitess\test\utils.py	/^def test_case(fn):$/;"	f
+time	p\vitess\test\utils.py	/^import time$/;"	i
+tmp_root	p\vitess\test\utils.py	/^tmp_root = os.path.join(vtdataroot, 'tmp')$/;"	v
+urllib	p\vitess\test\utils.py	/^import urllib$/;"	i
+validate_topology	p\vitess\test\utils.py	/^def validate_topology(ping_tablets=False):$/;"	f
+vtclient2	p\vitess\test\utils.py	/^def vtclient2(uid, path, query, bindvars=None, user=None, password=None, driver=None,$/;"	f
+vtdataroot	p\vitess\test\utils.py	/^vtdataroot = os.environ.get('VTDATAROOT', '\/vt')$/;"	v
+vtportstart	p\vitess\test\utils.py	/^vtportstart = int(os.environ.get('VTPORTSTART', '6700'))$/;"	v
+vtroot	p\vitess\test\utils.py	/^vtroot = os.environ['VTROOT']$/;"	v
+vttop	p\vitess\test\utils.py	/^vttop = os.environ['VTTOP']$/;"	v
+wait_db_read_only	p\vitess\test\utils.py	/^def wait_db_read_only(uid):$/;"	f
+wait_procs	p\vitess\test\utils.py	/^def wait_procs(proc_list, raise_on_error=True):$/;"	f
+zk_cat	p\vitess\test\utils.py	/^def zk_cat(path):$/;"	f
+zk_ls	p\vitess\test\utils.py	/^def zk_ls(path):$/;"	f
+zk_port_base	p\vitess\test\utils.py	/^zk_port_base = reserve_ports(3)$/;"	v
+zk_setup	p\vitess\test\utils.py	/^def zk_setup():$/;"	f
+zk_teardown	p\vitess\test\utils.py	/^def zk_teardown():$/;"	f
+zk_wipe	p\vitess\test\utils.py	/^def zk_wipe():$/;"	f
+zkocc_kill	p\vitess\test\utils.py	/^def zkocc_kill(sp):$/;"	f
+zkocc_port_base	p\vitess\test\utils.py	/^zkocc_port_base = reserve_ports(3)$/;"	v
+zkocc_start	p\vitess\test\utils.py	/^def zkocc_start(cells=['test_nj'], extra_params=[]):$/;"	f
+TestDbTopo	p\vitess\test\vtctld_test.py	/^class TestDbTopo(unittest.TestCase):$/;"	c
+VtcldError	p\vitess\test\vtctld_test.py	/^class VtcldError(Exception): pass$/;"	c
+Vtctld	p\vitess\test\vtctld_test.py	/^class Vtctld(object):$/;"	c
+assigned	p\vitess\test\vtctld_test.py	/^assigned = [shard_0_master, shard_0_replica, shard_1_master, shard_1_replica]$/;"	v
+dbtopo	p\vitess\test\vtctld_test.py	/^  def dbtopo(self):$/;"	m	class:Vtctld
+idle	p\vitess\test\vtctld_test.py	/^idle = tablet.Tablet()$/;"	v
+json	p\vitess\test\vtctld_test.py	/^import json$/;"	i
+main	p\vitess\test\vtctld_test.py	/^def main():$/;"	f
+optparse	p\vitess\test\vtctld_test.py	/^import optparse$/;"	i
+os	p\vitess\test\vtctld_test.py	/^import os$/;"	i
+pprint	p\vitess\test\vtctld_test.py	/^import pprint$/;"	i
+scrap	p\vitess\test\vtctld_test.py	/^scrap = tablet.Tablet()$/;"	v
+setUp	p\vitess\test\vtctld_test.py	/^  def setUp(self):$/;"	m	class:TestDbTopo
+setUpClass	p\vitess\test\vtctld_test.py	/^  def setUpClass(klass):$/;"	m	class:TestDbTopo
+setUpModule	p\vitess\test\vtctld_test.py	/^def setUpModule():$/;"	f
+shard_0_master	p\vitess\test\vtctld_test.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_replica	p\vitess\test\vtctld_test.py	/^shard_0_replica = tablet.Tablet()$/;"	v
+shard_0_spare	p\vitess\test\vtctld_test.py	/^shard_0_spare = tablet.Tablet()$/;"	v
+shard_1_master	p\vitess\test\vtctld_test.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_replica	p\vitess\test\vtctld_test.py	/^shard_1_replica = tablet.Tablet()$/;"	v
+socket	p\vitess\test\vtctld_test.py	/^import socket$/;"	i
+start	p\vitess\test\vtctld_test.py	/^  def start(self):$/;"	m	class:Vtctld
+sys	p\vitess\test\vtctld_test.py	/^import sys$/;"	i
+tablet	p\vitess\test\vtctld_test.py	/^import tablet$/;"	i
+tablets	p\vitess\test\vtctld_test.py	/^tablets = assigned + [idle, scrap, shard_0_spare]$/;"	v
+tearDownModule	p\vitess\test\vtctld_test.py	/^def tearDownModule():$/;"	f
+test_assigned	p\vitess\test\vtctld_test.py	/^  def test_assigned(self):$/;"	m	class:TestDbTopo
+test_not_assigned	p\vitess\test\vtctld_test.py	/^  def test_not_assigned(self):$/;"	m	class:TestDbTopo
+unittest	p\vitess\test\vtctld_test.py	/^import unittest$/;"	i
+urllib2	p\vitess\test\vtctld_test.py	/^import urllib2$/;"	i
+utils	p\vitess\test\vtctld_test.py	/^import utils$/;"	i
+vtctld	p\vitess\test\vtctld_test.py	/^vtctld = Vtctld()$/;"	v
+_check_zk_output	p\vitess\test\zkocc.py	/^def _check_zk_output(cmd, expected):$/;"	f
+_format_time	p\vitess\test\zkocc.py	/^def _format_time(timeFromBson):$/;"	f
+_populate_zk	p\vitess\test\zkocc.py	/^def _populate_zk():$/;"	f
+datetime	p\vitess\test\zkocc.py	/^import datetime$/;"	i
+fd	p\vitess\test\zkocc.py	/^  fd = open(filename, "r")$/;"	v
+filename	p\vitess\test\zkocc.py	/^  filename = outfd.name$/;"	v
+logging	p\vitess\test\zkocc.py	/^import logging$/;"	i
+main	p\vitess\test\zkocc.py	/^def main():$/;"	f
+os	p\vitess\test\zkocc.py	/^import os$/;"	i
+outfd	p\vitess\test\zkocc.py	/^  outfd = tempfile.NamedTemporaryFile(dir=utils.tmp_root, delete=False)$/;"	v
+querier	p\vitess\test\zkocc.py	/^  querier = utils.run_bg('\/bin\/bash -c "while true ; do '+utils.vtroot+'\/bin\/zkclient2 -server localhost:%u \/zk\/test_nj\/zkocc1\/data1 ; sleep 0.1 ; done"' % utils.zkocc_port_base, stderr=outfd.file)$/;"	v
+run_all	p\vitess\test\zkocc.py	/^def run_all():$/;"	f
+run_test_zkocc	p\vitess\test\zkocc.py	/^def run_test_zkocc():$/;"	f
+run_test_zkocc_qps	p\vitess\test\zkocc.py	/^def run_test_zkocc_qps():$/;"	f
+setup	p\vitess\test\zkocc.py	/^def setup():$/;"	f
+socket	p\vitess\test\zkocc.py	/^import socket$/;"	i
+stale	p\vitess\test\zkocc.py	/^      stale = False$/;"	v
+stale	p\vitess\test\zkocc.py	/^      stale = True$/;"	v
+state	p\vitess\test\zkocc.py	/^        state = 1$/;"	v
+state	p\vitess\test\zkocc.py	/^        state = 2$/;"	v
+state	p\vitess\test\zkocc.py	/^  state = 0$/;"	v
+teardown	p\vitess\test\zkocc.py	/^def teardown():$/;"	f
+tempfile	p\vitess\test\zkocc.py	/^import tempfile$/;"	i
+time	p\vitess\test\zkocc.py	/^import time$/;"	i
+utils	p\vitess\test\zkocc.py	/^import utils$/;"	i
+zkNodes	p\vitess\test\zkocc.py	/^  zkNodes = zkocc_client.getv(["\/zk\/test_nj\/zkocc1\/data1", "\/zk\/test_nj\/zkocc1\/data2", "\/zk\/test_nj\/zkocc1\/data3"])$/;"	v
+zkocc	p\vitess\test\zkocc.py	/^from zk import zkocc$/;"	i
+_handle_void_completion	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^void _handle_void_completion(int rc, const void *data_) {$/;"	f
+_watch_handler	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^void _watch_handler(zhandle_t *zh, int event_type, int connection_state, $/;"	f
+create_completion_data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^completion_data* create_completion_data() {$/;"	f
+destroy_completion_data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^void destroy_completion_data(completion_data *data) {$/;"	f
+destroy_watch_data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^void destroy_watch_data(watch_data *data) {$/;"	f
+first_watch	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^static watch_data *first_watch = NULL;$/;"	v	file:
+handle_void_completion	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^void_completion_t handle_void_completion = _handle_void_completion;$/;"	v
+wait_for_completion	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^void wait_for_completion(completion_data *data) {$/;"	f
+wait_for_watch	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^watch_data *wait_for_watch() {$/;"	f
+watch_available	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^static pthread_cond_t  watch_available = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+watch_handler	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^watcher_fn watch_handler = _watch_handler;$/;"	v
+watch_mutex	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.c	/^static pthread_mutex_t watch_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+_completion_data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^typedef struct _completion_data {$/;"	s
+_watch_data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^typedef struct _watch_data {$/;"	s
+completion_data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^} completion_data;$/;"	t	typeref:struct:_completion_data
+connection_state	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^    int connection_state;$/;"	m	struct:_watch_data
+data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^    void *data;$/;"	m	struct:_completion_data
+event_path	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^    char *event_path;$/;"	m	struct:_watch_data
+event_type	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^    int event_type;$/;"	m	struct:_watch_data
+helpers_h	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	2;"	d
+mutex	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^    pthread_mutex_t mutex;$/;"	m	struct:_completion_data
+next	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^    struct _watch_data *next;$/;"	m	struct:_watch_data	typeref:struct:_watch_data::_watch_data
+watch_context	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^    void *watch_context;$/;"	m	struct:_watch_data
+watch_data	p\vitess\third_party\go\launchpad.net\gozk\zookeeper\helpers.h	/^} watch_data;$/;"	t	typeref:struct:_watch_data
+__all__	p\vitess\third_party\py\bson-0.3.2\bson\__init__.py	/^__all__ = ["loads", "dumps"]$/;"	v
+dumps	p\vitess\third_party\py\bson-0.3.2\bson\__init__.py	/^def dumps(obj, generator = None):$/;"	f
+loads	p\vitess\third_party\py\bson-0.3.2\bson\__init__.py	/^def loads(data):$/;"	f
+network	p\vitess\third_party\py\bson-0.3.2\bson\__init__.py	/^import network$/;"	i
+patch_socket	p\vitess\third_party\py\bson-0.3.2\bson\__init__.py	/^def patch_socket():$/;"	f
+socket	p\vitess\third_party\py\bson-0.3.2\bson\__init__.py	/^	from socket import socket$/;"	i
+ABCMeta	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^from abc import ABCMeta, abstractmethod$/;"	i
+BSONCoding	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^class BSONCoding(object):$/;"	c
+ELEMENT_DISPATCH	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^ELEMENT_DISPATCH = dict([(chr(i), globals()["decode_" + name + "_element"])$/;"	v
+ELEMENT_TYPES	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^ELEMENT_TYPES = {$/;"	v
+MissingClassDefinition	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^class MissingClassDefinition(ValueError):$/;"	c
+MissingTimezoneWarning	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^class MissingTimezoneWarning(RuntimeWarning):$/;"	c
+TraversalStep	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^class TraversalStep(object):$/;"	c
+_EmptyClass	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^class _EmptyClass(object):$/;"	c
+__init__	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^	def __init__(self, *args):$/;"	m	class:MissingTimezoneWarning
+__init__	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^	def __init__(self, class_name):$/;"	m	class:MissingClassDefinition
+__init__	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^	def __init__(self, parent, key):$/;"	m	class:TraversalStep
+__metaclass__	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^	__metaclass__ = ABCMeta$/;"	v	class:BSONCoding
+_decode_array_document	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def _decode_array_document(data, base):$/;"	f
+abstractmethod	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^from abc import ABCMeta, abstractmethod$/;"	i
+binary_struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^binary_struct = struct.Struct('<ib')$/;"	v
+boolean_struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^boolean_struct = struct.Struct('<b')$/;"	v
+bson_encode	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^	def bson_encode(self):$/;"	m	class:BSONCoding
+bson_init	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^	def bson_init(self, raw_values):$/;"	m	class:BSONCoding
+cStringIO	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^import cStringIO$/;"	i
+calendar	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^import calendar$/;"	i
+classes	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^classes = {}$/;"	v
+datetime	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^from datetime import datetime$/;"	i
+decode_UTCdatetime_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_UTCdatetime_element(data, base):$/;"	f
+decode_array_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_array_element(data, base):$/;"	f
+decode_binary	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_binary(data, base):$/;"	f
+decode_binary_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_binary_element(data, base):$/;"	f
+decode_boolean_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_boolean_element(data, base):$/;"	f
+decode_cstring	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_cstring(data, base):$/;"	f
+decode_document	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_document(data, base):$/;"	f
+decode_document_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_document_element(data, base):$/;"	f
+decode_double	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_double(data, base):$/;"	f
+decode_double_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_double_element(data, base):$/;"	f
+decode_int32_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_int32_element(data, base):$/;"	f
+decode_int64_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_int64_element(data, base):$/;"	f
+decode_none_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_none_element(data, base):$/;"	f
+decode_object	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_object(raw_values):$/;"	f
+decode_string	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_string(data, base):$/;"	f
+decode_string_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_string_element(data, base):$/;"	f
+decode_uint64_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def decode_uint64_element(data, base):$/;"	f
+double_struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^double_struct = struct.Struct('<d')$/;"	v
+encode_UTCdatetime_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_UTCdatetime_element(name, value):$/;"	f
+encode_array	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_array(array, traversal_stack,$/;"	f
+encode_array_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_array_element(name, value, traversal_stack, generator_func):$/;"	f
+encode_binary	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_binary(value):$/;"	f
+encode_binary_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_binary_element(name, value):$/;"	f
+encode_boolean_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_boolean_element(name, value):$/;"	f
+encode_cstring	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_cstring(value):$/;"	f
+encode_document	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_document(obj, traversal_stack,$/;"	f
+encode_document_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_document_element(name, value, traversal_stack, generator_func):$/;"	f
+encode_double_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_double_element(name, value):$/;"	f
+encode_int32_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_int32_element(name, value):$/;"	f
+encode_int64_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_int64_element(name, value):$/;"	f
+encode_none_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_none_element(name, value):$/;"	f
+encode_object	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_object(obj, traversal_stack, generator_func):$/;"	f
+encode_object_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_object_element(name, value, traversal_stack, generator_func):$/;"	f
+encode_string	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_string(value):$/;"	f
+encode_string_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_string_element(name, value):$/;"	f
+encode_uint64_element	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_uint64_element(name, value):$/;"	f
+encode_value	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def encode_value(name, value, buf, traversal_stack, generator_func):$/;"	f
+import_class	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def import_class(cls):$/;"	f
+import_classes	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def import_classes(*args):$/;"	f
+import_classes_from_modules	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^def import_classes_from_modules(*args):$/;"	f
+int64_struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^int64_struct = struct.Struct('<q')$/;"	v
+length_struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^length_struct = struct.Struct('<i')$/;"	v
+struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^import struct$/;"	i
+uint64_struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^uint64_struct = struct.Struct('<Q')$/;"	v
+unpack_binary_struct	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^unpack_binary_struct = binary_struct.unpack_from$/;"	v
+unpack_length	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^unpack_length = length_struct.unpack_from$/;"	v
+warnings	p\vitess\third_party\py\bson-0.3.2\bson\codec.py	/^import warnings$/;"	i
+StringIO	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^	from StringIO import StringIO$/;"	i
+StringIO	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^	from cStringIO import StringIO$/;"	i
+_bintoint	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^def _bintoint(data):$/;"	f
+_recvbytes	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^def _recvbytes(self, bytes_needed, sock_buf = None):$/;"	f
+_recvobj	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^def _recvobj(self):$/;"	f
+_sendobj	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^def _sendobj(self, obj):$/;"	f
+dumps	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^from __init__ import dumps, loads$/;"	i
+loads	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^from __init__ import dumps, loads$/;"	i
+socket	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^import socket$/;"	i
+unpack	p\vitess\third_party\py\bson-0.3.2\bson\network.py	/^from struct import unpack$/;"	i
+author	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		author = "Kou Man Tong",$/;"	v
+author_email	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		author_email = "martinkou@tixxme.com",$/;"	v
+description	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		description = "BSON codec for Python",$/;"	v
+keywords	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		keywords = "BSON codec",$/;"	v
+license	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		license = "BSD",$/;"	v
+packages	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		packages=["bson"],$/;"	v
+platforms	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		platforms = "Any",$/;"	v
+setup	p\vitess\third_party\py\bson-0.3.2\setup.py	/^from distutils.core import setup$/;"	i
+url	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		url = "http:\/\/github.com\/martinkou\/bson"$/;"	v
+version	p\vitess\third_party\py\bson-0.3.2\setup.py	/^		version="0.3.2",$/;"	v
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
