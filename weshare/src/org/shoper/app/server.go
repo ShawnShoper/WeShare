@@ -21,4 +21,5 @@ func main() {
 	//make一个chan用于阻塞主线程,避免程序退出
 	blockMainRoutine := make(chan bool)
 	<-blockMainRoutine
+	//test end
 }
