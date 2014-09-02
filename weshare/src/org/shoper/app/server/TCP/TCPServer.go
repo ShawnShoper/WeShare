@@ -36,6 +36,7 @@ type Session struct {
 	Timeout   int                       //超时时间
 	KeepAlive bool                      //是否长连接
 }
+
 type ServerStruct struct {
 	Server_ip   string
 	Server_port int
