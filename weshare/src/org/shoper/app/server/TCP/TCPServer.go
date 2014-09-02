@@ -32,6 +32,7 @@ type TCPServer struct {
 }
 type Session struct {
 	//存在用户多终端登录的情况
+
 	clients   map[server.ID]server.User //key:用户id,value User
 	Timeout   int                       //超时时间
 	KeepAlive bool                      //是否长连接
