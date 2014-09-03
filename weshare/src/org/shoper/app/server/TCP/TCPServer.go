@@ -6,20 +6,15 @@ import (
 	//"fmt"
 	l4g "github.com/alecthomas/log4go"
 	"net"
-	"org/shoper/app/server"
+	"org/shoper/app/server/bean"
+	"org/shoper/app/server/session"
 	"os"
 	"strconv"
 )
 
-type Handler interface {
-	SessionOpened()
-	ExceptionCaught()
-	MessageReceived()
-	SessionClosed()
-}
-
 var (
-	handler Handler //
+	handler interface{}                 //服务器处理handler
+	users   map[bean.ID]session.Session //定义用户集合
 )
 
 const (
@@ -30,21 +25,14 @@ const (
 
 type TCPServer struct {
 }
-type Session struct {
-	//存在用户多终端登录的情况
 
-	clients   map[server.ID]server.User //key:用户id,value User
-	Timeout   int                       //超时时间
-	KeepAlive bool                      //是否长连接
-}
-
-type ServerStruct struct {
+type serverStruct struct {
 	Server_ip   string
 	Server_port int
 }
 
-func getConnectionInfo() (s ServerStruct) {
-	s = ServerStruct{}
+func getConnectionInfo() (s serverStruct) {
+	s = serverStruct{}
 	l4g.Info("get server config info")
 	file, err := os.Open(FILE_PATH)
 	defer file.Close()
@@ -79,7 +67,9 @@ func getConnectionInfo() (s ServerStruct) {
 	}
 	return
 }
-
+func (t *TCPServer) setHandler(hdl interface{}) {
+	handler = hdl
+}
 func (t *TCPServer) StartTCPServer() {
 	info := getConnectionInfo()
 	var address string
@@ -99,12 +89,22 @@ func (t *TCPServer) StartTCPServer() {
 			continue
 		} else {
 			for {
-				l4g.Info("Listening connections...")
-				_, ce := listen.Accept()
-				if ce != nil {
-					l4g.Error("get connection error:" + ce.Error())
+				_, err := getConnection(listen)
+				if err != nil {
+					l4g.Error("Get connection fail ,msg:" + err.Error())
 				}
 			}
 		}
 	}
+}
+func getConnection(listen net.Listener) (net.Conn, error) {
+	l4g.Info("Listening connections...")
+	conn, ce := listen.Accept()
+	if ce != nil {
+		l4g.Error("get connection error:" + ce.Error())
+	}
+	return conn, ce
+}
+func readHeader() {
+
 }

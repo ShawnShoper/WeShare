@@ -11,7 +11,7 @@ import (
 )
 
 func TestToMD5(t *testing.T) {
-	file, _ := os.Open("E:\\BaiduYunDownload\\OS X 10.9.2_MAS_13C64.dmg")
+	file, _ := os.Open("E:\\cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso")
 	b := make([]byte, 1024*1024)
 	//info := bytes.Buffer{}
 	m := md5.New()
