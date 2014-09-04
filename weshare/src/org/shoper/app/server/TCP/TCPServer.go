@@ -89,7 +89,7 @@ func (t *TCPServer) StartTCPServer() {
 			continue
 		} else {
 			for {
-				_, err := getConnection(listen)
+				conn, err := getConnection(listen)
 				if err != nil {
 					l4g.Error("Get connection fail ,msg:" + err.Error())
 				}

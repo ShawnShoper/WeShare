@@ -5,8 +5,8 @@ import (
 )
 
 type Handler interface {
-	SessionOpened(session session.Session) error
-	ExceptionCaught(session session.Session) error
-	MessageReceived(session session.Session) error
-	SessionClosed(session session.Session) error
+	SessionOpened(session session.Session, message interface{}) error
+	ExceptionCaught(session session.Session, err error)
+	MessageReceived(session session.Session, message interface{}) error
+	SessionClosed(session session.Session, message interface{}) error
 }

@@ -10,4 +10,5 @@ type Session struct {
 	timeout   int                   //超时时间
 	keepAlive bool                  //是否长连接
 	currConn  bean.User             //当前连接
+	IP        net.Addr              //remoteIPAddress
 }

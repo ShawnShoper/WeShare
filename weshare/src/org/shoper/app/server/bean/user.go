@@ -7,7 +7,7 @@ import (
 
 //user login info
 type User struct {
-	id         string     //id
+	id         ID         //id
 	loginTime  time.Time  //login time
 	logoutTime time.Time  //logout time
 	ip         net.IPAddr //login ip
