@@ -7,14 +7,11 @@ import (
 	l4g "github.com/alecthomas/log4go"
 	"net"
 	"org/shoper/app/server/bean"
+	hl "org/shoper/app/server/handler"
 	"org/shoper/app/server/session"
+	"org/shoper/app/server/trans"
 	"os"
 	"strconv"
-)
-
-var (
-	handler interface{}                 //服务器处理handler
-	users   map[bean.ID]session.Session //定义用户集合
 )
 
 const (
@@ -24,6 +21,9 @@ const (
 )
 
 type TCPServer struct {
+	Handler      hl.Handler                  //服务器处理handler
+	users        map[bean.ID]session.Session //定义用户集合
+	transFactory trans.TransFactory          //解码编码器工厂
 }
 
 type serverStruct struct {
@@ -67,8 +67,8 @@ func getConnectionInfo() (s serverStruct) {
 	}
 	return
 }
-func (t *TCPServer) setHandler(hdl interface{}) {
-	handler = hdl
+func (t *TCPServer) setHandler(hdl hl.Handler) {
+	t.Handler = hdl
 }
 func (t *TCPServer) StartTCPServer() {
 	info := getConnectionInfo()
@@ -93,6 +93,7 @@ func (t *TCPServer) StartTCPServer() {
 				if err != nil {
 					l4g.Error("Get connection fail ,msg:" + err.Error())
 				}
+				defer conn.Close()
 			}
 		}
 	}

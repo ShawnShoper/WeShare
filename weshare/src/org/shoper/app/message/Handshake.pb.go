@@ -25,7 +25,8 @@ var _ = math.Inf
 type Handshake struct {
 	RequestTime      *string `protobuf:"bytes,2,opt,name=request_time" json:"request_time,omitempty"`
 	ResponseTime     *string `protobuf:"bytes,3,opt,name=response_time" json:"response_time,omitempty"`
-	Desction         *string `protobuf:"bytes,4,opt,name=desction" json:"desction,omitempty"`
+	ServerStatu      *uint32 `protobuf:"varint,4,opt,name=server_statu" json:"server_statu,omitempty"`
+	Desction         *string `protobuf:"bytes,5,opt,name=desction" json:"desction,omitempty"`
 	XXX_unrecognized []byte  `json:"-"`
 }
 
@@ -45,6 +46,13 @@ func (m *Handshake) GetResponseTime() string {
 		return *m.ResponseTime
 	}
 	return ""
+}
+
+func (m *Handshake) GetServerStatu() uint32 {
+	if m != nil && m.ServerStatu != nil {
+		return *m.ServerStatu
+	}
+	return 0
 }
 
 func (m *Handshake) GetDesction() string {

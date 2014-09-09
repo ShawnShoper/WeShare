@@ -11,7 +11,7 @@ import (
 )
 
 func TestToMD5(t *testing.T) {
-	file, _ := os.Open("E:\\cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso")
+	file, _ := os.Open("E:\\KMSpico.rar")
 	b := make([]byte, 1024*1024)
 	//info := bytes.Buffer{}
 	m := md5.New()
