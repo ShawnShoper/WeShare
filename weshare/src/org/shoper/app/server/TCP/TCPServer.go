@@ -67,7 +67,11 @@ func getConnectionInfo() (s serverStruct) {
 	}
 	return
 }
-func (t *TCPServer) setHandler(hdl hl.Handler) {
+
+/**
+ *set server handler
+ */
+func (t *TCPServer) SetHandler(hdl hl.Handler) {
 	t.Handler = hdl
 }
 func (t *TCPServer) StartTCPServer() {

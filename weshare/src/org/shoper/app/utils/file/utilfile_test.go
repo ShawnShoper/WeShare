@@ -15,11 +15,13 @@ func TestToMD5(t *testing.T) {
 	b := make([]byte, 1024*1024)
 	//info := bytes.Buffer{}
 	m := md5.New()
+	os.Remove(name)
 	for {
 		n, _ := file.Read(b)
 		if n == 0 {
 			break
 		}
+
 		//	info.Write(b[:n])
 		m.Write(b[:n])
 	}
