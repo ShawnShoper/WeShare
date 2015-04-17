@@ -11,11 +11,10 @@ import (
 )
 
 func TestToMD5(t *testing.T) {
-	file, _ := os.Open("E:\\KMSpico.rar")
+	file, _ := os.Open("/Users/ShawnShoper/Downloads/cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso")
 	b := make([]byte, 1024*1024)
 	//info := bytes.Buffer{}
 	m := md5.New()
-	os.Remove(name)
 	for {
 		n, _ := file.Read(b)
 		if n == 0 {

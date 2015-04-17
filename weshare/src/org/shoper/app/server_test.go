@@ -5,6 +5,7 @@ import proto "code.google.com/p/goprotobuf/proto"
 import (
 	"fmt"
 	"log"
+	"scan"
 )
 
 func main() {

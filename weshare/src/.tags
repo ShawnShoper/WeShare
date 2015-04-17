@@ -1,0 +1,1768 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-go_out	code.google.com/p/goprotobuf/protoc-gen-go/testdata/Makefile	/^	protoc --go_out=. multi\/multi{1,2,3}.proto$/;"	m
+ABCMeta	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^from abc import ABCMeta, abstractmethod$/;"	i
+AppError	code.google.com/p/vitess/py/net/gorpc.py	/^class AppError(GoRpcError):$/;"	c
+AtomicWriter	code.google.com/p/vitess/py/checkers/checker.py	/^class AtomicWriter(object):$/;"	c
+BADFMT	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^BADFMT:=$(shell $(GOFMT) -l $(GOFILES) $(CGOFILES) $(wildcard *_test.go))$/;"	m
+BINARY	code.google.com/p/vitess/py/vtdb/field_types.py	/^BINARY   = DBAPITypeObject(VT_TINY_BLOB, VT_MEDIUM_BLOB, VT_LONG_BLOB, VT_BLOB)$/;"	v
+BSON	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def BSON(*l):$/;"	f
+BSONBufferTooShort	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject *BSONBufferTooShort;$/;"	v	file:
+BSONCoding	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^class BSONCoding(object):$/;"	c
+BSONError	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject *BSONError;$/;"	v	file:
+BSON_TAG	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def BSON_TAG(type_id):$/;"	f
+BUILD_BUG_ON	code.google.com/p/vitess/go/mysql/vtmysql.c	17;"	d	file:
+BaseCursor	code.google.com/p/vitess/py/vtdb/cursor.py	/^class BaseCursor(object):$/;"	c
+BaseTest	code.google.com/p/vitess/test/connection_test.py	/^class BaseTest(unittest.TestCase):$/;"	c
+BatchCursor	code.google.com/p/vitess/py/vtdb/cursor.py	/^class BatchCursor(BaseCursor):$/;"	c
+BatchQueryItem	code.google.com/p/vitess/py/vtdb/cursor.py	/^class BatchQueryItem(object):$/;"	c
+Binary	code.google.com/p/vitess/py/vtdb/field_types.py	/^def Binary(x):$/;"	f
+BindVarsProxy	code.google.com/p/vitess/py/vtdb/dbapi.py	/^class BindVarsProxy(object):$/;"	c
+BinlogPosition	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  BinlogPosition = None$/;"	v	class:UpdateStreamResponse
+BinlogPosition	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^class BinlogPosition(object):$/;"	c
+Break	code.google.com/p/vitess/test/utils.py	/^class Break(Exception):$/;"	c
+BsonConnection	code.google.com/p/vitess/test/connection_test.py	/^class BsonConnection(bsonrpc.BsonRpcClient):$/;"	c
+BsonRpcClient	code.google.com/p/vitess/py/net/bsonrpc.py	/^class BsonRpcClient(gorpc.GoRpcClient):$/;"	c
+BufIter	code.google.com/p/vitess/py/cbson/cbson.c	/^} BufIter;$/;"	t	typeref:struct:_BufIter	file:
+CGOFILES	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^CGOFILES=\\$/;"	m
+CGO_OFILES	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^CGO_OFILES=\\$/;"	m
+CalledProcessError	code.google.com/p/vitess/test/utils.py	/^from subprocess import Popen, CalledProcessError, PIPE$/;"	i
+Case	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+Case	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^class Case(object):$/;"	c
+Case	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+Checker	code.google.com/p/vitess/py/checkers/checker.py	/^class Checker(object):$/;"	c
+DATETIME	code.google.com/p/vitess/py/vtdb/field_types.py	/^DATETIME = DBAPITypeObject(VT_TIMESTAMP, VT_DATE, VT_TIME, VT_DATETIME, VT_NEWDATE)$/;"	v
+DBAPITypeObject	code.google.com/p/vitess/py/vtdb/field_types.py	/^class DBAPITypeObject:$/;"	c
+DEPS	code.google.com/p/goprotobuf/protoc-gen-go/generator/Makefile	/^DEPS=..\/descriptor ..\/plugin ..\/..\/proto$/;"	m
+DatabaseError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class DatabaseError(exceptions.StandardError):$/;"	c
+Datastore	code.google.com/p/vitess/py/checkers/checker.py	/^class Datastore(object):$/;"	c
+DatastoreThread	code.google.com/p/vitess/py/checkers/checker.py	/^class DatastoreThread(threading.Thread):$/;"	c
+Date	code.google.com/p/vitess/py/vtdb/times.py	/^Date = date$/;"	v
+DateFromTicks	code.google.com/p/vitess/py/vtdb/times.py	/^def DateFromTicks(ticks):$/;"	f
+DateOrNone	code.google.com/p/vitess/py/vtdb/times.py	/^def DateOrNone(s):$/;"	f
+DateTimeDeltaType	code.google.com/p/vitess/py/vtdb/times.py	/^DateTimeDeltaType = timedelta$/;"	v
+DateTimeOrNone	code.google.com/p/vitess/py/vtdb/times.py	/^def DateTimeOrNone(s):$/;"	f
+DateTimeToString	code.google.com/p/vitess/py/vtdb/times.py	/^def DateTimeToString(dt):$/;"	f
+DateTimeType	code.google.com/p/vitess/py/vtdb/times.py	/^DateTimeType = datetime$/;"	v
+DateToString	code.google.com/p/vitess/py/vtdb/times.py	/^def DateToString(d):$/;"	f
+DebugQueue	code.google.com/p/vitess/py/vtdb/qpool.py	/^class DebugQueue:$/;"	c
+Decimal	code.google.com/p/vitess/py/vtdb/field_types.py	/^from decimal import Decimal$/;"	i
+Decimal	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^from decimal import Decimal$/;"	i
+ELEMENT_DISPATCH	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^ELEMENT_DISPATCH = dict([(chr(i), globals()["decode_" + name + "_element"])$/;"	v
+ELEMENT_TYPES	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^ELEMENT_TYPES = {$/;"	v
+ElementTypes	code.google.com/p/vitess/py/cbson/cbson.c	/^enum ElementTypes {$/;"	g	file:
+EnvironmentError	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^class EnvironmentError(Exception):$/;"	c
+Error	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class Error(exceptions.StandardError):$/;"	c
+Error	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  Error = None$/;"	v	class:UpdateStreamResponse
+EventData	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  EventData = None$/;"	v	class:UpdateStreamResponse
+EventData	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^class EventData(object):$/;"	c
+ExecuteQueryQueueItem	code.google.com/p/vitess/py/vtdb/qpool.py	/^class ExecuteQueryQueueItem(object):$/;"	c
+Extension	code.google.com/p/vitess/py/cbson/setup.py	/^from distutils.core import setup, Extension$/;"	i
+FLock	code.google.com/p/vitess/py/io/lockfile.py	/^class FLock(object):$/;"	c
+FakeZkOccConnection	code.google.com/p/vitess/py/zk/zkocc.py	/^class FakeZkOccConnection(object):$/;"	c
+FatalError	code.google.com/p/vitess/py/vtdb/tablet3.py	/^class FatalError(dbexceptions.OperationalError):$/;"	c
+FetchManyQueryQueueItem	code.google.com/p/vitess/py/vtdb/qpool.py	/^class FetchManyQueryQueueItem(object):$/;"	c
+FetchQueryQueueItem	code.google.com/p/vitess/py/vtdb/qpool.py	/^class FetchQueryQueueItem(object):$/;"	c
+GLOBAL_MASTER_START_POSITION	code.google.com/p/vitess/test/update_stream.py	/^GLOBAL_MASTER_START_POSITION = None$/;"	v
+GOFILES	code.google.com/p/goprotobuf/protoc-gen-go/generator/Makefile	/^GOFILES=\\$/;"	m
+GOFILES	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^GOFILES=\\$/;"	m
+GOFMT	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^GOFMT=gofmt$/;"	m
+GoRpcClient	code.google.com/p/vitess/py/net/gorpc.py	/^class GoRpcClient(object):$/;"	c
+GoRpcError	code.google.com/p/vitess/py/net/gorpc.py	/^class GoRpcError(Exception):$/;"	c
+GoRpcRequest	code.google.com/p/vitess/py/net/gorpc.py	/^class GoRpcRequest(object):$/;"	c
+GoRpcResponse	code.google.com/p/vitess/py/net/gorpc.py	/^class GoRpcResponse(object):$/;"	c
+GroupId	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  GroupId = None$/;"	v	class:BinlogPosition
+INDEX_OF	code.google.com/p/vitess/py/cbson/cbson.c	60;"	d	file:
+IntegrityError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class IntegrityError(DatabaseError):$/;"	c
+InterfaceError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class InterfaceError(Error):$/;"	c
+InternalError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class InternalError(DatabaseError):$/;"	c
+Keyspace	code.google.com/p/vitess/py/vtdb/keyspace.py	/^class Keyspace:$/;"	c
+LD_LIBRARY_PATH	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^LD_LIBRARY_PATH:=$(LIBDIR):$(LD_LIBRARY_PATH)$/;"	m
+LIBDIR	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^LIBDIR=$(ZKROOT)\/src\/c\/.libs$/;"	m
+LIBDIR	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^LIBDIR=\/usr\/lib$/;"	m
+LOGFILE	code.google.com/p/vitess/test/connection_test.py	/^LOGFILE = "\/tmp\/vtocc.log"$/;"	v
+Log	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^class Log(object):$/;"	c
+MAKEFLAGS	code.google.com/p/vitess/Makefile	/^MAKEFLAGS = -s$/;"	m
+MAKEFLAGS	code.google.com/p/vitess/go/vt/sqlparser/Makefile	/^MAKEFLAGS = -s$/;"	m
+MAX_BSON_DEPTH	code.google.com/p/vitess/py/cbson/cbson.c	785;"	d	file:
+MasterFilename	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  MasterFilename = None$/;"	v	class:ReplPosition
+MasterPosition	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  MasterPosition = None$/;"	v	class:ReplPosition
+Mismatch	code.google.com/p/vitess/py/checkers/checker.py	/^class Mismatch(Exception):$/;"	c
+MissingClassDefinition	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^class MissingClassDefinition(ValueError):$/;"	c
+MissingTimezoneWarning	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^class MissingTimezoneWarning(RuntimeWarning):$/;"	c
+MockChecker	code.google.com/p/vitess/test/checkers_test.py	/^class MockChecker(checker.Checker):$/;"	c
+MultiCase	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+MultiCase	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^class MultiCase(object):$/;"	c
+MultiCase	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^from cases_framework import Case, MultiCase$/;"	i
+MultiDatastore	code.google.com/p/vitess/py/checkers/checker.py	/^class MultiDatastore(object):$/;"	c
+MultiDict	code.google.com/p/vitess/test/framework.py	/^class MultiDict(dict):$/;"	c
+MySQLdb	code.google.com/p/vitess/py/checkers/checker.py	/^import MySQLdb$/;"	i
+MySQLdb	code.google.com/p/vitess/py/checkers/checker.py	/^import MySQLdb.cursors$/;"	i
+MySQLdb	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import MySQLdb$/;"	i
+MySQLdb	code.google.com/p/vitess/test/tablet.py	/^import MySQLdb$/;"	i
+MySQLdb	code.google.com/p/vitess/test/tabletmanager.py	/^import MySQLdb$/;"	i
+MySQLdb	code.google.com/p/vitess/test/update_stream.py	/^import MySQLdb$/;"	i
+MySQLdb	code.google.com/p/vitess/test/utils.py	/^import MySQLdb$/;"	i
+NULL_BYTE	code.google.com/p/vitess/py/cbson/test_cbson.py	/^NULL_BYTE = '\\x00'$/;"	v
+NUMBER	code.google.com/p/vitess/py/vtdb/field_types.py	/^NUMBER   = DBAPITypeObject(VT_DECIMAL, VT_TINY, VT_SHORT, VT_LONG, VT_FLOAT, VT_DOUBLE, VT_LONGLONG, VT_INT24, VT_YEAR, VT_NEWDECIMAL)$/;"	v
+NoneType	code.google.com/p/vitess/py/vtdb/field_types.py	/^NoneType = type(None)$/;"	v
+NotSupportedError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class NotSupportedError(ProgrammingError):$/;"	c
+OperationalError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class OperationalError(DatabaseError):$/;"	c
+OptionParser	code.google.com/p/vitess/test/rowcache_invalidator.py	/^from optparse import OptionParser$/;"	i
+OptionParser	code.google.com/p/vitess/test/utils.py	/^from optparse import OptionParser$/;"	i
+PIPE	code.google.com/p/vitess/test/framework.py	/^from subprocess import Popen, PIPE$/;"	i
+PIPE	code.google.com/p/vitess/test/tabletmanager.py	/^from subprocess import PIPE, call$/;"	i
+PIPE	code.google.com/p/vitess/test/utils.py	/^from subprocess import Popen, CalledProcessError, PIPE$/;"	i
+PTR_AT	code.google.com/p/vitess/py/cbson/cbson.c	63;"	d	file:
+PY_SSIZE_T_MAX	code.google.com/p/vitess/py/cbson/cbson.c	32;"	d	file:
+PY_SSIZE_T_MIN	code.google.com/p/vitess/py/cbson/cbson.c	33;"	d	file:
+PartialCommitError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class PartialCommitError(IntegrityError):$/;"	c
+PkRows	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  PkRows = None$/;"	v	class:EventData
+Popen	code.google.com/p/vitess/test/framework.py	/^from subprocess import Popen, PIPE$/;"	i
+Popen	code.google.com/p/vitess/test/utils.py	/^from subprocess import Popen, CalledProcessError, PIPE$/;"	i
+Position	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  Position = None$/;"	v	class:BinlogPosition
+ProgrammingError	code.google.com/p/vitess/py/net/gorpc.py	/^class ProgrammingError(GoRpcError):$/;"	c
+ProgrammingError	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class ProgrammingError(DatabaseError):$/;"	c
+Py_ssize_t	code.google.com/p/vitess/py/cbson/cbson.c	/^typedef int Py_ssize_t;$/;"	t	file:
+QUERYLOGFILE	code.google.com/p/vitess/test/connection_test.py	/^QUERYLOGFILE = "\/tmp\/vtocc_queries.log"$/;"	v
+QueryThreadPool	code.google.com/p/vitess/py/vtdb/qpool.py	/^class QueryThreadPool(object):$/;"	c
+Queue	code.google.com/p/vitess/py/checkers/checker.py	/^import Queue$/;"	i
+Queue	code.google.com/p/vitess/py/vtdb/qpool.py	/^from Queue import Queue$/;"	i
+RECONNECT_DELAY	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^RECONNECT_DELAY = 0.002$/;"	v
+ROWID	code.google.com/p/vitess/py/vtdb/field_types.py	/^ROWID    = DBAPITypeObject()$/;"	v
+RelayFilename	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  RelayFilename = None$/;"	v	class:ReplPosition
+RelayPosition	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  RelayPosition = None$/;"	v	class:ReplPosition
+ReplPosition	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^class ReplPosition(object):$/;"	c
+ResultQueueItem	code.google.com/p/vitess/py/vtdb/qpool.py	/^class ResultQueueItem(object):$/;"	c
+ResultRowsQueueItem	code.google.com/p/vitess/py/vtdb/qpool.py	/^class ResultRowsQueueItem(object):$/;"	c
+RetryError	code.google.com/p/vitess/py/vtdb/tablet3.py	/^class RetryError(dbexceptions.OperationalError):$/;"	c
+RowCacheInvalidator	code.google.com/p/vitess/test/rowcache_invalidator.py	/^class RowCacheInvalidator(unittest.TestCase):$/;"	c
+STRING	code.google.com/p/vitess/py/vtdb/field_types.py	/^STRING   = DBAPITypeObject(VT_ENUM, VT_VAR_STRING, VT_STRING)$/;"	v
+ShardedClient	code.google.com/p/vitess/py/vtdb/sharded.py	/^class ShardedClient(object):$/;"	c
+ShardedCursor	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^class ShardedCursor(object):$/;"	c
+SharededStreamCursor	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^class SharededStreamCursor(object):$/;"	c
+SimpleZkOccConnection	code.google.com/p/vitess/py/zk/zkocc.py	/^class SimpleZkOccConnection(object):$/;"	c
+Slice	code.google.com/p/vitess/py/cbson/cbson.c	/^} Slice;$/;"	t	typeref:struct:_Slice	file:
+Sql	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  Sql = None$/;"	v	class:EventData
+SqlType	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  SqlType = None$/;"	v	class:EventData
+SrvEntry	code.google.com/p/vitess/py/zk/zkns_query.py	/^SrvEntry = collections.namedtuple('SrvEntry',$/;"	v
+Stats	code.google.com/p/vitess/py/checkers/checker.py	/^class Stats(object):$/;"	c
+StopQueueItem	code.google.com/p/vitess/py/vtdb/qpool.py	/^class StopQueueItem(object):$/;"	c
+StreamCursor	code.google.com/p/vitess/py/vtdb/cursor.py	/^class StreamCursor(object):$/;"	c
+StringIO	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^	from StringIO import StringIO$/;"	i
+StringIO	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^	from cStringIO import StringIO$/;"	i
+TARG	code.google.com/p/goprotobuf/protoc-gen-go/generator/Makefile	/^TARG=code.google.com\/p\/goprotobuf\/compiler\/generator$/;"	m
+TARG	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/Makefile	/^TARG=launchpad.net\/gozk\/zookeeper$/;"	m
+TableName	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  TableName = None$/;"	v	class:EventData
+Tablet	code.google.com/p/vitess/test/tablet.py	/^class Tablet(object):$/;"	c
+TabletConnection	code.google.com/p/vitess/py/vtdb/tablet2.py	/^class TabletConnection(object):$/;"	c
+TabletConnection	code.google.com/p/vitess/py/vtdb/tablet3.py	/^class TabletConnection(object):$/;"	c
+TabletCursor	code.google.com/p/vitess/py/vtdb/cursor.py	/^class TabletCursor(BaseCursor):$/;"	c
+Tailer	code.google.com/p/vitess/test/framework.py	/^class Tailer(object):$/;"	c
+TestAuthentication	code.google.com/p/vitess/test/connection_test.py	/^class TestAuthentication(BaseTest):$/;"	c
+TestCache	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^class TestCache(framework.TestCase):$/;"	c
+TestCase	code.google.com/p/vitess/test/framework.py	/^class TestCase(unittest.TestCase):$/;"	c
+TestCheckers	code.google.com/p/vitess/test/checkers_test.py	/^class TestCheckers(TestCheckersBase):$/;"	c
+TestCheckersBase	code.google.com/p/vitess/test/checkers_test.py	/^class TestCheckersBase(unittest.TestCase):$/;"	c
+TestConnection	code.google.com/p/vitess/test/connection_test.py	/^class TestConnection(BaseTest):$/;"	c
+TestDbTopo	code.google.com/p/vitess/test/vtctld_test.py	/^class TestDbTopo(unittest.TestCase):$/;"	c
+TestDifferentEncoding	code.google.com/p/vitess/test/checkers_test.py	/^class TestDifferentEncoding(TestCheckersBase):$/;"	c
+TestEnv	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^class TestEnv(object):$/;"	c
+TestError	code.google.com/p/vitess/test/utils.py	/^class TestError(Exception):$/;"	c
+TestNocache	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^class TestNocache(framework.TestCase):$/;"	c
+TestRlookup	code.google.com/p/vitess/test/checkers_test.py	/^class TestRlookup(TestCheckersBase):$/;"	c
+TestSortedRowListDifference	code.google.com/p/vitess/test/checkers_test.py	/^class TestSortedRowListDifference(unittest.TestCase):$/;"	c
+TestStream	code.google.com/p/vitess/test/queryservice_tests/stream_tests.py	/^class TestStream(framework.TestCase):$/;"	c
+TestWillNotBeCached	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^class TestWillNotBeCached(framework.TestCase):$/;"	c
+Thread	code.google.com/p/vitess/py/vtdb/qpool.py	/^from threading import Thread$/;"	i
+Time	code.google.com/p/vitess/py/vtdb/times.py	/^Time = time$/;"	v
+TimeDelta	code.google.com/p/vitess/py/vtdb/times.py	/^TimeDelta = timedelta$/;"	v
+TimeDeltaOrNone	code.google.com/p/vitess/py/vtdb/times.py	/^def TimeDeltaOrNone(s):$/;"	f
+TimeFromTicks	code.google.com/p/vitess/py/vtdb/times.py	/^def TimeFromTicks(ticks):$/;"	f
+TimeOrNone	code.google.com/p/vitess/py/vtdb/times.py	/^def TimeOrNone(s):$/;"	f
+TimeoutError	code.google.com/p/vitess/py/net/gorpc.py	/^class TimeoutError(GoRpcError):$/;"	c
+TimeoutError	code.google.com/p/vitess/py/vtdb/tablet3.py	/^class TimeoutError(dbexceptions.OperationalError):$/;"	c
+Timestamp	code.google.com/p/vitess/py/vtdb/times.py	/^Timestamp = datetime$/;"	v
+Timestamp	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  Timestamp = None$/;"	v	class:BinlogPosition
+TimestampFromTicks	code.google.com/p/vitess/py/vtdb/times.py	/^def TimestampFromTicks(ticks):$/;"	f
+TraversalStep	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^class TraversalStep(object):$/;"	c
+Txn	code.google.com/p/vitess/py/vtdb/sharded.py	/^class Txn(object):$/;"	c
+UpdateStreamConnection	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^class UpdateStreamConnection(object):$/;"	c
+UpdateStreamResponse	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^class UpdateStreamResponse(object):$/;"	c
+VAL_AT	code.google.com/p/vitess/py/cbson/cbson.c	66;"	d	file:
+VT_BIT	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_BIT = 16$/;"	v
+VT_BLOB	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_BLOB = 252$/;"	v
+VT_CONN	code.google.com/p/vitess/go/mysql/vtmysql.h	/^} VT_CONN;$/;"	t	typeref:struct:vt_conn
+VT_DATE	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_DATE = 10$/;"	v
+VT_DATETIME	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_DATETIME = 12$/;"	v
+VT_DECIMAL	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_DECIMAL = 0$/;"	v
+VT_DOUBLE	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_DOUBLE = 5$/;"	v
+VT_ENUM	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_ENUM = 247$/;"	v
+VT_FLOAT	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_FLOAT = 4$/;"	v
+VT_GEOMETRY	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_GEOMETRY = 255$/;"	v
+VT_INT24	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_INT24 = 9$/;"	v
+VT_LONG	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_LONG = 3$/;"	v
+VT_LONGLONG	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_LONGLONG = 8$/;"	v
+VT_LONG_BLOB	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_LONG_BLOB = 251$/;"	v
+VT_MEDIUM_BLOB	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_MEDIUM_BLOB = 250$/;"	v
+VT_NEWDATE	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_NEWDATE = 14$/;"	v
+VT_NEWDECIMAL	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_NEWDECIMAL = 246$/;"	v
+VT_NULL	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_NULL = 6$/;"	v
+VT_ROW	code.google.com/p/vitess/go/mysql/vtmysql.h	/^} VT_ROW;$/;"	t	typeref:struct:vt_row
+VT_SET	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_SET = 248$/;"	v
+VT_SHORT	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_SHORT = 2$/;"	v
+VT_STRING	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_STRING = 254$/;"	v
+VT_TIME	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_TIME = 11$/;"	v
+VT_TIMESTAMP	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_TIMESTAMP = 7$/;"	v
+VT_TINY	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_TINY = 1$/;"	v
+VT_TINY_BLOB	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_TINY_BLOB = 249$/;"	v
+VT_VARCHAR	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_VARCHAR = 15$/;"	v
+VT_VAR_STRING	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_VAR_STRING = 253$/;"	v
+VT_YEAR	code.google.com/p/vitess/py/vtdb/field_types.py	/^VT_YEAR = 13$/;"	v
+VtOCCConnection	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^class VtOCCConnection(tablet2.TabletConnection):$/;"	c
+VtcldError	code.google.com/p/vitess/test/vtctld_test.py	/^class VtcldError(Exception): pass$/;"	c
+Vtctld	code.google.com/p/vitess/test/vtctld_test.py	/^class Vtctld(object):$/;"	c
+VtoccTestEnv	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^class VtoccTestEnv(TestEnv):$/;"	c
+VttabletTestEnv	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^class VttabletTestEnv(TestEnv):$/;"	c
+WRAPPED_FIELD	code.google.com/p/vitess/py/net/bsonrpc.py	/^WRAPPED_FIELD = '_Val_'$/;"	v
+Warning	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^class Warning(exceptions.StandardError):$/;"	c
+Xid	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  Xid = None$/;"	v	class:BinlogPosition
+ZK_KEYSPACE_PATH	code.google.com/p/vitess/py/vtdb/keyspace.py	/^ZK_KEYSPACE_PATH = '\/zk\/local\/vt\/ns'$/;"	v
+ZkJsonObject	code.google.com/p/vitess/py/zk/zkjson.py	/^class ZkJsonObject(object):$/;"	c
+ZkOccConnection	code.google.com/p/vitess/py/zk/zkocc.py	/^class ZkOccConnection(object):$/;"	c
+ZkOccError	code.google.com/p/vitess/py/zk/zkocc.py	/^class ZkOccError(Exception):$/;"	c
+ZknsAddr	code.google.com/p/vitess/py/zk/zkns_query.py	/^class ZknsAddr(zkjson.ZkJsonObject):$/;"	c
+ZknsAddrs	code.google.com/p/vitess/py/zk/zkns_query.py	/^class ZknsAddrs(zkjson.ZkJsonObject):$/;"	c
+ZknsError	code.google.com/p/vitess/py/zk/zkns_query.py	/^class ZknsError(Exception):$/;"	c
+_BufIter	code.google.com/p/vitess/py/cbson/cbson.c	/^typedef struct _BufIter {$/;"	s	file:
+_EmptyClass	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^class _EmptyClass(object):$/;"	c
+_GoRpcConn	code.google.com/p/vitess/py/net/gorpc.py	/^class _GoRpcConn(object):$/;"	c
+_Slice	code.google.com/p/vitess/py/cbson/cbson.c	/^typedef struct _Slice {$/;"	s	file:
+__add_keyspace	code.google.com/p/vitess/py/vtdb/topology.py	/^def __add_keyspace(ks):$/;"	f	file:
+__all__	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/__init__.py	/^__all__ = ["loads", "dumps"]$/;"	v
+__cmp__	code.google.com/p/vitess/py/vtdb/field_types.py	/^  def __cmp__(self, other):$/;"	m	class:DBAPITypeObject	file:
+__del__	code.google.com/p/vitess/py/net/gorpc.py	/^  __del__ = close$/;"	v	class:GoRpcClient
+__enter__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __enter__(self):$/;"	m	class:AtomicWriter	file:
+__enter__	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def __enter__(self):$/;"	m	class:ShardedClient	file:
+__exit__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __exit__(self, *args, **kwargs):$/;"	m	class:AtomicWriter	file:
+__exit__	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def __exit__(self, exc, value, tb):$/;"	m	class:ShardedClient	file:
+__getattr__	code.google.com/p/vitess/test/framework.py	/^  def __getattr__(self, name):$/;"	m	class:MultiDict	file:
+__getitem__	code.google.com/p/vitess/py/vtdb/dbapi.py	/^  def __getitem__(self, name):$/;"	m	class:BindVarsProxy	file:
+__init__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __init__(self, connection_params, stats=None):$/;"	m	class:Datastore
+__init__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __init__(self, connection_params_list, nickname, stats=None):$/;"	m	class:MultiDatastore
+__init__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __init__(self, datastore, retries=3):$/;"	m	class:DatastoreThread
+__init__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __init__(self, destination_url, sources_urls, table, directory='.',$/;"	m	class:Checker
+__init__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __init__(self, filename, directory):$/;"	m	class:AtomicWriter
+__init__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __init__(self, interval=0, name=""):$/;"	m	class:Stats
+__init__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __init__(self, missing, unexpected, different):$/;"	m	class:Mismatch
+__init__	code.google.com/p/vitess/py/io/lockfile.py	/^  def __init__(self, path):$/;"	m	class:FLock
+__init__	code.google.com/p/vitess/py/net/bsonrpc.py	/^  def __init__(self, addr, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:BsonRpcClient
+__init__	code.google.com/p/vitess/py/net/gorpc.py	/^  def __init__(self, header, args):$/;"	m	class:GoRpcRequest
+__init__	code.google.com/p/vitess/py/net/gorpc.py	/^  def __init__(self, timeout):$/;"	m	class:_GoRpcConn
+__init__	code.google.com/p/vitess/py/net/gorpc.py	/^  def __init__(self, uri, timeout, certfile=None, keyfile=None):$/;"	m	class:GoRpcClient
+__init__	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def __init__(self, connection):$/;"	m	class:BaseCursor
+__init__	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def __init__(self, connection):$/;"	m	class:BatchCursor
+__init__	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def __init__(self, connection):$/;"	m	class:StreamCursor
+__init__	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def __init__(self, sql, bind_variables, key, keys):$/;"	m	class:BatchQueryItem
+__init__	code.google.com/p/vitess/py/vtdb/dbapi.py	/^  def __init__(self, bind_vars):$/;"	m	class:BindVarsProxy
+__init__	code.google.com/p/vitess/py/vtdb/field_types.py	/^  def __init__(self, *values):$/;"	m	class:DBAPITypeObject
+__init__	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  def __init__(self, name, data):$/;"	m	class:Keyspace
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, *args):$/;"	m	class:DebugQueue
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, cursor, execute_args, execute_kargs, result_queue):$/;"	m	class:ExecuteQueryQueueItem
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, cursor, result_queue):$/;"	m	class:FetchQueryQueueItem
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, cursor, result_queue, fetch_size):$/;"	m	class:FetchManyQueryQueueItem
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, result=None, error=None):$/;"	m	class:ResultQueueItem
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, rows=None, error=None):$/;"	m	class:ResultRowsQueueItem
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, thread_name):$/;"	m	class:StopQueueItem
+__init__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __init__(self, thread_pool_size=1):$/;"	m	class:QueryThreadPool
+__init__	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def __init__(self, zkocc_client, keyspace_name, db_type, use_streaming, timeout, user, password, dbname):$/;"	m	class:ShardedClient
+__init__	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def __init__(self, sconn):$/;"	m	class:ShardedCursor
+__init__	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def __init__(self, addr, keyspace, shard, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:TabletConnection
+__init__	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def __init__(self, addr, keyspace, shard, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:TabletConnection
+__init__	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def __init__(self, addr, timeout, user=None, password=None, encrypted=False, keyfile=None, certfile=None):$/;"	m	class:UpdateStreamConnection
+__init__	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def __init__(self, master_filename, master_position):$/;"	m	class:ReplPosition
+__init__	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def __init__(self, master_filename, master_position, group_id=0): $/;"	m	class:BinlogPosition
+__init__	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def __init__(self, raw_response):$/;"	m	class:EventData
+__init__	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def __init__(self, response_dict):$/;"	m	class:UpdateStreamResponse
+__init__	code.google.com/p/vitess/py/zk/zkns_query.py	/^  def __init__(self):$/;"	m	class:ZknsAddrs
+__init__	code.google.com/p/vitess/py/zk/zkocc.py	/^  def __init__(self, addr, timeout, user=None, password=None):$/;"	m	class:SimpleZkOccConnection
+__init__	code.google.com/p/vitess/py/zk/zkocc.py	/^  def __init__(self, addrs, local_cell, timeout, user=None, password=None):$/;"	m	class:ZkOccConnection
+__init__	code.google.com/p/vitess/py/zk/zkocc.py	/^  def __init__(self, local_cell):$/;"	m	class:FakeZkOccConnection
+__init__	code.google.com/p/vitess/test/checkers_test.py	/^  def __init__(self, *args, **kwargs):$/;"	m	class:MockChecker
+__init__	code.google.com/p/vitess/test/connection_test.py	/^  def __init__(self, addr, timeout, user=None, password=None):$/;"	m	class:BsonConnection
+__init__	code.google.com/p/vitess/test/framework.py	/^  def __init__(self, f):$/;"	m	class:Tailer
+__init__	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def __init__(self, doc, sqls_and_cases):$/;"	m	class:MultiCase
+__init__	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def __init__(self, line):$/;"	m	class:Log
+__init__	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def __init__(self, sql, bindings=None, result=None, rewritten=None, doc='',$/;"	m	class:Case
+__init__	code.google.com/p/vitess/test/tablet.py	/^  def __init__(self, tablet_uid=None, port=None, mysql_port=None, cell=None):$/;"	m	class:Tablet
+__init__	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^	def __init__(self, *args):$/;"	m	class:MissingTimezoneWarning
+__init__	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^	def __init__(self, class_name):$/;"	m	class:MissingClassDefinition
+__init__	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^	def __init__(self, parent, key):$/;"	m	class:TraversalStep
+__iter__	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def __iter__(self):$/;"	m	class:BaseCursor	file:
+__iter__	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def __iter__(self):$/;"	m	class:StreamCursor	file:
+__iter__	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def __iter__(self):$/;"	m	class:ShardedCursor	file:
+__iter__	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def __iter__(self):$/;"	m	class:MultiCase	file:
+__keyspace_map	code.google.com/p/vitess/py/vtdb/topology.py	/^__keyspace_map = {}$/;"	v
+__metaclass__	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^	__metaclass__ = ABCMeta$/;"	v	class:BSONCoding
+__str__	code.google.com/p/vitess/py/checkers/checker.py	/^  def __str__(self):$/;"	m	class:Mismatch	file:
+__str__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __str__(self):$/;"	m	class:ExecuteQueryQueueItem	file:
+__str__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __str__(self):$/;"	m	class:FetchManyQueryQueueItem	file:
+__str__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __str__(self):$/;"	m	class:FetchQueryQueueItem	file:
+__str__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __str__(self):$/;"	m	class:ResultQueueItem	file:
+__str__	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def __str__(self):$/;"	m	class:ResultRowsQueueItem	file:
+__str__	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def __str__(self):$/;"	m	class:TabletConnection	file:
+__str__	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def __str__(self):$/;"	m	class:Case	file:
+__str__	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def __str__(self):$/;"	m	class:MultiCase	file:
+_add_proc	code.google.com/p/vitess/test/utils.py	/^def _add_proc(proc):$/;"	f
+_begin	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _begin(self, shard_idx):$/;"	m	class:ShardedClient
+_bintoint	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^def _bintoint(data):$/;"	f
+_check_db_addr	code.google.com/p/vitess/test/tabletmanager.py	/^def _check_db_addr(db_addr, expected_addr):$/;"	f
+_check_deadline_exceeded	code.google.com/p/vitess/py/net/gorpc.py	/^  def _check_deadline_exceeded(self, timeout):$/;"	m	class:GoRpcClient
+_check_string_in_hook_result	code.google.com/p/vitess/test/tabletmanager.py	/^def _check_string_in_hook_result(text, expected):$/;"	f
+_check_zk_output	code.google.com/p/vitess/test/zkocc.py	/^def _check_zk_output(cmd, expected):$/;"	f
+_completion_data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^typedef struct _completion_data {$/;"	s
+_decode_array_document	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def _decode_array_document(data, base):$/;"	f
+_decode_document	code.google.com/p/vitess/py/cbson/cbson.c	/^_decode_document(BufIter* buf_iter, int is_array) {$/;"	f	file:
+_default	code.google.com/p/vitess/py/zk/zkjson.py	/^def _default(o):$/;"	f
+_default_kargs	code.google.com/p/vitess/py/zk/zkjson.py	/^_default_kargs = {'default': _default,$/;"	v
+_dial_shard	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _dial_shard(self, shard_idx):$/;"	m	class:ShardedClient
+_encode_element	code.google.com/p/vitess/py/cbson/cbson.c	/^_encode_element(PyObject* key, PyObject* value, int depth) {$/;"	f	file:
+_encode_key	code.google.com/p/vitess/py/cbson/cbson.c	/^_encode_key(PyObject* key, char** remaining, char first, Py_ssize_t extra) {$/;"	f	file:
+_errno_map	code.google.com/p/vitess/py/vtdb/tablet3.py	/^_errno_map = {$/;"	v
+_errno_pattern	code.google.com/p/vitess/py/vtdb/tablet3.py	/^_errno_pattern = re.compile('\\(errno (\\d+)\\)')$/;"	v
+_exec_vt_txn	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def _exec_vt_txn(host, query_list=None):$/;"	f
+_exec_vt_txn	code.google.com/p/vitess/test/update_stream.py	/^def _exec_vt_txn(host, query_list=None):$/;"	f
+_execute	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def _execute(self, sql, bind_variables, **kargs):$/;"	m	class:BaseCursor
+_execute	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def _execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_execute	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def _execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_execute	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  def _execute(self, sql, bind_variables):$/;"	m	class:VtOCCConnection
+_execute_batch	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _execute_batch(self, query_list, bind_vars_list, shard_idx):$/;"	m	class:ShardedClient
+_execute_batch	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def _execute_batch(self, sql_list, bind_variables_list):$/;"	m	class:TabletConnection
+_execute_batch	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def _execute_batch(self, sql_list, bind_variables_list):$/;"	m	class:TabletConnection
+_execute_batch	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  def _execute_batch(self, sql_list, bind_variables_list):$/;"	m	class:VtOCCConnection
+_execute_for_keyspace_ids	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _execute_for_keyspace_ids(self, query, bind_vars, keyspace_id_list):$/;"	m	class:ShardedClient
+_execute_on_shard	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _execute_on_shard(self, query, bind_vars, shard_idx):$/;"	m	class:ShardedClient
+_execute_on_shards	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _execute_on_shards(self, query, bind_vars, shard_idx_list):$/;"	m	class:ShardedClient
+_format_time	code.google.com/p/vitess/test/zkocc.py	/^def _format_time(timeFromBson):$/;"	f
+_get_addrs	code.google.com/p/vitess/py/zk/zkns_query.py	/^def _get_addrs(zconn, zk_path):$/;"	f
+_get_master_current_position	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def _get_master_current_position():$/;"	f
+_get_master_current_position	code.google.com/p/vitess/test/update_stream.py	/^def _get_master_current_position():$/;"	f
+_get_master_stream_conn	code.google.com/p/vitess/test/update_stream.py	/^def _get_master_stream_conn():$/;"	f
+_get_repl_current_position	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def _get_repl_current_position():$/;"	f
+_get_repl_current_position	code.google.com/p/vitess/test/update_stream.py	/^def _get_repl_current_position():$/;"	f
+_get_replica_stream_conn	code.google.com/p/vitess/test/update_stream.py	/^def _get_replica_stream_conn():$/;"	f
+_get_stream_connections	code.google.com/p/vitess/test/update_stream.py	/^def _get_stream_connections():$/;"	f
+_handle_void_completion	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^void _handle_void_completion(int rc, const void *data_) {$/;"	f
+_lastStreamResponseError	code.google.com/p/vitess/py/net/gorpc.py	/^_lastStreamResponseError = 'EOS'$/;"	v
+_make_req	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def _make_req(self):$/;"	m	class:TabletConnection
+_make_req	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def _make_req(self):$/;"	m	class:TabletConnection
+_make_row	code.google.com/p/vitess/py/vtdb/tablet2.py	/^def _make_row(row, conversions):$/;"	f
+_make_row	code.google.com/p/vitess/py/vtdb/tablet3.py	/^def _make_row(row, conversions):$/;"	f
+_make_shard_names	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  def _make_shard_names(self):$/;"	m	class:Keyspace
+_populate_zk	code.google.com/p/vitess/test/zkocc.py	/^def _populate_zk():$/;"	f
+_read_response	code.google.com/p/vitess/py/net/gorpc.py	/^  def _read_response(self, response, timeout):$/;"	m	class:GoRpcClient
+_recvbytes	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^def _recvbytes(self, bytes_needed, sock_buf = None):$/;"	f
+_recvobj	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^def _recvobj(self):$/;"	f
+_resolve_path	code.google.com/p/vitess/py/zk/zkocc.py	/^  def _resolve_path(self, zk_path):$/;"	m	class:FakeZkOccConnection
+_resolve_path	code.google.com/p/vitess/py/zk/zkocc.py	/^  def _resolve_path(self, zk_path):$/;"	m	class:ZkOccConnection
+_run	code.google.com/p/vitess/py/checkers/checker.py	/^  def _run(self):$/;"	m	class:Checker
+_run_hook	code.google.com/p/vitess/test/tabletmanager.py	/^def _run_hook(params, expectedStrings):$/;"	f
+_run_test_mysqlctl_clone	code.google.com/p/vitess/test/tabletmanager.py	/^def _run_test_mysqlctl_clone(server_mode):$/;"	f
+_run_test_reparent_graceful	code.google.com/p/vitess/test/tabletmanager.py	/^def _run_test_reparent_graceful(shard_id):$/;"	f
+_run_test_vtctl_clone	code.google.com/p/vitess/test/tabletmanager.py	/^def _run_test_vtctl_clone(server_mode):$/;"	f
+_run_test_vtctl_partial_clone	code.google.com/p/vitess/test/tabletmanager.py	/^def _run_test_vtctl_partial_clone(create, populate,$/;"	f
+_run_test_vtctl_snapshot_restore	code.google.com/p/vitess/test/tabletmanager.py	/^def _run_test_vtctl_snapshot_restore(server_mode):$/;"	f
+_run_with_reconnect	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  def _run_with_reconnect(self, *args, **kargs):$/;"	f	function:reconnect
+_sendobj	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^def _sendobj(self, obj):$/;"	f
+_serializable_attributes	code.google.com/p/vitess/py/zk/zkjson.py	/^  _serializable_attributes = ()$/;"	v	class:ZkJsonObject
+_serializable_attributes	code.google.com/p/vitess/py/zk/zkns_query.py	/^  _serializable_attributes = ('entries',)$/;"	v	class:ZknsAddrs
+_serializable_attributes	code.google.com/p/vitess/py/zk/zkns_query.py	/^  _serializable_attributes = ('uid', 'host', 'port', 'named_port_map')$/;"	v	class:ZknsAddr
+_setUpClass	code.google.com/p/vitess/test/connection_test.py	/^  def _setUpClass(klass):$/;"	m	class:BaseTest
+_sorted_by_srv_priority	code.google.com/p/vitess/py/zk/zkns_query.py	/^def _sorted_by_srv_priority(entries):$/;"	f
+_stream_conversions	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  _stream_conversions = None$/;"	v	class:TabletConnection
+_stream_execute	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def _stream_execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_stream_execute	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def _stream_execute(self, sql, bind_variables):$/;"	m	class:TabletConnection
+_stream_execute	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  def _stream_execute(self, sql, bind_variables):$/;"	m	class:VtOCCConnection
+_stream_execute_for_keyspace_ids	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _stream_execute_for_keyspace_ids(self, query, bind_vars, keyspace_id_list):$/;"	m	class:ShardedClient
+_stream_execute_on_shard	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _stream_execute_on_shard(self, query, bind_vars, shard_idx):$/;"	m	class:ShardedClient
+_stream_execute_on_shards	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _stream_execute_on_shards(self, query, bind_vars, shard_idx_list):$/;"	m	class:ShardedClient
+_stream_fields	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  _stream_fields = None$/;"	v	class:TabletConnection
+_stream_next	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def _stream_next(self, conversions, query_result, index):$/;"	m	class:TabletConnection
+_stream_next	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def _stream_next(self):$/;"	m	class:TabletConnection
+_stream_next_on_shard	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _stream_next_on_shard(self, shard_idx):$/;"	m	class:ShardedClient
+_stream_next_on_shards	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def _stream_next_on_shards(self, shard_idx_list=None):$/;"	m	class:ShardedClient
+_stream_result	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  _stream_result = None$/;"	v	class:TabletConnection
+_stream_result_index	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  _stream_result_index = None$/;"	v	class:TabletConnection
+_tearDownClass	code.google.com/p/vitess/test/connection_test.py	/^  def _tearDownClass(klass):$/;"	m	class:BaseTest
+_time_failed	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  _time_failed = 0$/;"	v	class:VtOCCConnection
+_verify_error	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def _verify_error(self, query, bindvars, err):$/;"	m	class:TestNocache
+_verify_mismatch	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def _verify_mismatch(self, query, bindvars=None):$/;"	m	class:TestCache
+_verify_mismatch	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def _verify_mismatch(self, query, bindvars=None):$/;"	m	class:TestNocache
+_verify_query_stats	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def _verify_query_stats(self, query_stats, query, table, plan, count, rows, errors):$/;"	m	class:TestNocache
+_vtdb_conn	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def _vtdb_conn(host):$/;"	f
+_vtdb_conn	code.google.com/p/vitess/test/update_stream.py	/^def _vtdb_conn(host):$/;"	f
+_watch_data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^typedef struct _watch_data {$/;"	s
+_watch_handler	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^void _watch_handler(zhandle_t *zh, int event_type, int connection_state, $/;"	f
+_write_db_configs_file	code.google.com/p/vitess/test/tablet.py	/^  def _write_db_configs_file(self, repl_extra_flags={}):$/;"	m	class:Tablet
+abstractmethod	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^from abc import ABCMeta, abstractmethod$/;"	i
+acquire	code.google.com/p/vitess/py/io/lockfile.py	/^  def acquire(self, blocking=True):$/;"	m	class:FLock
+affected_rows	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  my_ulonglong affected_rows;$/;"	m	struct:vt_conn
+already_killed	code.google.com/p/vitess/test/utils.py	/^already_killed = []$/;"	v
+alter_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^alter_statement:$/;"	l
+any_command	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^any_command:$/;"	l
+array	code.google.com/p/vitess/py/vtdb/field_types.py	/^from array import array$/;"	i
+arraysize	code.google.com/p/vitess/py/vtdb/cursor.py	/^  arraysize = 1$/;"	v	class:BaseCursor
+arraysize	code.google.com/p/vitess/py/vtdb/cursor.py	/^  arraysize = 1$/;"	v	class:StreamCursor
+arraysize	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  arraysize = 1$/;"	v	class:ShardedCursor
+as_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^as_opt:$/;"	l
+asc_desc_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^asc_desc_opt:$/;"	l
+assertContains	code.google.com/p/vitess/test/framework.py	/^  def assertContains(self, b, a):$/;"	m	class:TestCase
+assert_table_count	code.google.com/p/vitess/test/tablet.py	/^  def assert_table_count(self, dbname, table, n, where=''):$/;"	m	class:Tablet
+assigned	code.google.com/p/vitess/test/vtctld_test.py	/^assigned = [shard_0_master, shard_0_replica, shard_1_master, shard_1_replica]$/;"	v
+authenticate	code.google.com/p/vitess/py/net/bsonrpc.py	/^  def authenticate(self):$/;"	m	class:BsonRpcClient
+authenticate	code.google.com/p/vitess/test/connection_test.py	/^  def authenticate(self, user, password):$/;"	m	class:TestAuthentication
+author	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		author = "Kou Man Tong",$/;"	v
+author_email	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		author_email = "martinkou@tixxme.com",$/;"	v
+begin	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def begin(self):$/;"	m	class:ShardedClient
+begin	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def begin(self):$/;"	m	class:TabletConnection
+begin	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def begin(self):$/;"	m	class:TabletConnection
+begin	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  def begin(self):$/;"	m	class:VtOCCConnection
+binary_function	code.google.com/p/vitess/py/cbson/cbson.c	/^  binary_function,$/;"	e	enum:ElementTypes	file:
+binary_generic	code.google.com/p/vitess/py/cbson/cbson.c	/^  binary_generic,$/;"	e	enum:ElementTypes	file:
+binary_md5	code.google.com/p/vitess/py/cbson/cbson.c	/^  binary_md5,$/;"	e	enum:ElementTypes	file:
+binary_old	code.google.com/p/vitess/py/cbson/cbson.c	/^  binary_old,$/;"	e	enum:ElementTypes	file:
+binary_struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^binary_struct = struct.Struct('<ib')$/;"	v
+binary_user_defined	code.google.com/p/vitess/py/cbson/cbson.c	/^  binary_user_defined,$/;"	e	enum:ElementTypes	file:
+binary_uuid	code.google.com/p/vitess/py/cbson/cbson.c	/^  binary_uuid,$/;"	e	enum:ElementTypes	file:
+bindings	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       bindings={"bid": None},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              bindings={"eid": 4, "id": 1, "name": "aaaa", "foo": "cccc"},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              bindings={'bv': 'abcd'},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              bindings={'bv': 1},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         bindings={"a": 1},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         bindings={"id": 1, "b": "\\x01", "d": "2012-01-01", "dt": "2012-01-01 15:45:45", "t": "15:45:45"},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         bindings={"id": 1, "deci": Decimal('1.99'), "num": Decimal('2.99'), "f": 3.99, "d": 4.99},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         bindings={"tiny": -128, "tinyu": 255, "small": -32768, "smallu": 65535, "medium": -8388608, "mediumu": 16777215, "normal": -2147483648, "normalu": 4294967295, "big": -9223372036854775808, "bigu": 18446744073709551615, "year": 2012},$/;"	v
+bindings	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         bindings={"vb": "a", "c": "b", "vc": "c", "b": "d", "tb": "e", "bl": "f", "ttx": "g", "tx": "h", "en": "a", "s": "a,b"},$/;"	v
+blp_checkpoint	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^CREATE TABLE _vt.blp_checkpoint ($/;"	t
+blp_checkpoint.group_id	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  relay_position bigint(20) unsigned default 0,$/;"	F
+blp_checkpoint.host	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  uid int(10) unsigned NOT NULL,$/;"	F
+blp_checkpoint.keyrange_end	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  keyrange_start varchar(32) NOT NULL,$/;"	F
+blp_checkpoint.keyrange_start	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  group_id bigint(20) unsigned default 0,$/;"	F
+blp_checkpoint.master_filename	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  port int NOT NULL,$/;"	F
+blp_checkpoint.master_position	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  master_filename varchar(255) NOT NULL,$/;"	F
+blp_checkpoint.port	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  host varchar(32) NOT NULL,$/;"	F
+blp_checkpoint.relay_filename	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  master_position bigint(20) unsigned NOT NULL,$/;"	F
+blp_checkpoint.relay_position	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  relay_filename varchar(255) default NULL,$/;"	F
+blp_checkpoint.time_updated	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  txn_timestamp int(10) unsigned NOT NULL,$/;"	F
+blp_checkpoint.txn_timestamp	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  keyrange_end varchar(32) NOT NULL,$/;"	F
+blp_checkpoint.uid	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^CREATE TABLE _vt.blp_checkpoint ($/;"	F
+body	code.google.com/p/vitess/py/net/gorpc.py	/^  body = None # the actual request object - usually a dictionary$/;"	v	class:GoRpcRequest
+body	code.google.com/p/vitess/test/utils.py	/^  def body():$/;"	f	function:test_case
+boolean_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^boolean_expression:$/;"	l
+boolean_struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^boolean_struct = struct.Struct('<b')$/;"	v
+bson	code.google.com/p/vitess/py/net/bsonrpc.py	/^import bson$/;"	i
+bson_encode	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^	def bson_encode(self):$/;"	m	class:BSONCoding
+bson_init	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^	def bson_init(self, raw_values):$/;"	m	class:BSONCoding
+bsonrpc	code.google.com/p/vitess/py/vtdb/tablet2.py	/^from net import bsonrpc$/;"	i
+bsonrpc	code.google.com/p/vitess/py/vtdb/tablet3.py	/^from net import bsonrpc$/;"	i
+bsonrpc	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^from net import bsonrpc$/;"	i
+bsonrpc	code.google.com/p/vitess/py/zk/zkocc.py	/^from net import bsonrpc$/;"	i
+bsonrpc	code.google.com/p/vitess/test/connection_test.py	/^from net import bsonrpc$/;"	i
+buf_iter_from_buffer	code.google.com/p/vitess/py/cbson/cbson.c	/^static int buf_iter_from_buffer(PyObject* buffer_obj, BufIter* buf_iter, Py_buffer* pbuffer) {$/;"	f	file:
+cStringIO	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^import cStringIO$/;"	i
+cache_absent	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_absent=0,$/;"	v
+cache_absent	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       cache_absent=1),$/;"	v
+cache_cases	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^import cache_cases$/;"	i
+cache_hits	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_hits=0,$/;"	v
+cache_hits	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_hits=1),$/;"	v
+cache_hits	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_hits=1,$/;"	v
+cache_hits	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_hits=2)]),$/;"	v
+cache_hits	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       cache_hits=1),$/;"	v
+cache_hits	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       cache_hits=1,$/;"	v
+cache_hits	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       cache_hits=2),$/;"	v
+cache_invalidations	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_invalidations=0)]),$/;"	v
+cache_invalidations	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_invalidations=1),$/;"	v
+cache_invalidations	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_invalidations=1)]),$/;"	v
+cache_invalidations	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_invalidations=2),$/;"	v
+cache_misses	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_misses=0,$/;"	v
+cache_misses	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_misses=1)]),$/;"	v
+cache_misses	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            cache_misses=2)]),$/;"	v
+cache_misses	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       cache_misses=1),$/;"	v
+cache_tests	code.google.com/p/vitess/test/queryservice_test.py	/^from queryservice_tests import cache_tests$/;"	i
+calculate_batch_size	code.google.com/p/vitess/py/checkers/checker.py	/^  def calculate_batch_size(self):$/;"	m	class:Checker
+calendar	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^import calendar$/;"	i
+call	code.google.com/p/vitess/py/net/gorpc.py	/^  def call(self, method, request, response=None):$/;"	m	class:GoRpcClient
+call	code.google.com/p/vitess/test/connection_test.py	/^  def call(self, *args, **kwargs):$/;"	m	class:TestAuthentication
+call	code.google.com/p/vitess/test/tabletmanager.py	/^from subprocess import PIPE, call$/;"	i
+callproc	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def callproc(self):$/;"	m	class:BaseCursor
+callproc	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def callproc(self):$/;"	m	class:StreamCursor
+callproc	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def callproc(self):$/;"	m	class:ShardedCursor
+case_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^case_expression:$/;"	l
+cases	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^cases = [$/;"	v
+cases	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^cases = [$/;"	v
+cases_framework	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import cases_framework$/;"	i
+cases_iterator	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^def cases_iterator(cases):$/;"	f
+cbson	code.google.com/p/vitess/py/cbson/setup.py	/^cbson = Extension('cbson',$/;"	v
+cbson	code.google.com/p/vitess/py/cbson/test_cbson.py	/^import cbson$/;"	i
+cbson	code.google.com/p/vitess/py/net/bsonrpc.py	/^  import cbson$/;"	i
+cbson_functions	code.google.com/p/vitess/py/cbson/cbson.c	/^static struct PyMethodDef cbson_functions[] = {$/;"	v	typeref:struct:PyMethodDef	file:
+cert_dir	code.google.com/p/vitess/test/secure.py	/^cert_dir = utils.tmp_root + "\/certs"$/;"	v
+check	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check(self, case):$/;"	m	class:Log
+check_cache_absent	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_cache_absent(self, case):$/;"	m	class:Log
+check_cache_hits	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_cache_hits(self, case):$/;"	m	class:Log
+check_cache_invalidations	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_cache_invalidations(self, case):$/;"	m	class:Log
+check_cache_misses	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_cache_misses(self, case):$/;"	m	class:Log
+check_db_read_only	code.google.com/p/vitess/test/utils.py	/^def check_db_read_only(uid):$/;"	f
+check_db_read_write	code.google.com/p/vitess/test/utils.py	/^def check_db_read_write(uid):$/;"	f
+check_db_var	code.google.com/p/vitess/test/tablet.py	/^  def check_db_var(self, name, value):$/;"	m	class:Tablet
+check_db_var	code.google.com/p/vitess/test/utils.py	/^def check_db_var(uid, name, value):$/;"	f
+check_full_streamlog	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def check_full_streamlog(self, fi):$/;"	m	class:TestEnv
+check_number_of_queries	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_number_of_queries(self, case):$/;"	m	class:Log
+check_original_sql	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_original_sql(self, case):$/;"	m	class:Log
+check_query_plan	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_query_plan(self, case):$/;"	m	class:Log
+check_rewritten_sql	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def check_rewritten_sql(self, case):$/;"	m	class:Log
+check_row_10	code.google.com/p/vitess/test/queryservice_tests/stream_tests.py	/^  def check_row_10(self, row):$/;"	m	class:TestStream
+check_rows	code.google.com/p/vitess/test/sharded.py	/^def check_rows(to_look_for, driver="vtdb"):$/;"	f
+check_rows_schema_diff	code.google.com/p/vitess/test/sharded.py	/^def check_rows_schema_diff(driver):$/;"	f
+check_streamlog	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def check_streamlog(self, cases, log):$/;"	m	class:TestEnv
+check_tables	code.google.com/p/vitess/test/schema.py	/^def check_tables(tablet, expectedCount):$/;"	f
+checker	code.google.com/p/vitess/test/checkers_test.py	/^from checkers import checker$/;"	i
+checkpoint	code.google.com/p/vitess/py/checkers/checker.py	/^  def checkpoint(self, pk, done=False):$/;"	m	class:Checker
+children	code.google.com/p/vitess/py/zk/zkocc.py	/^  def children(self, path):$/;"	m	class:FakeZkOccConnection
+children	code.google.com/p/vitess/py/zk/zkocc.py	/^  def children(self, path):$/;"	m	class:SimpleZkOccConnection
+children	code.google.com/p/vitess/py/zk/zkocc.py	/^  def children(self, path):$/;"	m	class:ZkOccConnection
+classes	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^classes = {}$/;"	v
+clean	code.google.com/p/vitess/py/checkers/checker.py	/^def clean(s):$/;"	f
+clear	code.google.com/p/vitess/py/checkers/checker.py	/^  def clear(self):$/;"	m	class:Stats
+clear_local	code.google.com/p/vitess/py/checkers/checker.py	/^  def clear_local(self):$/;"	m	class:Stats
+clear_result	code.google.com/p/vitess/go/mysql/vtmysql.c	/^void clear_result(VT_CONN *conn) {$/;"	f
+client_cert	code.google.com/p/vitess/test/secure.py	/^  client_cert = cert_dir + "\/client-cert.pem"$/;"	v
+client_config	code.google.com/p/vitess/test/secure.py	/^  client_config = cert_dir + "\/client.config"$/;"	v
+client_key	code.google.com/p/vitess/test/secure.py	/^  client_key = cert_dir + "\/client-key.pem"$/;"	v
+client_req	code.google.com/p/vitess/test/secure.py	/^  client_req = cert_dir + "\/client-req.pem"$/;"	v
+close	code.google.com/p/vitess/py/checkers/checker.py	/^  def close(self):$/;"	m	class:AtomicWriter
+close	code.google.com/p/vitess/py/net/gorpc.py	/^  def close(self):$/;"	m	class:GoRpcClient
+close	code.google.com/p/vitess/py/net/gorpc.py	/^  def close(self):$/;"	m	class:_GoRpcConn
+close	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def close(self):$/;"	m	class:BaseCursor
+close	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def close(self):$/;"	m	class:StreamCursor
+close	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def close(self):$/;"	m	class:ShardedCursor
+close	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def close(self):$/;"	m	class:TabletConnection
+close	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def close(self):$/;"	m	class:TabletConnection
+close	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def close(self):$/;"	m	class:UpdateStreamConnection
+close	code.google.com/p/vitess/py/zk/zkocc.py	/^  def close(self):$/;"	m	class:FakeZkOccConnection
+close	code.google.com/p/vitess/py/zk/zkocc.py	/^  def close(self):$/;"	m	class:SimpleZkOccConnection
+close	code.google.com/p/vitess/py/zk/zkocc.py	/^  def close(self):$/;"	m	class:ZkOccConnection
+codec	code.google.com/p/vitess/py/net/bsonrpc.py	/^  from bson import codec$/;"	i
+collections	code.google.com/p/vitess/py/checkers/checker.py	/^import collections$/;"	i
+collections	code.google.com/p/vitess/py/zk/zkns_query.py	/^import collections$/;"	i
+column_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^column_list:$/;"	l
+column_list_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^column_list_opt:$/;"	l
+column_name	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^column_name:$/;"	l
+command	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^command:$/;"	l
+comment_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^comment_list:$/;"	l
+comment_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^comment_opt:$/;"	l
+commit	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def commit(self):$/;"	m	class:ShardedClient
+commit	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def commit(self):$/;"	m	class:TabletConnection
+commit	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def commit(self):$/;"	m	class:TabletConnection
+commit	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  def commit(self):$/;"	m	class:VtOCCConnection
+compare	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^compare:$/;"	l
+compiled_progs	code.google.com/p/vitess/test/utils.py	/^compiled_progs = []$/;"	v
+completion_data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^} completion_data;$/;"	t	typeref:struct:_completion_data
+condition	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^condition:$/;"	l
+connect	code.google.com/p/vitess/py/vtdb/sharded.py	/^def connect(zkocc_addrs, local_cell, keyspace_name, db_type, use_streaming, timeout, user, password, dbname):$/;"	f
+connect	code.google.com/p/vitess/py/vtdb/tablet2.py	/^def connect(*pargs, **kargs):$/;"	f
+connect	code.google.com/p/vitess/py/vtdb/tablet3.py	/^def connect(*pargs, **kargs):$/;"	f
+connect	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^def connect(*pargs, **kargs):$/;"	f
+connect	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def connect(self):$/;"	m	class:TestEnv
+connect	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def connect(self):$/;"	m	class:VtoccTestEnv
+connect	code.google.com/p/vitess/test/tablet.py	/^  def connect(self, dbname=''):$/;"	m	class:Tablet
+connection	code.google.com/p/vitess/py/vtdb/cursor.py	/^  connection = None$/;"	v	class:BaseCursor
+connection	code.google.com/p/vitess/py/vtdb/cursor.py	/^  connection = None$/;"	v	class:StreamCursor
+connection_state	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^    int connection_state;$/;"	m	struct:_watch_data
+conns	code.google.com/p/vitess/py/vtdb/sharded.py	/^  conns = []$/;"	v	class:Txn
+constraint_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^constraint_opt:$/;"	l
+conversions	code.google.com/p/vitess/py/vtdb/cursor.py	/^  conversions = None$/;"	v	class:StreamCursor
+conversions	code.google.com/p/vitess/py/vtdb/field_types.py	/^conversions = {$/;"	v
+convert_bind_vars	code.google.com/p/vitess/py/vtdb/field_types.py	/^def convert_bind_vars(bind_variables):$/;"	f
+convert_exception	code.google.com/p/vitess/py/vtdb/tablet3.py	/^def convert_exception(exc, *args):$/;"	f
+create_completion_data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^completion_data* create_completion_data() {$/;"	f
+create_customrules	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def create_customrules(self, filename):$/;"	m	class:TestEnv
+create_db	code.google.com/p/vitess/test/tablet.py	/^  def create_db(self, name):$/;"	m	class:Tablet
+create_schema_override	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def create_schema_override(self, filename):$/;"	m	class:TestEnv
+create_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^create_statement:$/;"	l
+create_vt_select_test	code.google.com/p/vitess/test/schema.py	/^create_vt_select_test = [$/;"	v
+credentials	code.google.com/p/vitess/test/connection_test.py	/^  credentials = {"ala": ["ma kota", "miala kota"]}$/;"	v	class:BaseTest
+credentials_file	code.google.com/p/vitess/test/connection_test.py	/^  credentials_file = os.path.join(mysqldir, 'authcredentials.json')$/;"	v	class:BaseTest
+cursor	code.google.com/p/vitess/py/checkers/checker.py	/^  def cursor(self):$/;"	m	class:Datastore
+cursor	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def cursor(self, cursorclass=None):$/;"	m	class:ShardedClient
+cursor	code.google.com/p/vitess/py/vtdb/sharded.py	/^from vtdb import cursor$/;"	i
+cursor	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^from vtdb import cursor$/;"	i
+cursor	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def cursor(self, cursorclass=None, **kargs):$/;"	m	class:TabletConnection
+cursor	code.google.com/p/vitess/py/vtdb/tablet2.py	/^from vtdb import cursor$/;"	i
+cursor	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def cursor(self, cursorclass=None, **kargs):$/;"	m	class:TabletConnection
+cursor	code.google.com/p/vitess/py/vtdb/tablet3.py	/^from vtdb import cursor$/;"	i
+cursor	code.google.com/p/vitess/test/queryservice_tests/stream_tests.py	/^from vtdb import cursor$/;"	i
+cursorclass	code.google.com/p/vitess/py/vtdb/sharded.py	/^  cursorclass = cursor.ShardedCursor$/;"	v	class:ShardedClient
+cursorclass	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  cursorclass = cursor.TabletCursor$/;"	v	class:TabletConnection
+cursorclass	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  cursorclass = cursor.TabletCursor$/;"	v	class:TabletConnection
+cursors	code.google.com/p/vitess/py/checkers/checker.py	/^import MySQLdb.cursors$/;"	i
+data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^    void *data;$/;"	m	struct:_completion_data
+date	code.google.com/p/vitess/py/vtdb/times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+datetime	code.google.com/p/vitess/py/checkers/checker.py	/^import datetime$/;"	i
+datetime	code.google.com/p/vitess/py/vtdb/field_types.py	/^import datetime$/;"	i
+datetime	code.google.com/p/vitess/py/vtdb/times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+datetime	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^import datetime$/;"	i
+datetime	code.google.com/p/vitess/test/zkocc.py	/^import datetime$/;"	i
+datetime	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^from datetime import datetime$/;"	i
+db_configuration	code.google.com/p/vitess/test/checkers_test.py	/^db_configuration = {$/;"	v
+db_name	code.google.com/p/vitess/py/vtdb/sharded.py	/^  db_name = ''$/;"	v	class:ShardedClient
+db_pointer	code.google.com/p/vitess/py/cbson/cbson.c	/^  db_pointer,$/;"	e	enum:ElementTypes	file:
+db_type	code.google.com/p/vitess/py/vtdb/sharded.py	/^  db_type = ''$/;"	v	class:ShardedClient
+db_types	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  db_types = None$/;"	v	class:Keyspace
+dbapi	code.google.com/p/vitess/py/vtdb/sharded.py	/^from vtdb import dbapi$/;"	i
+dbapi	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^from vtdb import dbapi$/;"	i
+dbconfig	code.google.com/p/vitess/test/connection_test.py	/^  dbconfig = {$/;"	v	class:BaseTest
+dbconfig_file	code.google.com/p/vitess/test/connection_test.py	/^  dbconfig_file = os.path.join(mysqldir, "dbconf.json")$/;"	v	class:BaseTest
+dbexceptions	code.google.com/p/vitess/py/vtdb/cursor.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/py/vtdb/dbapi.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/py/vtdb/keyspace.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/py/vtdb/sharded.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/py/vtdb/tablet2.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/py/vtdb/tablet3.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/test/connection_test.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^from vtdb import dbexceptions$/;"	i
+dbexceptions	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^from vtdb import dbexceptions$/;"	i
+dbtopo	code.google.com/p/vitess/test/vtctld_test.py	/^  def dbtopo(self):$/;"	m	class:Vtctld
+debug	code.google.com/p/vitess/test/utils.py	/^def debug(msg):$/;"	f
+debug_vars	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def debug_vars(self):$/;"	m	class:TestEnv
+decode_UTCdatetime_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_UTCdatetime_element(data, base):$/;"	f
+decode_array	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_array(BufIter* buf_iter) {$/;"	f	file:
+decode_array_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_array_element(data, base):$/;"	f
+decode_binary	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_binary(BufIter* buf_iter) {$/;"	f	file:
+decode_binary	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_binary(data, base):$/;"	f
+decode_binary_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_binary_element(data, base):$/;"	f
+decode_bool	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_bool(BufIter* buf_iter) {$/;"	f	file:
+decode_boolean_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_boolean_element(data, base):$/;"	f
+decode_cstring	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_cstring(data, base):$/;"	f
+decode_db_ptr	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_db_ptr(BufIter* buf_iter){$/;"	f	file:
+decode_document	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_document(BufIter* buf_iter){$/;"	f	file:
+decode_document	code.google.com/p/vitess/py/net/bsonrpc.py	/^  decode_document = cbson.decode_next$/;"	v
+decode_document	code.google.com/p/vitess/py/net/bsonrpc.py	/^  decode_document = codec.decode_document$/;"	v
+decode_document	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_document(data, base):$/;"	f
+decode_document_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_document_element(data, base):$/;"	f
+decode_double	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_double(BufIter* buf_iter) {$/;"	f	file:
+decode_double	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_double(data, base):$/;"	f
+decode_double_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_double_element(data, base):$/;"	f
+decode_element	code.google.com/p/vitess/py/cbson/cbson.c	/^typedef PyObject* (*decode_element)(BufIter* buf_iter);$/;"	t	file:
+decode_int32	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_int32(BufIter* buf_iter) {$/;"	f	file:
+decode_int32_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_int32_element(data, base):$/;"	f
+decode_int64	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_int64(BufIter* buf_iter) {$/;"	f	file:
+decode_int64_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_int64_element(data, base):$/;"	f
+decode_js	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_js(BufIter* buf_iter){$/;"	f	file:
+decode_js_with_scope	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_js_with_scope(BufIter* buf_iter) {$/;"	f	file:
+decode_next	code.google.com/p/vitess/py/cbson/cbson.c	/^decode_next(PyObject *self, PyObject* args) {$/;"	f	file:
+decode_none_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_none_element(data, base):$/;"	f
+decode_null	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_null(BufIter* buf_iter){$/;"	f	file:
+decode_object	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_object(raw_values):$/;"	f
+decode_object_id	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_object_id(BufIter* buf_iter){$/;"	f	file:
+decode_regex	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_regex(BufIter* buf_iter){$/;"	f	file:
+decode_response	code.google.com/p/vitess/py/net/bsonrpc.py	/^  def decode_response(self, response, data):$/;"	m	class:BsonRpcClient
+decode_response	code.google.com/p/vitess/py/net/gorpc.py	/^  def decode_response(self, response, data):$/;"	m	class:GoRpcClient
+decode_string	code.google.com/p/vitess/py/cbson/cbson.c	/^static inline PyObject* decode_string(BufIter* buf_iter) {$/;"	f	file:
+decode_string	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_string(data, base):$/;"	f
+decode_string_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_string_element(data, base):$/;"	f
+decode_symbol	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_symbol(BufIter* buf_iter){$/;"	f	file:
+decode_timestamp	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_timestamp(BufIter* buf_iter) {$/;"	f	file:
+decode_uint64	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_uint64(BufIter* buf_iter) {$/;"	f	file:
+decode_uint64_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def decode_uint64_element(data, base):$/;"	f
+decode_undefined	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_undefined(BufIter* buf_iter) {$/;"	f	file:
+decode_utc	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* decode_utc(BufIter* buf_iter) {$/;"	f	file:
+decoders	code.google.com/p/vitess/py/cbson/cbson.c	/^static decode_element decoders[] = {$/;"	v	file:
+decoders	code.google.com/p/vitess/py/cbson/cbson.c	/^static decode_element decoders[];$/;"	v	file:
+default_db_config	code.google.com/p/vitess/test/tablet.py	/^  default_db_config = {$/;"	v	class:Tablet
+default_read_buffer_size	code.google.com/p/vitess/py/net/gorpc.py	/^default_read_buffer_size = 8192$/;"	v
+default_uid	code.google.com/p/vitess/test/tablet.py	/^  default_uid = 62344$/;"	v	class:Tablet
+delete_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^delete_statement:$/;"	l
+description	code.google.com/p/vitess/py/cbson/setup.py	/^      description = 'Fast BSON decoding via C',$/;"	v
+description	code.google.com/p/vitess/py/vtdb/cursor.py	/^  description = None$/;"	v	class:BaseCursor
+description	code.google.com/p/vitess/py/vtdb/cursor.py	/^  description = None$/;"	v	class:StreamCursor
+description	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  description = None$/;"	v	class:ShardedCursor
+description	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		description = "BSON codec for Python",$/;"	v
+destination_tablet	code.google.com/p/vitess/test/checkers_test.py	/^destination_tablet = tablet.Tablet(62344)$/;"	v
+destination_worker	code.google.com/p/vitess/py/checkers/checker.py	/^  def destination_worker(self):$/;"	m	class:Checker
+destroy_completion_data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^void destroy_completion_data(completion_data *data) {$/;"	f
+destroy_watch_data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^void destroy_watch_data(watch_data *data) {$/;"	f
+devnull	code.google.com/p/vitess/test/tabletmanager.py	/^devnull = open('\/dev\/null', 'w')$/;"	v
+devnull	code.google.com/p/vitess/test/update_stream.py	/^devnull = open('\/dev\/null', 'w')$/;"	v
+devnull	code.google.com/p/vitess/test/utils.py	/^devnull = open('\/dev\/null', 'w')$/;"	v
+dial	code.google.com/p/vitess/py/net/bsonrpc.py	/^  def dial(self):$/;"	m	class:BsonRpcClient
+dial	code.google.com/p/vitess/py/net/gorpc.py	/^  def dial(self):$/;"	m	class:GoRpcClient
+dial	code.google.com/p/vitess/py/net/gorpc.py	/^  def dial(self, uri, keyfile=None, certfile=None):$/;"	m	class:_GoRpcConn
+dial	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def dial(self):$/;"	m	class:TabletConnection
+dial	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def dial(self):$/;"	m	class:TabletConnection
+dial	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def dial(self):$/;"	m	class:UpdateStreamConnection
+dial	code.google.com/p/vitess/py/zk/zkocc.py	/^  def dial(self):$/;"	m	class:FakeZkOccConnection
+dial	code.google.com/p/vitess/py/zk/zkocc.py	/^  def dial(self):$/;"	m	class:SimpleZkOccConnection
+dial	code.google.com/p/vitess/py/zk/zkocc.py	/^  def dial(self):$/;"	m	class:ZkOccConnection
+dict_diff	code.google.com/p/vitess/py/checkers/checker.py	/^  def dict_diff(self, left, right):$/;"	m	class:Mismatch
+difflib	code.google.com/p/vitess/py/checkers/checker.py	/^import difflib$/;"	i
+distinct_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^distinct_opt:$/;"	l
+doctest	code.google.com/p/vitess/py/cbson/test_cbson.py	/^  import doctest$/;"	i
+double_struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^double_struct = struct.Struct('<d')$/;"	v
+drain_query_queue	code.google.com/p/vitess/py/vtdb/qpool.py	/^def drain_query_queue(query_queue, thread_name):$/;"	f
+drop_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^drop_statement:$/;"	l
+dump	code.google.com/p/vitess/py/zk/zkjson.py	/^def dump(*pargs, **kargs):$/;"	f
+dump_config_files	code.google.com/p/vitess/test/connection_test.py	/^  def dump_config_files(klass):$/;"	m	class:BaseTest
+dumps	code.google.com/p/vitess/py/cbson/cbson.c	/^dumps(PyObject* self, PyObject* args) {$/;"	f	file:
+dumps	code.google.com/p/vitess/py/zk/zkjson.py	/^def dumps(*pargs, **kargs):$/;"	f
+dumps	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/__init__.py	/^def dumps(obj, generator = None):$/;"	f
+dumps	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^from __init__ import dumps, loads$/;"	i
+element_type_names	code.google.com/p/vitess/py/cbson/cbson.c	/^static char* element_type_names[] = {$/;"	v	file:
+element_types	code.google.com/p/vitess/py/cbson/cbson.c	/^static PyObject* element_types[16] = {$/;"	v	file:
+encode_UTCdatetime_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_UTCdatetime_element(name, value):$/;"	f
+encode_array	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_array(PyObject* key, PyObject* value, int depth) {$/;"	f	file:
+encode_array	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_array(array, traversal_stack,$/;"	f
+encode_array_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_array_element(name, value, traversal_stack, generator_func):$/;"	f
+encode_binary	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_binary(PyObject* key, PyObject* value, char subtype) {$/;"	f	file:
+encode_binary	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_binary(value):$/;"	f
+encode_binary_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_binary_element(name, value):$/;"	f
+encode_boolean	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_boolean(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_boolean_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_boolean_element(name, value):$/;"	f
+encode_cstring	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_cstring(value):$/;"	f
+encode_document	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_document(PyObject* doc, int depth) {$/;"	f	file:
+encode_document	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_document(obj, traversal_stack,$/;"	f
+encode_document_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_document_element(name, value, traversal_stack, generator_func):$/;"	f
+encode_double	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_double(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_double_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_double_element(name, value):$/;"	f
+encode_int32_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_int32_element(name, value):$/;"	f
+encode_int64_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_int64_element(name, value):$/;"	f
+encode_integer	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_integer(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_none_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_none_element(name, value):$/;"	f
+encode_null	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_null(PyObject* key) {$/;"	f	file:
+encode_object	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_object(obj, traversal_stack, generator_func):$/;"	f
+encode_object_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_object_element(name, value, traversal_stack, generator_func):$/;"	f
+encode_request	code.google.com/p/vitess/py/net/bsonrpc.py	/^  def encode_request(self, req):$/;"	m	class:BsonRpcClient
+encode_request	code.google.com/p/vitess/py/net/gorpc.py	/^  def encode_request(self, req):$/;"	m	class:GoRpcClient
+encode_string	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_string(PyObject* key, PyObject* value) {$/;"	f	file:
+encode_string	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_string(value):$/;"	f
+encode_string_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_string_element(name, value):$/;"	f
+encode_subdocument	code.google.com/p/vitess/py/cbson/cbson.c	/^encode_subdocument(PyObject* key, PyObject* value, int depth) {$/;"	f	file:
+encode_uint64_element	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_uint64_element(name, value):$/;"	f
+encode_value	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def encode_value(name, value, buf, traversal_stack, generator_func):$/;"	f
+end	code.google.com/p/vitess/py/cbson/cbson.c	/^  const char* end;   \/* last byte of buffer *\/$/;"	m	struct:_BufIter	file:
+env	code.google.com/p/vitess/test/queryservice_test.py	/^        env = test_env.VtoccTestEnv()$/;"	v
+env	code.google.com/p/vitess/test/queryservice_test.py	/^        env = test_env.VttabletTestEnv()$/;"	v
+err	code.google.com/p/vitess/test/tabletmanager.py	/^  err = tablet_62344.mysqlctl("multirestore --end=0000000000000028 -strategy=skipAutoIncrement(vt_insert_test1),delayPrimaryKey,delaySecondaryIndexes,useMyIsam,populateBlpRecovery(6514) not_vt_test_keyspace %s" % tablet_urls).wait()$/;"	v
+err	code.google.com/p/vitess/test/tabletmanager.py	/^  err = tablet_62344.mysqlctl('-port %u -mysql-port %u multisnapshot --tables=vt_insert_test_1,vt_insert_test_2,vt_insert_test_3 --spec=-0000000000000003- vt_test_keyspace id' % (tablet_62344.port, tablet_62344.mysql_port)).wait()$/;"	v
+errno	code.google.com/p/vitess/py/io/lockfile.py	/^import errno$/;"	i
+errno	code.google.com/p/vitess/py/net/gorpc.py	/^import errno$/;"	i
+errno	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^import errno$/;"	i
+error	code.google.com/p/vitess/py/net/gorpc.py	/^  def error(self):$/;"	m	class:GoRpcResponse
+event_path	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^    char *event_path;$/;"	m	struct:_watch_data
+event_type	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^    int event_type;$/;"	m	struct:_watch_data
+exceptions	code.google.com/p/vitess/py/vtdb/dbexceptions.py	/^import exceptions$/;"	i
+execute	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def execute(self, sql, bind_variables, **kargs):$/;"	m	class:StreamCursor
+execute	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def execute(self, sql, bind_variables=None):$/;"	m	class:TabletCursor
+execute	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def execute(self, sql, bind_variables=None, key=None, keys=None):$/;"	m	class:BatchCursor
+execute	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def execute(self, sql, bind_variables, keyspace_ids=()):$/;"	m	class:ShardedCursor
+execute	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def execute(self, sql, bind_vars, keyspace_ids=()):$/;"	m	class:SharededStreamCursor
+execute	code.google.com/p/vitess/test/framework.py	/^def execute(cmd, trap_output=False, verbose=False, **kargs):$/;"	f
+execute	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def execute(self, query, binds=None, cursorclass=None):$/;"	m	class:TestEnv
+execute_query	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def execute_query(self, cursor_list, *execute_args, **execute_kargs):$/;"	m	class:QueryThreadPool
+execute_vector_query	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def execute_vector_query(self, cursor_list, query_list, bind_vars_list):$/;"	m	class:QueryThreadPool
+executemany	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def executemany(self, *pargs):$/;"	m	class:BaseCursor
+executemany	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def executemany(self, *pargs):$/;"	m	class:StreamCursor
+executemany	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def executemany(self, *pargs):$/;"	m	class:ShardedCursor
+exists_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^exists_opt:$/;"	l
+export_bind_vars	code.google.com/p/vitess/py/vtdb/dbapi.py	/^  def export_bind_vars(self):$/;"	m	class:BindVarsProxy
+expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^expression:$/;"	l
+ext_modules	code.google.com/p/vitess/py/cbson/setup.py	/^      ext_modules = [cbson])$/;"	v
+extra_my_cnf	code.google.com/p/vitess/test/secure.py	/^  extra_my_cnf = cert_dir + "\/secure.cnf"$/;"	v
+fail	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def fail(self, reason, should, is_):$/;"	m	class:Log
+fcntl	code.google.com/p/vitess/py/io/lockfile.py	/^import fcntl$/;"	i
+fd	code.google.com/p/vitess/test/secure.py	/^  fd = open(extra_my_cnf, "w")$/;"	v
+fd	code.google.com/p/vitess/test/zkocc.py	/^  fd = open(filename, "r")$/;"	v
+fetchall	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def fetchall(self):$/;"	m	class:BaseCursor
+fetchall	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def fetchall(self):$/;"	m	class:StreamCursor
+fetchall	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def fetchall(self):$/;"	m	class:ShardedCursor
+fetchall	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def fetchall(self):$/;"	m	class:SharededStreamCursor
+fetchall_results	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def fetchall_results(self, cursor_list):$/;"	m	class:QueryThreadPool
+fetchmany	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:BaseCursor
+fetchmany	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:StreamCursor
+fetchmany	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:ShardedCursor
+fetchmany	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def fetchmany(self, size=None):$/;"	m	class:SharededStreamCursor
+fetchmany_results_generator	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def fetchmany_results_generator(self, cursor_list, fetch_size=100):$/;"	m	class:QueryThreadPool
+fetchone	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def fetchone(self):$/;"	m	class:BaseCursor
+fetchone	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def fetchone(self):$/;"	m	class:StreamCursor
+fetchone	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def fetchone(self):$/;"	m	class:ShardedCursor
+fetchone	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def fetchone(self):$/;"	m	class:SharededStreamCursor
+field_types	code.google.com/p/vitess/py/vtdb/tablet2.py	/^from vtdb import field_types$/;"	i
+field_types	code.google.com/p/vitess/py/vtdb/tablet3.py	/^from vtdb import field_types$/;"	i
+fields	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  MYSQL_FIELD  *fields;$/;"	m	struct:vt_conn
+filename	code.google.com/p/vitess/test/zkocc.py	/^  filename = outfd.name$/;"	v
+first_watch	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^static watch_data *first_watch = NULL;$/;"	v	file:
+fixed_values	code.google.com/p/vitess/test/loadgen.py	/^fixed_values = {$/;"	v
+flush	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def flush(self):$/;"	m	class:BatchCursor
+for_update_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^for_update_opt:$/;"	l
+force_eof	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^force_eof:$/;"	l
+format	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def format(self):$/;"	m	class:UpdateStreamResponse
+framework	code.google.com/p/vitess/test/queryservice_test.py	/^import framework$/;"	i
+framework	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^import framework$/;"	i
+framework	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^import framework$/;"	i
+framework	code.google.com/p/vitess/test/queryservice_tests/stream_tests.py	/^import framework$/;"	i
+framework	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import framework$/;"	i
+framework	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import framework$/;"	i
+from_data_path	code.google.com/p/vitess/py/zk/zkocc.py	/^  def from_data_path(cls, local_cell, data_path):$/;"	m	class:FakeZkOccConnection
+from_json	code.google.com/p/vitess/py/zk/zkjson.py	/^  def from_json(cls, data):$/;"	m	class:ZkJsonObject
+get	code.google.com/p/vitess/py/checkers/checker.py	/^  def get(self):$/;"	m	class:DatastoreThread
+get	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def get(self):$/;"	m	class:DebugQueue
+get	code.google.com/p/vitess/py/zk/zkocc.py	/^  def get(self, path):$/;"	m	class:FakeZkOccConnection
+get	code.google.com/p/vitess/py/zk/zkocc.py	/^  def get(self, path):$/;"	m	class:SimpleZkOccConnection
+get	code.google.com/p/vitess/py/zk/zkocc.py	/^  def get(self, path):$/;"	m	class:ZkOccConnection
+get_args	code.google.com/p/vitess/test/utils.py	/^def get_args():$/;"	f
+get_db_var	code.google.com/p/vitess/test/tablet.py	/^  def get_db_var(self, name):$/;"	m	class:Tablet
+get_host_port_by_name	code.google.com/p/vitess/py/vtdb/topology.py	/^def get_host_port_by_name(zkocc_client, db_key, encrypted=False):$/;"	f
+get_keyspace	code.google.com/p/vitess/py/vtdb/topology.py	/^def get_keyspace(name):$/;"	f
+get_pk	code.google.com/p/vitess/py/checkers/checker.py	/^  def get_pk(self, row):$/;"	m	class:Checker
+get_range	code.google.com/p/vitess/py/checkers/checker.py	/^def get_range(start, end):$/;"	f
+get_table_data	code.google.com/p/vitess/py/checkers/checker.py	/^  def get_table_data(self, table_name, params):$/;"	m	class:Checker
+get_vars	code.google.com/p/vitess/test/utils.py	/^def get_vars(port):$/;"	f
+getv	code.google.com/p/vitess/py/zk/zkocc.py	/^  def getv(self, paths):$/;"	m	class:FakeZkOccConnection
+getv	code.google.com/p/vitess/py/zk/zkocc.py	/^  def getv(self, paths):$/;"	m	class:SimpleZkOccConnection
+getv	code.google.com/p/vitess/py/zk/zkocc.py	/^  def getv(self, paths):$/;"	m	class:ZkOccConnection
+gorpc	code.google.com/p/vitess/py/net/bsonrpc.py	/^from net import gorpc$/;"	i
+gorpc	code.google.com/p/vitess/py/vtdb/sharded.py	/^from net import gorpc$/;"	i
+gorpc	code.google.com/p/vitess/py/vtdb/tablet2.py	/^from net import gorpc$/;"	i
+gorpc	code.google.com/p/vitess/py/vtdb/tablet3.py	/^from net import gorpc$/;"	i
+gorpc	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^from net import gorpc$/;"	i
+gorpc	code.google.com/p/vitess/py/zk/zkocc.py	/^from net import gorpc$/;"	i
+gorpc	code.google.com/p/vitess/test/connection_test.py	/^from net import gorpc$/;"	i
+group_by_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^group_by_opt:$/;"	l
+gzip	code.google.com/p/vitess/test/tabletmanager.py	/^import gzip$/;"	i
+handle_mismatch	code.google.com/p/vitess/py/checkers/checker.py	/^  def handle_mismatch(self, mismatch):$/;"	m	class:Checker
+handle_mismatch	code.google.com/p/vitess/test/checkers_test.py	/^  def handle_mismatch(self, mismatch):$/;"	m	class:MockChecker
+handle_void_completion	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^void_completion_t handle_void_completion = _handle_void_completion;$/;"	v
+has_db	code.google.com/p/vitess/test/tablet.py	/^  def has_db(self, name):$/;"	m	class:Tablet
+has_error	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  int           has_error;$/;"	m	struct:vt_row
+having_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^having_opt:$/;"	l
+header	code.google.com/p/vitess/py/net/gorpc.py	/^  header = None # standard fields that route the request on the server side$/;"	v	class:GoRpcRequest
+header	code.google.com/p/vitess/py/net/gorpc.py	/^  header = None$/;"	v	class:GoRpcResponse
+health	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def health(self):$/;"	m	class:TestEnv
+heapq	code.google.com/p/vitess/py/checkers/checker.py	/^import heapq$/;"	i
+help	code.google.com/p/vitess/test/queryservice_test.py	/^                    help="Environment that will be used. Valid options: vttablet, vtocc")$/;"	v
+help	code.google.com/p/vitess/test/queryservice_test.py	/^                    help="starts a memcached, and tests rowcache")$/;"	v
+helpers_h	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	2;"	d
+hmac	code.google.com/p/vitess/py/net/bsonrpc.py	/^import hmac$/;"	i
+hmac	code.google.com/p/vitess/test/connection_test.py	/^import hmac$/;"	i
+hostname	code.google.com/p/vitess/test/utils.py	/^hostname = socket.gethostname()$/;"	v
+idle	code.google.com/p/vitess/test/vtctld_test.py	/^idle = tablet.Tablet()$/;"	v
+ignore_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^ignore_opt:$/;"	l
+import_class	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def import_class(cls):$/;"	f
+import_classes	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def import_classes(*args):$/;"	f
+import_classes_from_modules	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^def import_classes_from_modules(*args):$/;"	f
+index	code.google.com/p/vitess/py/vtdb/cursor.py	/^  index = None$/;"	v	class:BaseCursor
+index	code.google.com/p/vitess/py/vtdb/cursor.py	/^  index = None$/;"	v	class:StreamCursor
+index	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  index = None$/;"	v	class:ShardedCursor
+index_hint_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^index_hint_list:$/;"	l
+init_data	code.google.com/p/vitess/test/loadgen.py	/^def init_data(env):$/;"	f
+init_mysql	code.google.com/p/vitess/test/connection_test.py	/^  def init_mysql(klass):$/;"	m	class:BaseTest
+init_mysql	code.google.com/p/vitess/test/tablet.py	/^  def init_mysql(self, extra_my_cnf=None):$/;"	m	class:Tablet
+init_tablet	code.google.com/p/vitess/test/tablet.py	/^  def init_tablet(self, tablet_type, keyspace=None, shard=None, force=True, start=False, auth=False, dbname=None, memcache=False):$/;"	m	class:Tablet
+initcbson	code.google.com/p/vitess/py/cbson/cbson.c	/^initcbson(void) {$/;"	f
+insert_id	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  my_ulonglong insert_id;$/;"	m	struct:vt_conn
+insert_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^insert_statement:$/;"	l
+insert_template	code.google.com/p/vitess/test/tabletmanager.py	/^  insert_template = "insert into %s (id, msg) values (%s, 'test %s')"$/;"	v
+int64_struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^int64_struct = struct.Struct('<q')$/;"	v
+is_closed	code.google.com/p/vitess/py/net/gorpc.py	/^  def is_closed(self):$/;"	m	class:GoRpcClient
+is_closed	code.google.com/p/vitess/py/net/gorpc.py	/^  def is_closed(self):$/;"	m	class:_GoRpcConn
+is_closed	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def is_closed(self):$/;"	m	class:TabletConnection
+is_testing_cache	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def is_testing_cache(self):$/;"	m	class:Case
+itertools	code.google.com/p/vitess/py/checkers/checker.py	/^import itertools$/;"	i
+itertools	code.google.com/p/vitess/py/zk/zkocc.py	/^import itertools$/;"	i
+izip	code.google.com/p/vitess/py/vtdb/tablet2.py	/^from itertools import izip$/;"	i
+izip	code.google.com/p/vitess/py/vtdb/tablet3.py	/^from itertools import izip$/;"	i
+izip	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^from itertools import izip$/;"	i
+join_type	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^join_type:$/;"	l
+js	code.google.com/p/vitess/py/cbson/cbson.c	/^  js,$/;"	e	enum:ElementTypes	file:
+json	code.google.com/p/vitess/py/checkers/checker.py	/^import json$/;"	i
+json	code.google.com/p/vitess/py/vtdb/keyspace.py	/^import json$/;"	i
+json	code.google.com/p/vitess/py/vtdb/topology.py	/^import json$/;"	i
+json	code.google.com/p/vitess/py/zk/zkjson.py	/^import json$/;"	i
+json	code.google.com/p/vitess/py/zk/zkns_query.py	/^import json$/;"	i
+json	code.google.com/p/vitess/py/zk/zkocc.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/connection_test.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/loadgen.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/tablet.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/update_stream.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/utils.py	/^import json$/;"	i
+json	code.google.com/p/vitess/test/vtctld_test.py	/^import json$/;"	i
+keyrange	code.google.com/p/vitess/test/checkers_test.py	/^  keyrange = {"end": 900}$/;"	v	class:TestCheckersBase
+keyspace	code.google.com/p/vitess/py/vtdb/sharded.py	/^  keyspace = None$/;"	v	class:ShardedClient
+keyspace	code.google.com/p/vitess/py/vtdb/sharded.py	/^from vtdb import keyspace$/;"	i
+keyspace	code.google.com/p/vitess/py/vtdb/topology.py	/^from vtdb import keyspace$/;"	i
+keyspace_id_to_shard_index	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  def keyspace_id_to_shard_index(self, keyspace_id):$/;"	m	class:Keyspace
+keyspace_name	code.google.com/p/vitess/py/vtdb/sharded.py	/^  keyspace_name = ''$/;"	v	class:ShardedClient
+keyword_as_func	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^keyword_as_func:$/;"	l
+keywords	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		keywords = "BSON codec",$/;"	v
+kill_memcache	code.google.com/p/vitess/test/tablet.py	/^  def kill_memcache(self):$/;"	m	class:Tablet
+kill_sub_process	code.google.com/p/vitess/test/utils.py	/^def kill_sub_process(proc):$/;"	f
+kill_sub_processes	code.google.com/p/vitess/test/utils.py	/^def kill_sub_processes():$/;"	f
+kill_vtocc	code.google.com/p/vitess/test/connection_test.py	/^  def kill_vtocc(klass):$/;"	m	class:BaseTest
+kill_vttablet	code.google.com/p/vitess/test/tablet.py	/^  def kill_vttablet(self):$/;"	m	class:Tablet
+lastrowid	code.google.com/p/vitess/py/vtdb/cursor.py	/^  lastrowid = None$/;"	v	class:BaseCursor
+lastrowid	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  lastrowid = None$/;"	v	class:ShardedCursor
+len_struct	code.google.com/p/vitess/py/net/bsonrpc.py	/^len_struct = struct.Struct('<i')$/;"	v
+len_struct_size	code.google.com/p/vitess/py/net/bsonrpc.py	/^len_struct_size = len_struct.size$/;"	v
+length_struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^length_struct = struct.Struct('<i')$/;"	v
+lengths	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  unsigned long *lengths;$/;"	m	struct:vt_row
+license	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		license = "BSD",$/;"	v
+limit_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^limit_opt:$/;"	l
+load	code.google.com/p/vitess/py/zk/zkjson.py	/^load = json.load$/;"	v
+loads	code.google.com/p/vitess/py/cbson/cbson.c	/^loads(PyObject *self, PyObject* args) {$/;"	f	file:
+loads	code.google.com/p/vitess/py/zk/zkjson.py	/^loads = json.loads$/;"	v
+loads	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/__init__.py	/^def loads(data):$/;"	f
+loads	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^from __init__ import dumps, loads$/;"	i
+localtime	code.google.com/p/vitess/py/vtdb/times.py	/^from time import localtime$/;"	i
+log	code.google.com/p/vitess/go/zk/zkctl/zksrv.sh	/^log() {$/;"	f
+logfile	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  logfile = "\/tmp\/vtocc.log"$/;"	v	class:VtoccTestEnv
+logfile	code.google.com/p/vitess/test/tablet.py	/^  def logfile(self):$/;"	m	class:Tablet
+logging	code.google.com/p/vitess/py/checkers/checker.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/io/lockfile.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/vtdb/qpool.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/vtdb/tablet2.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/vtdb/tablet3.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/vtdb/topology.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/py/zk/zkocc.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/test/checkers_test.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/test/connection_test.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/test/loadgen.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/test/queryservice_test.py	/^import logging$/;"	i
+logging	code.google.com/p/vitess/test/zkocc.py	/^import logging$/;"	i
+lookup_name	code.google.com/p/vitess/py/zk/zkns_query.py	/^def lookup_name(zconn, zkns_name):$/;"	f
+main	code.google.com/p/vitess/go/cmd/zkns2pdns/test.py	/^def main(args):$/;"	f
+main	code.google.com/p/vitess/py/checkers/checker.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/checkers_test.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/resharding.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/schema.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/secure.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/sharded.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/tabletmanager.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/update_stream.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/vtctld_test.py	/^def main():$/;"	f
+main	code.google.com/p/vitess/test/zkocc.py	/^def main():$/;"	f
+make_checker	code.google.com/p/vitess/test/checkers_test.py	/^  def make_checker(self, destination_table_name="test", **kwargs):$/;"	m	class:TestCheckersBase
+make_header	code.google.com/p/vitess/py/net/gorpc.py	/^def make_header(method, sequence_id):$/;"	f
+master_host	code.google.com/p/vitess/test/rowcache_invalidator.py	/^master_host = "localhost:%u" % master_tablet.port$/;"	v
+master_host	code.google.com/p/vitess/test/update_stream.py	/^master_host = "localhost:%u" % master_tablet.port$/;"	v
+master_tablet	code.google.com/p/vitess/test/rowcache_invalidator.py	/^master_tablet = tablet.Tablet(62344)$/;"	v
+master_tablet	code.google.com/p/vitess/test/update_stream.py	/^master_tablet = tablet.Tablet(62344)$/;"	v
+max	code.google.com/p/vitess/py/cbson/cbson.c	/^  max,$/;"	e	enum:ElementTypes	file:
+max_attempts	code.google.com/p/vitess/py/vtdb/sharded.py	/^  max_attempts = 2$/;"	v	class:ShardedClient
+max_attempts	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  max_attempts = 2$/;"	v	class:VtOCCConnection
+max_attempts	code.google.com/p/vitess/py/zk/zkocc.py	/^  max_attempts = 2$/;"	v	class:ZkOccConnection
+max_recovery_time	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^  def max_recovery_time(self):$/;"	m	class:VtOCCConnection
+maybe_print_local	code.google.com/p/vitess/py/checkers/checker.py	/^  def maybe_print_local(self, force=False):$/;"	m	class:Stats
+merge_sorted	code.google.com/p/vitess/py/checkers/checker.py	/^def merge_sorted(seqs, key=None):$/;"	f
+merger_comparer_worker	code.google.com/p/vitess/py/checkers/checker.py	/^  def merger_comparer_worker(self):$/;"	m	class:Checker
+met	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^met:$/;"	l
+mget	code.google.com/p/vitess/test/framework.py	/^  def mget(self, mkey, default=None):$/;"	m	class:MultiDict
+min	code.google.com/p/vitess/py/cbson/cbson.c	/^  min,$/;"	e	enum:ElementTypes	file:
+modf	code.google.com/p/vitess/py/vtdb/times.py	/^from math import modf$/;"	i
+mquery	code.google.com/p/vitess/test/tablet.py	/^  def mquery(self, dbname, query, write=False):$/;"	m	class:Tablet
+mutex	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^    pthread_mutex_t mutex;$/;"	m	struct:_completion_data
+mysql	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  MYSQL        *mysql;$/;"	m	struct:vt_conn
+mysql	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import MySQLdb as mysql$/;"	i
+mysql_connect	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def mysql_connect(self):$/;"	m	class:VtoccTestEnv
+mysql_connect	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def mysql_connect(self, dbname=''):$/;"	m	class:VttabletTestEnv
+mysql_connection_parameters	code.google.com/p/vitess/test/tablet.py	/^  def mysql_connection_parameters(self, dbname):$/;"	m	class:Tablet
+mysql_port	code.google.com/p/vitess/test/connection_test.py	/^  mysql_port = 9460$/;"	v	class:BaseTest
+mysql_query	code.google.com/p/vitess/test/utils.py	/^def mysql_query(uid, dbname, query):$/;"	f
+mysql_row	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  MYSQL_ROW     mysql_row;$/;"	m	struct:vt_row
+mysql_socket	code.google.com/p/vitess/test/connection_test.py	/^  mysql_socket = os.path.join(mysqldir, "mysql.sock")$/;"	v	class:BaseTest
+mysql_write_query	code.google.com/p/vitess/test/utils.py	/^def mysql_write_query(uid, dbname, query):$/;"	f
+mysqlctl	code.google.com/p/vitess/test/tablet.py	/^  def mysqlctl(self, cmd, quiet=False, extra_my_cnf=None):$/;"	m	class:Tablet
+mysqldir	code.google.com/p/vitess/test/connection_test.py	/^  mysqldir = os.path.join(vtdataroot, "vt_0000009460")$/;"	v	class:BaseTest
+mysqldir	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  mysqldir = os.path.join(vtdataroot, "vt_0000009460")$/;"	v	class:VtoccTestEnv
+mysqlport	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  mysqlport = 9460$/;"	v	class:VtoccTestEnv
+name	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  name = None$/;"	v	class:Keyspace
+network	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/__init__.py	/^import network$/;"	i
+new_spec	code.google.com/p/vitess/test/tabletmanager.py	/^  new_spec = '-0000000000000028-'$/;"	v
+next	code.google.com/p/vitess/py/cbson/cbson.c	/^static inline int next(BufIter* buf_iter, uint32_t inc, const char* tag) {$/;"	f	file:
+next	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def next(self):$/;"	m	class:BaseCursor
+next	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def next(self):$/;"	m	class:StreamCursor
+next	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def next(self):$/;"	m	class:ShardedCursor
+next	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^    struct _watch_data *next;$/;"	m	struct:_watch_data	typeref:struct:_watch_data::_watch_data
+next_cstring	code.google.com/p/vitess/py/cbson/cbson.c	/^static inline int next_cstring(BufIter* buf_iter, const char* tag) {$/;"	f	file:
+next_sequence_id	code.google.com/p/vitess/py/net/gorpc.py	/^  def next_sequence_id(self):$/;"	m	class:GoRpcClient
+nextset	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def nextset(self):$/;"	m	class:BaseCursor
+nextset	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def nextset(self):$/;"	m	class:StreamCursor
+nextset	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def nextset(self):$/;"	m	class:ShardedCursor
+nocache_cases	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^import nocache_cases$/;"	i
+nocache_tests	code.google.com/p/vitess/test/queryservice_test.py	/^from queryservice_tests import nocache_tests$/;"	i
+non_rename_operation	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^non_rename_operation:$/;"	l
+normalizelog	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def normalizelog(self, data):$/;"	m	class:Case
+not_exists_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^not_exists_opt:$/;"	l
+num_fields	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  unsigned int num_fields;$/;"	m	struct:vt_conn
+object_id	code.google.com/p/vitess/py/cbson/cbson.c	/^  object_id,$/;"	e	enum:ElementTypes	file:
+old_tablets	code.google.com/p/vitess/test/tabletmanager.py	/^  old_tablets = [tablet_62044, tablet_41983, tablet_31981]$/;"	v
+on_dup_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^on_dup_opt:$/;"	l
+openssl	code.google.com/p/vitess/test/secure.py	/^def openssl(cmd):$/;"	f
+options	code.google.com/p/vitess/test/utils.py	/^options = None$/;"	v
+optparse	code.google.com/p/vitess/py/checkers/checker.py	/^import optparse$/;"	i
+optparse	code.google.com/p/vitess/test/checkers_test.py	/^import optparse$/;"	i
+optparse	code.google.com/p/vitess/test/loadgen.py	/^import optparse$/;"	i
+optparse	code.google.com/p/vitess/test/queryservice_test.py	/^import optparse$/;"	i
+optparse	code.google.com/p/vitess/test/vtctld_test.py	/^import optparse$/;"	i
+order	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^order:$/;"	l
+order_by_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^order_by_opt:$/;"	l
+order_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^order_list:$/;"	l
+os	code.google.com/p/vitess/py/cbson/test_cbson.py	/^import os$/;"	i
+os	code.google.com/p/vitess/py/cbson/test_cbson.py	/^import os.path$/;"	i
+os	code.google.com/p/vitess/py/checkers/checker.py	/^import os$/;"	i
+os	code.google.com/p/vitess/py/io/lockfile.py	/^import os$/;"	i
+os	code.google.com/p/vitess/py/vtdb/sharded.py	/^import os$/;"	i
+os	code.google.com/p/vitess/py/zk/zkocc.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/checkers_test.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/connection_test.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/framework.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/loadgen.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/schema.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/secure.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/tablet.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/tabletmanager.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/update_stream.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/utils.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/vtctld_test.py	/^import os$/;"	i
+os	code.google.com/p/vitess/test/zkocc.py	/^import os$/;"	i
+outfd	code.google.com/p/vitess/test/zkocc.py	/^  outfd = tempfile.NamedTemporaryFile(dir=utils.tmp_root, delete=False)$/;"	v
+pack_keyspace_id	code.google.com/p/vitess/py/vtdb/keyspace.py	/^pack_keyspace_id = struct.Struct('!Q').pack$/;"	v
+packages	code.google.com/p/vitess/py/setup.py	/^      packages=["vtdb", "net"],$/;"	v
+packages	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		packages=["bson"],$/;"	v
+parenthesised_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^parenthesised_list:$/;"	l
+parenthesised_lists	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^parenthesised_lists:$/;"	l
+parse_database_url	code.google.com/p/vitess/py/checkers/checker.py	/^def parse_database_url(url, password_map):$/;"	f
+parse_streamlog	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def parse_streamlog(self, line):$/;"	m	class:Case
+parser	code.google.com/p/vitess/test/queryservice_test.py	/^  parser = optparse.OptionParser(usage="usage: %prog [options] [test_names]")$/;"	v
+password	code.google.com/p/vitess/py/vtdb/sharded.py	/^  password = ''$/;"	v	class:ShardedClient
+patch_socket	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/__init__.py	/^def patch_socket():$/;"	f
+path	code.google.com/p/vitess/py/cbson/test_cbson.py	/^import os.path$/;"	i
+path	code.google.com/p/vitess/test/tabletmanager.py	/^    path = os.path.join(utils.vtdataroot, 'snapshot\/vt_0000062344\/data\/', kr, 'vt_insert_test_1.0.csv.gz')$/;"	v
+pause	code.google.com/p/vitess/test/utils.py	/^def pause(prompt):$/;"	f
+perform_delete	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def perform_delete():$/;"	f
+perform_insert	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def perform_insert(count):$/;"	f
+perform_writes	code.google.com/p/vitess/test/update_stream.py	/^def perform_writes(count):$/;"	f
+pickle	code.google.com/p/vitess/py/checkers/checker.py	/^import cPickle as pickle$/;"	i
+pid_map	code.google.com/p/vitess/test/utils.py	/^pid_map = {}$/;"	v
+platforms	code.google.com/p/vitess/py/setup.py	/^      platforms = "Any",$/;"	v
+platforms	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		platforms = "Any",$/;"	v
+populate	code.google.com/p/vitess/test/tablet.py	/^  def populate(self, dbname, create_sql, insert_sqls=[]):$/;"	m	class:Tablet
+populate_vt_a	code.google.com/p/vitess/test/update_stream.py	/^def populate_vt_a(count):$/;"	f
+populate_vt_b	code.google.com/p/vitess/test/update_stream.py	/^def populate_vt_b(count):$/;"	f
+populate_vt_c	code.google.com/p/vitess/test/update_stream.py	/^def populate_vt_c(count):$/;"	f
+populate_vt_insert_test	code.google.com/p/vitess/test/tabletmanager.py	/^populate_vt_insert_test = [$/;"	v
+populate_vt_insert_test	code.google.com/p/vitess/test/update_stream.py	/^populate_vt_insert_test = [$/;"	v
+populate_vt_insert_test_varbinary	code.google.com/p/vitess/test/tabletmanager.py	/^populate_vt_insert_test_varbinary = [$/;"	v
+populate_vt_select_test	code.google.com/p/vitess/test/tabletmanager.py	/^populate_vt_select_test = [$/;"	v
+populate_vt_select_test	code.google.com/p/vitess/test/update_stream.py	/^populate_vt_select_test = [$/;"	v
+pprint	code.google.com/p/vitess/py/checkers/checker.py	/^import pprint$/;"	i
+pprint	code.google.com/p/vitess/test/vtctld_test.py	/^import pprint$/;"	i
+prepare_query_bind_vars	code.google.com/p/vitess/py/vtdb/dbapi.py	/^def prepare_query_bind_vars(query, bind_vars):$/;"	f
+print_total	code.google.com/p/vitess/py/checkers/checker.py	/^  def print_total(self):$/;"	m	class:Stats
+prog_compile	code.google.com/p/vitess/test/utils.py	/^def prog_compile(names):$/;"	f
+put	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def put(self, qq_item):$/;"	m	class:DebugQueue
+querier	code.google.com/p/vitess/test/zkocc.py	/^  querier = utils.run_bg('\/bin\/bash -c "while true ; do '+utils.vtroot+'\/bin\/zkclient2 -server localhost:%u \/zk\/test_nj\/zkocc1\/data1 ; sleep 0.1 ; done"' % utils.zkocc_port_base, stderr=outfd.file)$/;"	v
+query	code.google.com/p/vitess/py/checkers/checker.py	/^  def query(self, sql, params):$/;"	m	class:DatastoreThread
+query	code.google.com/p/vitess/py/checkers/checker.py	/^  def query(self, sql, params):$/;"	m	class:MultiDatastore
+query	code.google.com/p/vitess/py/checkers/checker.py	/^  def query(self, sql, params, retries=3):$/;"	m	class:Datastore
+query_all	code.google.com/p/vitess/test/checkers_test.py	/^  def query_all(self, sql, write=False):$/;"	m	class:TestCheckers
+query_plan	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       query_plan="SELECT_PK",$/;"	v
+query_stats	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def query_stats(self):$/;"	m	class:TestEnv
+querylog_file	code.google.com/p/vitess/test/tablet.py	/^  def querylog_file(self):$/;"	m	class:Tablet
+querylogfile	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  querylogfile = "\/tmp\/vtocc_queries.log"$/;"	v	class:VtoccTestEnv
+random	code.google.com/p/vitess/py/vtdb/topology.py	/^import random$/;"	i
+random	code.google.com/p/vitess/py/zk/zkns_query.py	/^import random$/;"	i
+random	code.google.com/p/vitess/py/zk/zkocc.py	/^import random$/;"	i
+re	code.google.com/p/vitess/py/checkers/checker.py	/^import re$/;"	i
+re	code.google.com/p/vitess/py/vtdb/tablet3.py	/^import re$/;"	i
+re	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^import re$/;"	i
+re	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^import re$/;"	i
+read	code.google.com/p/vitess/test/framework.py	/^  def read(self):$/;"	m	class:Tailer
+read_keyspace	code.google.com/p/vitess/py/vtdb/keyspace.py	/^def read_keyspace(zkocc_client, keyspace_name):$/;"	f
+read_keyspaces	code.google.com/p/vitess/py/vtdb/topology.py	/^def read_keyspaces(zkocc_client):$/;"	f
+read_some	code.google.com/p/vitess/py/net/gorpc.py	/^  def read_some(self, size=None):$/;"	m	class:_GoRpcConn
+read_topology	code.google.com/p/vitess/py/vtdb/topology.py	/^def read_topology(zkocc_client, read_fqdb_keys=True):$/;"	f
+reconnect	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^def reconnect(method):$/;"	f
+reconnect_delay	code.google.com/p/vitess/py/vtdb/sharded.py	/^  reconnect_delay = 0.005$/;"	v	class:ShardedClient
+regex	code.google.com/p/vitess/py/cbson/cbson.c	/^  regex,$/;"	e	enum:ElementTypes	file:
+release	code.google.com/p/vitess/py/io/lockfile.py	/^  def release(self):$/;"	m	class:FLock
+remove_tmp_files	code.google.com/p/vitess/test/utils.py	/^def remove_tmp_files():$/;"	f
+remove_tree	code.google.com/p/vitess/test/tablet.py	/^  def remove_tree(self):$/;"	m	class:Tablet
+rename_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^rename_statement:$/;"	l
+reparent_log	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^CREATE TABLE _vt.reparent_log ($/;"	t
+reparent_log.last_position	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  time_created_ns bigint primary key,$/;"	F
+reparent_log.new_addr	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  last_position varchar(255),$/;"	F
+reparent_log.new_position	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  new_addr varchar(255),$/;"	F
+reparent_log.time_created_ns	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^CREATE TABLE _vt.reparent_log ($/;"	F
+reparent_log.wait_position	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  new_position varchar(255),$/;"	F
+replace_zk_data	code.google.com/p/vitess/py/zk/zkocc.py	/^  def replace_zk_data(self, before, after):$/;"	m	class:FakeZkOccConnection
+replica_host	code.google.com/p/vitess/test/rowcache_invalidator.py	/^replica_host = "localhost:%u" % replica_tablet.port$/;"	v
+replica_host	code.google.com/p/vitess/test/update_stream.py	/^replica_host = "localhost:%u" % replica_tablet.port$/;"	v
+replica_tablet	code.google.com/p/vitess/test/rowcache_invalidator.py	/^replica_tablet = tablet.Tablet(62345)$/;"	v
+replica_tablet	code.google.com/p/vitess/test/update_stream.py	/^replica_tablet = tablet.Tablet(62345)$/;"	v
+replication_log	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^CREATE TABLE _vt.replication_log ($/;"	t
+replication_log.note	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^  time_created_ns bigint primary key,$/;"	F
+replication_log.time_created_ns	code.google.com/p/vitess/data/bootstrap/_vt_schema.sql	/^CREATE TABLE _vt.replication_log ($/;"	F
+reply	code.google.com/p/vitess/py/net/gorpc.py	/^  reply = None # the decoded object - usually a dictionary$/;"	v	class:GoRpcResponse
+reserve_ports	code.google.com/p/vitess/test/utils.py	/^def reserve_ports(count):$/;"	f
+reset	code.google.com/p/vitess/test/framework.py	/^  def reset(self):$/;"	m	class:Tailer
+restore_checkpoint	code.google.com/p/vitess/py/checkers/checker.py	/^  def restore_checkpoint(self):$/;"	m	class:Checker
+result	code.google.com/p/vitess/go/mysql/vtmysql.h	/^  MYSQL_RES    *result;$/;"	m	struct:vt_conn
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            result=[(2L, 'bar', 'abcd2', 'efgh'), (2L, 'foo', 'abcd2', 'fghi')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            result=[(2L, 'bar', 'abcd2', 'fghi'), (2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            result=[(2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[('bar', 1)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[('foo', 1)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[('foo', 2, 'abcd2', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[(1, 'foo', 'abcd1', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[(2, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[(2L, 'bar', 'abcd2', 'efgh'), (2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[(2L, 'bar', 'abcd2', 'fghi'), (2L, 'foo', 'abcd2', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       result=[],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^                    result=[(1L,)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[('ab', 1)]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[('bar',)]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(10L, 1L, 'abcd', '20'), (11L, 1L, 'bcde', '30')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(10L, 1L, 'abcd', 'bar'), (11L, 1L, 'bcde', 'bar')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(10L, 21L, 'abcd', 'bar'), (11L, 1L, 'bcde', 'bar')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(1L, 1L)]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(1L, 1L, 'aaaa', 'cccc')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(2L, 1L, 'aaaa', 'bbbb')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(3L, 1L, 'aaaa', 'cccc')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(4L, 1L, 'aaaa', 'cccc')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(5L, -1L, 'bbb', 'aaa')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(5L, 1L, '', ''), (7L, 1L, '', '')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(7L, 2L, '', '')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(8L, 1L, '', '')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(8L, 1L, 'foo', '')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(8L, 2L, 'foo', '')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[(8L, 3L, 'foo', '')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              result=[],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^            result=[('bar',)]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^            result=[(1L, 1L, 'abcd', 'bar'), (1L, 2L, 'bcde', 'bar')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^            result=[(1L, 2L)]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^            result=[(2L,)]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^            result=[])]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^           result=[(1L, 10L, 'abcd', '20'), (2L, 11L, 'bcde', '30')]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^           result=[])]),$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[('a', 'b', 'c', 'd\\x00\\x00\\x00', 'e', 'f', 'g', 'h', 'a', 'a,b')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(-128, 255, -32768, 65535, -8388608, 16777215, -2147483648L, 4294967295L, -9223372036854775808L, 18446744073709551615L, 2012)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, '\\x01', datetime.date(2012, 1, 1), datetime.datetime(2012, 1, 1, 15, 45, 45), datetime.timedelta(0, 56745))],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 1L), (1L, 2L)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 1L)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 1L, 'abcd', 'efgh'), (1L, 2L, 'bcde', 'fghi')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 1L, 1L, 1L), (1L, 2L, 1L, 1L), (1L, 1L, 1L, 2L), (1L, 2L, 1L, 2L)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 1L, 1L, 1L), (1L, 2L, 1L, 2L)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 2L, 'bcde', 'fghi'), (1L, 1L, 'abcd', 'efgh')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 2L, 'bcde', 'fghi')],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, 3L)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L, Decimal('1.99'), Decimal('2.99'), 3.9900000000000002, 4.9900000000000002)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L,), (1L,)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(1L,)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(2L, 1L), (2L, 2L)],$/;"	v
+result	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         result=[(3L,)],$/;"	v
+results	code.google.com/p/vitess/py/vtdb/cursor.py	/^  results = None$/;"	v	class:BaseCursor
+results	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  results = None$/;"	v	class:ShardedCursor
+rewritten	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            rewritten="select eid, bid from vtocc_cached use index (aname) where eid = 2 and name = 'abcd2' limit 10001",$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            rewritten=[$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       rewritten="select eid, bid from vtocc_cached use index (aname) where eid = 2 and name = 'abcd2' limit 10001",$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       rewritten=[$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^       rewritten=[],$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^                    rewritten=[$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten =[$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert \/* auto_increment *\/ into vtocc_e(name, foo) values ('aaaa', 'cccc') \/* _stream vtocc_e (eid id name ) (null 1 'YWFhYQ==' ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert \/* bind values *\/ into vtocc_a(eid, id, name, foo) values (4, 1, 'aaaa', 'cccc') \/* _stream vtocc_a (eid id ) (4 1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert \/* num default *\/ into vtocc_a(eid, name, foo) values (3, 'aaaa', 'cccc') \/* _stream vtocc_a (eid id ) (3 1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert \/* qualified *\/ into vtocc_a(eid, id, name, foo) values (3, 1, 'aaaa', 'cccc') \/* _stream vtocc_a (eid id ) (3 1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert \/* simple *\/ into vtocc_a values (2, 1, 'aaaa', 'bbbb') \/* _stream vtocc_a (eid id ) (2 1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert \/* string default *\/ into vtocc_f(id) values (1) \/* _stream vtocc_f (vb ) ('YWI=' ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (5, 1, '', ''), (7, 1, '', '') \/* _stream vtocc_a (eid id ) (5 1 ) (7 1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (7, 1+1, '', '')"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 1, '', '') on duplicate key update id = 2 \/* _stream vtocc_a (eid id ) (8 1 ) (8 2 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 1, '', '') on duplicate key update name = 'foo' \/* _stream vtocc_a (eid id ) (8 1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 1, '', '') on duplicate key update name = 'foo' \/* _stream vtocc_a (eid id ) (8 1 ); *\/",),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_a(eid, id, name, foo) values (8, 2, '', '') on duplicate key update id = 2+1"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_a(id, eid, foo, name) values (-1, 5, 'aaa', 'bbb') \/* _stream vtocc_a (eid id ) (5 -1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten="insert into vtocc_d(eid, id) values (1, 1)"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^              rewritten=[$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^            rewritten="delete \/* pk *\/ from vtocc_a where (eid, id) in ((2, 1), (3, 2)) \/* _stream vtocc_a (eid id ) (2 1 ) (3 2 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^            rewritten=[$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^           rewritten=[$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         rewritten="insert into vtocc_fracts values (1, '1.99', '2.99', 3.99, 4.99) \/* _stream vtocc_fracts (id ) (1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         rewritten="insert into vtocc_misc values (1, '\\1', '2012-01-01', '2012-01-01 15:45:45', '15:45:45') \/* _stream vtocc_misc (id ) (1 ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         rewritten="insert into vtocc_strings values ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'a', 'a,b') \/* _stream vtocc_strings (vb ) ('YQ==' ); *\/"),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         rewritten='insert into vtocc_ints values (-128, 255, -32768, 65535, -8388608, 16777215, -2147483648, 4294967295, -9223372036854775808, 18446744073709551615, 2012) \/* _stream vtocc_ints (tiny ) (-128 ); *\/'),$/;"	v
+rewritten	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         rewritten=[$/;"	v
+rollback	code.google.com/p/vitess/py/vtdb/sharded.py	/^  def rollback(self):$/;"	m	class:ShardedClient
+rollback	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  def rollback(self):$/;"	m	class:TabletConnection
+rollback	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  def rollback(self):$/;"	m	class:TabletConnection
+rowcount	code.google.com/p/vitess/py/vtdb/cursor.py	/^  rowcount = 0$/;"	v	class:BaseCursor
+rowcount	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  rowcount = 0$/;"	v	class:ShardedCursor
+rownumber	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def rownumber(self):$/;"	m	class:BaseCursor
+rownumber	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def rownumber(self):$/;"	m	class:StreamCursor
+rownumber	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def rownumber(self):$/;"	m	class:ShardedCursor
+rows	code.google.com/p/vitess/test/tabletmanager.py	/^    rows = tablet_62344.mquery('not_vt_test_keyspace', 'select id from %s' % table)$/;"	v
+rows	code.google.com/p/vitess/test/tabletmanager.py	/^  rows = tablet_62344.mquery('_vt', 'select * from blp_checkpoint')$/;"	v
+run	code.google.com/p/vitess/py/checkers/checker.py	/^  def run(self):$/;"	m	class:Checker
+run	code.google.com/p/vitess/py/checkers/checker.py	/^  def run(self):$/;"	m	class:DatastoreThread
+run	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def run(self, cursor, querylog=None):$/;"	m	class:Case
+run	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def run(self, cursor, querylog=None):$/;"	m	class:MultiCase
+run	code.google.com/p/vitess/test/utils.py	/^def run(cmd, trap_output=False, raise_on_error=True, **kargs):$/;"	f
+run_all	code.google.com/p/vitess/test/resharding.py	/^def run_all():$/;"	f
+run_all	code.google.com/p/vitess/test/schema.py	/^def run_all():$/;"	f
+run_all	code.google.com/p/vitess/test/secure.py	/^def run_all():$/;"	f
+run_all	code.google.com/p/vitess/test/sharded.py	/^def run_all():$/;"	f
+run_all	code.google.com/p/vitess/test/tabletmanager.py	/^def run_all():$/;"	f
+run_all	code.google.com/p/vitess/test/update_stream.py	/^def run_all():$/;"	f
+run_all	code.google.com/p/vitess/test/zkocc.py	/^def run_all():$/;"	f
+run_bg	code.google.com/p/vitess/test/utils.py	/^def run_bg(cmd, **kargs):$/;"	f
+run_cases	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def run_cases(self, cases):$/;"	m	class:TestEnv
+run_fail	code.google.com/p/vitess/test/utils.py	/^def run_fail(cmd, **kargs):$/;"	f
+run_procs	code.google.com/p/vitess/test/utils.py	/^def run_procs(cmds, raise_on_error=True):$/;"	f
+run_test_complex_schema	code.google.com/p/vitess/test/schema.py	/^def run_test_complex_schema():$/;"	f
+run_test_ddl	code.google.com/p/vitess/test/update_stream.py	/^def run_test_ddl():$/;"	f
+run_test_hook	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_hook():$/;"	f
+run_test_log_rotation	code.google.com/p/vitess/test/update_stream.py	/^def run_test_log_rotation():$/;"	f
+run_test_mysqlctl_clone	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_mysqlctl_clone():$/;"	f
+run_test_mysqlctl_clone_server	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_mysqlctl_clone_server():$/;"	f
+run_test_mysqlctl_split	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_mysqlctl_split():$/;"	f
+run_test_rebuild	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_rebuild():$/;"	f
+run_test_reparent_down_master	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_reparent_down_master():$/;"	f
+run_test_reparent_from_outside	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_reparent_from_outside():$/;"	f
+run_test_reparent_graceful	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_reparent_graceful():$/;"	f
+run_test_reparent_graceful_range_based	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_reparent_graceful_range_based():$/;"	f
+run_test_reparent_lag_slave	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_reparent_lag_slave(shard_id='0'):$/;"	f
+run_test_reparent_slave_offline	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_reparent_slave_offline(shard_id='0'):$/;"	f
+run_test_resharding	code.google.com/p/vitess/test/resharding.py	/^def run_test_resharding():$/;"	f
+run_test_restart_during_action	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_restart_during_action():$/;"	f
+run_test_sanity	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_sanity():$/;"	f
+run_test_scrap	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_scrap():$/;"	f
+run_test_secure	code.google.com/p/vitess/test/secure.py	/^def run_test_secure():$/;"	f
+run_test_service_disabled	code.google.com/p/vitess/test/update_stream.py	/^def run_test_service_disabled():$/;"	f
+run_test_service_enabled	code.google.com/p/vitess/test/update_stream.py	/^def run_test_service_enabled():$/;"	f
+run_test_service_switch	code.google.com/p/vitess/test/update_stream.py	/^def run_test_service_switch():$/;"	f
+run_test_sharding	code.google.com/p/vitess/test/sharded.py	/^def run_test_sharding():$/;"	f
+run_test_sigterm	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_sigterm():$/;"	f
+run_test_stream_parity	code.google.com/p/vitess/test/update_stream.py	/^def run_test_stream_parity():$/;"	f
+run_test_vtctl_clone	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_vtctl_clone():$/;"	f
+run_test_vtctl_clone_server	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_vtctl_clone_server():$/;"	f
+run_test_vtctl_partial_clone	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_vtctl_partial_clone():$/;"	f
+run_test_vtctl_partial_clone_varbinary	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_vtctl_partial_clone_varbinary():$/;"	f
+run_test_vtctl_snapshot_restore	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_vtctl_snapshot_restore():$/;"	f
+run_test_vtctl_snapshot_restore_server	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_vtctl_snapshot_restore_server():$/;"	f
+run_test_vttablet_authenticated	code.google.com/p/vitess/test/tabletmanager.py	/^def run_test_vttablet_authenticated():$/;"	f
+run_test_zkocc	code.google.com/p/vitess/test/zkocc.py	/^def run_test_zkocc():$/;"	f
+run_test_zkocc_qps	code.google.com/p/vitess/test/zkocc.py	/^def run_test_zkocc_qps():$/;"	f
+run_vtctl	code.google.com/p/vitess/test/utils.py	/^def run_vtctl(clargs, log_level='WARNING', auto_log=False, **kwargs):$/;"	f
+scan_int32	code.google.com/p/vitess/py/cbson/cbson.c	/^static inline int scan_int32(BufIter* buf_iter, uint32_t* result,$/;"	f	file:
+scan_int64	code.google.com/p/vitess/py/cbson/cbson.c	/^static inline int scan_int64(BufIter* buf_iter, uint64_t* result,$/;"	f	file:
+sconn	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  sconn = None$/;"	v	class:ShardedCursor
+scoped_js	code.google.com/p/vitess/py/cbson/cbson.c	/^  scoped_js,$/;"	e	enum:ElementTypes	file:
+scrap	code.google.com/p/vitess/test/tablet.py	/^  def scrap(self, force=False, skip_rebuild=False):$/;"	m	class:Tablet
+scrap	code.google.com/p/vitess/test/vtctld_test.py	/^scrap = tablet.Tablet()$/;"	v
+select	code.google.com/p/vitess/py/net/gorpc.py	/^import select$/;"	i
+select_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^select_expression:$/;"	l
+select_expression_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^select_expression_list:$/;"	l
+select_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^select_statement:$/;"	l
+seq	code.google.com/p/vitess/test/tablet.py	/^  seq = 0$/;"	v	class:Tablet
+sequence_id	code.google.com/p/vitess/py/net/gorpc.py	/^  def sequence_id(self):$/;"	m	class:GoRpcRequest
+sequence_id	code.google.com/p/vitess/py/net/gorpc.py	/^  def sequence_id(self):$/;"	m	class:GoRpcResponse
+server_cert	code.google.com/p/vitess/test/secure.py	/^  server_cert = cert_dir + "\/server-cert.pem"$/;"	v
+server_config	code.google.com/p/vitess/test/secure.py	/^  server_config = cert_dir + "\/server.config"$/;"	v
+server_key	code.google.com/p/vitess/test/secure.py	/^  server_key = cert_dir + "\/server-key.pem"$/;"	v
+server_req	code.google.com/p/vitess/test/secure.py	/^  server_req = cert_dir + "\/server-req.pem"$/;"	v
+session_id	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  session_id = 0$/;"	v	class:TabletConnection
+session_id	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  session_id = 0$/;"	v	class:TabletConnection
+setUp	code.google.com/p/vitess/test/checkers_test.py	/^  def setUp(self):$/;"	m	class:TestCheckers
+setUp	code.google.com/p/vitess/test/checkers_test.py	/^  def setUp(self):$/;"	m	class:TestDifferentEncoding
+setUp	code.google.com/p/vitess/test/checkers_test.py	/^  def setUp(self):$/;"	m	class:TestRlookup
+setUp	code.google.com/p/vitess/test/connection_test.py	/^  def setUp(self):$/;"	m	class:TestAuthentication
+setUp	code.google.com/p/vitess/test/connection_test.py	/^  def setUp(self):$/;"	m	class:TestConnection
+setUp	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def setUp(self):$/;"	m	class:TestWillNotBeCached
+setUp	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def setUp(self):$/;"	m	class:VtoccTestEnv
+setUp	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def setUp(self):$/;"	m	class:VttabletTestEnv
+setUp	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def setUp(self):$/;"	m	class:RowCacheInvalidator
+setUp	code.google.com/p/vitess/test/vtctld_test.py	/^  def setUp(self):$/;"	m	class:TestDbTopo
+setUpClass	code.google.com/p/vitess/test/checkers_test.py	/^  def setUpClass(cls):$/;"	m	class:TestCheckers
+setUpClass	code.google.com/p/vitess/test/checkers_test.py	/^  def setUpClass(cls):$/;"	m	class:TestDifferentEncoding
+setUpClass	code.google.com/p/vitess/test/vtctld_test.py	/^  def setUpClass(klass):$/;"	m	class:TestDbTopo
+setUpModule	code.google.com/p/vitess/test/checkers_test.py	/^def setUpModule():$/;"	f
+setUpModule	code.google.com/p/vitess/test/vtctld_test.py	/^def setUpModule():$/;"	f
+set_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^set_statement:$/;"	l
+setenv	code.google.com/p/vitess/test/framework.py	/^  def setenv(cls, env):$/;"	m	class:TestCase
+setinputsizes	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def setinputsizes(self, sizes):$/;"	m	class:BaseCursor
+setinputsizes	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def setinputsizes(self, sizes):$/;"	m	class:StreamCursor
+setinputsizes	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def setinputsizes(self, sizes):$/;"	m	class:ShardedCursor
+setoutputsize	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def setoutputsize(self, size, column=None):$/;"	m	class:BaseCursor
+setoutputsize	code.google.com/p/vitess/py/vtdb/cursor.py	/^  def setoutputsize(self, size, column=None):$/;"	m	class:StreamCursor
+setoutputsize	code.google.com/p/vitess/py/vtdb/sharded_cursor.py	/^  def setoutputsize(self, size, column=None):$/;"	m	class:ShardedCursor
+setup	code.google.com/p/vitess/py/cbson/setup.py	/^from distutils.core import setup, Extension$/;"	i
+setup	code.google.com/p/vitess/py/setup.py	/^from distutils.core import setup$/;"	i
+setup	code.google.com/p/vitess/test/resharding.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/test/schema.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/test/secure.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/test/sharded.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/test/tabletmanager.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/test/update_stream.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/test/zkocc.py	/^def setup():$/;"	f
+setup	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^from distutils.core import setup$/;"	i
+setup_procs	code.google.com/p/vitess/test/secure.py	/^  setup_procs = [$/;"	v
+setup_schema	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def setup_schema():$/;"	f
+setup_schema	code.google.com/p/vitess/test/update_stream.py	/^def setup_schema():$/;"	f
+setup_tablets	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def setup_tablets():$/;"	f
+setup_tablets	code.google.com/p/vitess/test/update_stream.py	/^def setup_tablets():$/;"	f
+shard_0_backup	code.google.com/p/vitess/test/schema.py	/^shard_0_backup = tablet.Tablet()$/;"	v
+shard_0_master	code.google.com/p/vitess/test/resharding.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_master	code.google.com/p/vitess/test/schema.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_master	code.google.com/p/vitess/test/secure.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_master	code.google.com/p/vitess/test/sharded.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_master	code.google.com/p/vitess/test/vtctld_test.py	/^shard_0_master = tablet.Tablet()$/;"	v
+shard_0_rdonly	code.google.com/p/vitess/test/schema.py	/^shard_0_rdonly = tablet.Tablet()$/;"	v
+shard_0_replica	code.google.com/p/vitess/test/resharding.py	/^shard_0_replica = tablet.Tablet()$/;"	v
+shard_0_replica	code.google.com/p/vitess/test/sharded.py	/^shard_0_replica = tablet.Tablet()$/;"	v
+shard_0_replica	code.google.com/p/vitess/test/vtctld_test.py	/^shard_0_replica = tablet.Tablet()$/;"	v
+shard_0_replica1	code.google.com/p/vitess/test/schema.py	/^shard_0_replica1 = tablet.Tablet()$/;"	v
+shard_0_replica2	code.google.com/p/vitess/test/schema.py	/^shard_0_replica2 = tablet.Tablet()$/;"	v
+shard_0_slave	code.google.com/p/vitess/test/secure.py	/^shard_0_slave = tablet.Tablet()$/;"	v
+shard_0_spare	code.google.com/p/vitess/test/vtctld_test.py	/^shard_0_spare = tablet.Tablet()$/;"	v
+shard_1_master	code.google.com/p/vitess/test/resharding.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_master	code.google.com/p/vitess/test/schema.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_master	code.google.com/p/vitess/test/sharded.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_master	code.google.com/p/vitess/test/vtctld_test.py	/^shard_1_master = tablet.Tablet()$/;"	v
+shard_1_replica	code.google.com/p/vitess/test/resharding.py	/^shard_1_replica = tablet.Tablet()$/;"	v
+shard_1_replica	code.google.com/p/vitess/test/sharded.py	/^shard_1_replica = tablet.Tablet()$/;"	v
+shard_1_replica	code.google.com/p/vitess/test/vtctld_test.py	/^shard_1_replica = tablet.Tablet()$/;"	v
+shard_1_replica1	code.google.com/p/vitess/test/schema.py	/^shard_1_replica1 = tablet.Tablet()$/;"	v
+shard_2_master	code.google.com/p/vitess/test/resharding.py	/^shard_2_master = tablet.Tablet()$/;"	v
+shard_2_replica	code.google.com/p/vitess/test/resharding.py	/^shard_2_replica = tablet.Tablet()$/;"	v
+shard_3_master	code.google.com/p/vitess/test/resharding.py	/^shard_3_master = tablet.Tablet()$/;"	v
+shard_3_replica	code.google.com/p/vitess/test/resharding.py	/^shard_3_replica = tablet.Tablet()$/;"	v
+shard_count	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  shard_count = None$/;"	v	class:Keyspace
+shard_max_keys	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  shard_max_keys = None # Sorted list of the max keys for each shard.$/;"	v	class:Keyspace
+shard_names	code.google.com/p/vitess/py/vtdb/keyspace.py	/^  shard_names = None # Sorted list of shard names -$/;"	v	class:Keyspace
+shlex	code.google.com/p/vitess/test/framework.py	/^import shlex$/;"	i
+shlex	code.google.com/p/vitess/test/utils.py	/^import shlex$/;"	i
+shutdown	code.google.com/p/vitess/py/vtdb/qpool.py	/^  def shutdown(self):$/;"	m	class:QueryThreadPool
+shutdown_mysql	code.google.com/p/vitess/test/tablet.py	/^  def shutdown_mysql(self):$/;"	m	class:Tablet
+shutil	code.google.com/p/vitess/test/connection_test.py	/^import shutil$/;"	i
+shutil	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import shutil$/;"	i
+shutil	code.google.com/p/vitess/test/tablet.py	/^import shutil$/;"	i
+shutil	code.google.com/p/vitess/test/tabletmanager.py	/^import shutil$/;"	i
+shutil	code.google.com/p/vitess/test/utils.py	/^import shutil$/;"	i
+signal	code.google.com/p/vitess/test/tabletmanager.py	/^import signal$/;"	i
+signal	code.google.com/p/vitess/test/utils.py	/^import signal$/;"	i
+simple_table_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^simple_table_expression:$/;"	l
+size	code.google.com/p/vitess/py/cbson/cbson.c	/^  uint32_t size;$/;"	m	struct:_Slice	file:
+skip_teardown	code.google.com/p/vitess/test/checkers_test.py	/^skip_teardown = False$/;"	v
+slice	code.google.com/p/vitess/py/cbson/cbson.c	/^  Slice slice; \/* what we are currently looking at *\/$/;"	m	struct:_BufIter	file:
+socket	code.google.com/p/vitess/py/net/gorpc.py	/^import socket$/;"	i
+socket	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^import socket$/;"	i
+socket	code.google.com/p/vitess/test/schema.py	/^import socket$/;"	i
+socket	code.google.com/p/vitess/test/tabletmanager.py	/^import socket$/;"	i
+socket	code.google.com/p/vitess/test/utils.py	/^import socket$/;"	i
+socket	code.google.com/p/vitess/test/vtctld_test.py	/^import socket$/;"	i
+socket	code.google.com/p/vitess/test/zkocc.py	/^import socket$/;"	i
+socket	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/__init__.py	/^	from socket import socket$/;"	i
+socket	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^import socket$/;"	i
+sorted_row_list_difference	code.google.com/p/vitess/py/checkers/checker.py	/^def sorted_row_list_difference(expected, actual, key_length):$/;"	f
+source_aliases	code.google.com/p/vitess/test/tabletmanager.py	/^  source_aliases = ' '.join(t.tablet_alias for t in old_tablets)$/;"	v
+source_tablets	code.google.com/p/vitess/test/checkers_test.py	/^source_tablets = [tablet.Tablet(62044),$/;"	v
+sources	code.google.com/p/vitess/py/cbson/setup.py	/^                  sources = ['cbson.c'])$/;"	v
+sources_worker	code.google.com/p/vitess/py/checkers/checker.py	/^  def sources_worker(self):$/;"	m	class:Checker
+sql	code.google.com/p/vitess/test/queryservice_tests/cache_cases.py	/^            sql="select eid, bid, name, foo from vtocc_cached",$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select (select eid from vtocc_a where id = 1), eid from vtocc_a where id = 2',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* (condition) *\/ * from vtocc_a where (eid = 1)',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* * *\/ * from vtocc_a',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* between *\/ * from vtocc_a where id between 1 and 2',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* complex select list *\/ eid+1, id from vtocc_a',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* complex where (non-value operand) *\/ eid, id from vtocc_a where eid = id',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* distinct *\/ distinct * from vtocc_a',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* double union *\/ eid, id from vtocc_a union select eid, id from vtocc_b union select eid, id from vtocc_d',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* group by *\/ eid, sum(id) from vtocc_a group by eid',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* having *\/ sum(id) from vtocc_a having sum(id) = 3',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* in *\/ * from vtocc_a where id in (1, 2)',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* inequality *\/ * from vtocc_a where id > 1',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* limit *\/ eid, id from vtocc_a limit %(a)s',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* multi-table *\/ a.eid, a.id, b.eid, b.id  from vtocc_a as a, vtocc_b as b',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* natural join *\/ a.eid, a.id, b.eid, b.id from vtocc_a as a natural join vtocc_b as b',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* order *\/ * from vtocc_a order by id desc',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* parenthesised col *\/ (eid) from vtocc_a where eid = 1 and id = 1',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select \/* union *\/ eid, id from vtocc_a union select eid, id from vtocc_b',$/;"	v
+sql	code.google.com/p/vitess/test/queryservice_tests/nocache_cases.py	/^         sql='select eid from (select eid from vtocc_a where id=2) as a',$/;"	v
+sql_tuple_comparison	code.google.com/p/vitess/py/checkers/checker.py	/^def sql_tuple_comparison(tablename, columns, column_name_prefix=''):$/;"	f
+ssl	code.google.com/p/vitess/py/net/gorpc.py	/^import ssl$/;"	i
+stale	code.google.com/p/vitess/test/zkocc.py	/^      stale = False$/;"	v
+stale	code.google.com/p/vitess/test/zkocc.py	/^      stale = True$/;"	v
+start	code.google.com/p/vitess/py/cbson/cbson.c	/^  const char* start; \/* first byte of buffer *\/$/;"	m	struct:_BufIter	file:
+start	code.google.com/p/vitess/py/cbson/cbson.c	/^  const char* start;$/;"	m	struct:_Slice	file:
+start	code.google.com/p/vitess/test/vtctld_test.py	/^  def start(self):$/;"	m	class:Vtctld
+start_memcache	code.google.com/p/vitess/test/tablet.py	/^  def start_memcache(self):$/;"	m	class:Tablet
+start_mysql	code.google.com/p/vitess/test/tablet.py	/^  def start_mysql(self):$/;"	m	class:Tablet
+start_vtocc	code.google.com/p/vitess/test/connection_test.py	/^  def start_vtocc(klass):$/;"	m	class:BaseTest
+start_vttablet	code.google.com/p/vitess/test/tablet.py	/^  def start_vttablet(self, port=None, auth=False, memcache=False, wait_for_state="OPEN", customrules=None, schema_override=None, cert=None, key=None, ca_cert=None, repl_extra_flags={}):$/;"	m	class:Tablet
+state	code.google.com/p/vitess/test/zkocc.py	/^        state = 1$/;"	v
+state	code.google.com/p/vitess/test/zkocc.py	/^        state = 2$/;"	v
+state	code.google.com/p/vitess/test/zkocc.py	/^  state = 0$/;"	v
+stmts	code.google.com/p/vitess/py/vtdb/sharded.py	/^  stmts = []$/;"	v	class:Txn
+stream_call	code.google.com/p/vitess/py/net/gorpc.py	/^  def stream_call(self, method, request):$/;"	m	class:GoRpcClient
+stream_next	code.google.com/p/vitess/py/net/gorpc.py	/^  def stream_next(self):$/;"	m	class:GoRpcClient
+stream_next	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def stream_next(self):$/;"	m	class:UpdateStreamConnection
+stream_start	code.google.com/p/vitess/py/vtdb/update_stream_service.py	/^  def stream_start(self, start_position):$/;"	m	class:UpdateStreamConnection
+stream_tests	code.google.com/p/vitess/test/queryservice_test.py	/^from queryservice_tests import stream_tests$/;"	i
+struct	code.google.com/p/vitess/py/cbson/test_cbson.py	/^import struct$/;"	i
+struct	code.google.com/p/vitess/py/net/bsonrpc.py	/^import struct$/;"	i
+struct	code.google.com/p/vitess/py/vtdb/keyspace.py	/^import struct$/;"	i
+struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^import struct$/;"	i
+subprocess	code.google.com/p/vitess/test/connection_test.py	/^import subprocess$/;"	i
+subprocess	code.google.com/p/vitess/test/loadgen.py	/^import subprocess$/;"	i
+subprocess	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import subprocess$/;"	i
+subprocess	code.google.com/p/vitess/test/secure.py	/^import subprocess$/;"	i
+suite	code.google.com/p/vitess/test/queryservice_test.py	/^  suite = unittest.TestSuite()$/;"	v
+symbol	code.google.com/p/vitess/py/cbson/cbson.c	/^  symbol,$/;"	e	enum:ElementTypes	file:
+sys	code.google.com/p/vitess/go/cmd/zkns2pdns/test.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/py/cbson/test_cbson.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/py/checkers/checker.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/checkers_test.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/connection_test.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/loadgen.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/queryservice_test.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/tablet.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/tabletmanager.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/update_stream.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/utils.py	/^import sys$/;"	i
+sys	code.google.com/p/vitess/test/vtctld_test.py	/^import sys$/;"	i
+table_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^table_expression:$/;"	l
+table_expression_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^table_expression_list:$/;"	l
+table_stats	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def table_stats(self):$/;"	m	class:Case
+table_stats	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def table_stats(self):$/;"	m	class:TestEnv
+table_stats_delta	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^  def table_stats_delta(self, old):$/;"	m	class:Case
+tablet	code.google.com/p/vitess/test/checkers_test.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  tablet = tablet.Tablet(62344, 9461, 9460)$/;"	v	class:VttabletTestEnv
+tablet	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/resharding.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/schema.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/secure.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/sharded.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/tabletmanager.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/update_stream.py	/^import tablet$/;"	i
+tablet	code.google.com/p/vitess/test/vtctld_test.py	/^import tablet$/;"	i
+tablet2	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^from vtdb import tablet3 as tablet2$/;"	i
+tablet2	code.google.com/p/vitess/test/sharded.py	/^from vtdb import tablet3 as tablet2$/;"	i
+tablet3	code.google.com/p/vitess/py/vtdb/sharded.py	/^from vtdb import tablet3$/;"	i
+tablet3	code.google.com/p/vitess/test/secure.py	/^from vtdb import tablet3$/;"	i
+tablet_31981	code.google.com/p/vitess/test/tabletmanager.py	/^tablet_31981 = tablet.Tablet(31981)$/;"	v
+tablet_41983	code.google.com/p/vitess/test/tabletmanager.py	/^tablet_41983 = tablet.Tablet(41983)$/;"	v
+tablet_62044	code.google.com/p/vitess/test/tabletmanager.py	/^tablet_62044 = tablet.Tablet(62044)$/;"	v
+tablet_62344	code.google.com/p/vitess/test/tabletmanager.py	/^tablet_62344 = tablet.Tablet(62344)$/;"	v
+tablet_cell_map	code.google.com/p/vitess/test/tablet.py	/^tablet_cell_map = {$/;"	v
+tablet_dir	code.google.com/p/vitess/test/tablet.py	/^  def tablet_dir(self):$/;"	m	class:Tablet
+tablet_urls	code.google.com/p/vitess/test/tabletmanager.py	/^  tablet_urls = ' '.join("vttp:\/\/localhost:%s\/vt_test_keyspace" % tablet.port for tablet in old_tablets)$/;"	v
+tablets	code.google.com/p/vitess/test/checkers_test.py	/^tablets = [destination_tablet] + source_tablets$/;"	v
+tablets	code.google.com/p/vitess/test/vtctld_test.py	/^tablets = assigned + [idle, scrap, shard_0_spare]$/;"	v
+tabletuid	code.google.com/p/vitess/test/connection_test.py	/^  tabletuid = "9460"$/;"	v	class:BaseTest
+tabletuid	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  tabletuid = "9460"$/;"	v	class:VtoccTestEnv
+tearDown	code.google.com/p/vitess/test/checkers_test.py	/^  def tearDown(self):$/;"	m	class:TestCheckers
+tearDown	code.google.com/p/vitess/test/checkers_test.py	/^  def tearDown(self):$/;"	m	class:TestRlookup
+tearDown	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def tearDown(self):$/;"	m	class:TestWillNotBeCached
+tearDown	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def tearDown(self):$/;"	m	class:VtoccTestEnv
+tearDown	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  def tearDown(self):$/;"	m	class:VttabletTestEnv
+tearDown	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def tearDown(self):$/;"	m	class:RowCacheInvalidator
+tearDownModule	code.google.com/p/vitess/test/checkers_test.py	/^def tearDownModule():$/;"	f
+tearDownModule	code.google.com/p/vitess/test/vtctld_test.py	/^def tearDownModule():$/;"	f
+teardown	code.google.com/p/vitess/test/resharding.py	/^def teardown():$/;"	f
+teardown	code.google.com/p/vitess/test/rowcache_invalidator.py	/^def teardown():$/;"	f
+teardown	code.google.com/p/vitess/test/schema.py	/^def teardown():$/;"	f
+teardown	code.google.com/p/vitess/test/secure.py	/^def teardown():$/;"	f
+teardown	code.google.com/p/vitess/test/sharded.py	/^def teardown():$/;"	f
+teardown	code.google.com/p/vitess/test/tabletmanager.py	/^def teardown():$/;"	f
+teardown	code.google.com/p/vitess/test/update_stream.py	/^def teardown():$/;"	f
+teardown	code.google.com/p/vitess/test/zkocc.py	/^def teardown():$/;"	f
+teardown_mysql	code.google.com/p/vitess/test/tablet.py	/^  def teardown_mysql(self):$/;"	m	class:Tablet
+tempfile	code.google.com/p/vitess/py/checkers/checker.py	/^import tempfile$/;"	i
+tempfile	code.google.com/p/vitess/test/checkers_test.py	/^import tempfile$/;"	i
+tempfile	code.google.com/p/vitess/test/zkocc.py	/^import tempfile$/;"	i
+test_additional_value	code.google.com/p/vitess/test/checkers_test.py	/^  def test_additional_value(self):$/;"	m	class:TestCheckers
+test_additional_value	code.google.com/p/vitess/test/checkers_test.py	/^  def test_additional_value(self):$/;"	m	class:TestRlookup
+test_array	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_array():$/;"	f
+test_assigned	code.google.com/p/vitess/test/vtctld_test.py	/^  def test_assigned(self):$/;"	m	class:TestDbTopo
+test_authenticated_methods_are_available	code.google.com/p/vitess/test/connection_test.py	/^  def test_authenticated_methods_are_available(self):$/;"	m	class:TestAuthentication
+test_basic_stream	code.google.com/p/vitess/test/queryservice_tests/stream_tests.py	/^  def test_basic_stream(self):$/;"	m	class:TestStream
+test_batch	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_batch(self):$/;"	m	class:TestNocache
+test_batch_size	code.google.com/p/vitess/test/checkers_test.py	/^  def test_batch_size(self):$/;"	m	class:TestCheckers
+test_bigdata	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_bigdata(self):$/;"	m	class:TestCache
+test_binary	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_binary(self):$/;"	m	class:TestNocache
+test_bind_in_select	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_bind_in_select(self):$/;"	m	class:TestNocache
+test_bool	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_bool():$/;"	f
+test_cache_hit	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def test_cache_hit(self):$/;"	m	class:RowCacheInvalidator
+test_cache_invalidation	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def test_cache_invalidation(self):$/;"	m	class:RowCacheInvalidator
+test_cache_sqls	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_cache_sqls(self):$/;"	m	class:TestCache
+test_case	code.google.com/p/vitess/test/utils.py	/^def test_case(fn):$/;"	f
+test_challenge_is_used	code.google.com/p/vitess/test/connection_test.py	/^  def test_challenge_is_used(self):$/;"	m	class:TestAuthentication
+test_charcol	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_charcol(self):$/;"	m	class:TestWillNotBeCached
+test_commit	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_commit(self):$/;"	m	class:TestNocache
+test_consolidation	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_consolidation(self):$/;"	m	class:TestNocache
+test_correct_credentials	code.google.com/p/vitess/test/connection_test.py	/^  def test_correct_credentials(self):$/;"	m	class:TestAuthentication
+test_customrules	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_customrules(self):$/;"	m	class:TestNocache
+test_data	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_data(self):$/;"	m	class:TestNocache
+test_decode_next	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_decode_next():$/;"	f
+test_decode_next_eob	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_decode_next_eob():$/;"	f
+test_dict	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_dict():$/;"	f
+test_dict_in_array	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_dict_in_array():$/;"	f
+test_different_value	code.google.com/p/vitess/test/checkers_test.py	/^  def test_different_value(self):$/;"	m	class:TestCheckers
+test_different_value	code.google.com/p/vitess/test/checkers_test.py	/^  def test_different_value(self):$/;"	m	class:TestRlookup
+test_encode_invalid	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_encode_invalid():$/;"	f
+test_encode_recursive	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_encode_recursive():$/;"	f
+test_env	code.google.com/p/vitess/test/loadgen.py	/^from queryservice_tests import test_env$/;"	i
+test_env	code.google.com/p/vitess/test/queryservice_test.py	/^from queryservice_tests import test_env$/;"	i
+test_eob1	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_eob1():$/;"	f
+test_eob2	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_eob2():$/;"	f
+test_eob_cstring	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_eob_cstring():$/;"	f
+test_for_update	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_for_update(self):$/;"	m	class:TestNocache
+test_health	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_health(self):$/;"	m	class:TestNocache
+test_idle_timeout	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_idle_timeout(self):$/;"	m	class:TestNocache
+test_incorrect_credentials	code.google.com/p/vitess/test/connection_test.py	/^  def test_incorrect_credentials(self):$/;"	m	class:TestAuthentication
+test_incorrect_user	code.google.com/p/vitess/test/connection_test.py	/^  def test_incorrect_user(self):$/;"	m	class:TestAuthentication
+test_integrity_error	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_integrity_error(self):$/;"	m	class:TestNocache
+test_load_binary	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_load_binary():$/;"	f
+test_load_empty	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_load_empty():$/;"	f
+test_load_int	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_load_int():$/;"	f
+test_load_string	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_load_string():$/;"	f
+test_max_result_size	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_max_result_size(self):$/;"	m	class:TestNocache
+test_more_mismatches	code.google.com/p/vitess/test/checkers_test.py	/^  def test_more_mismatches(self):$/;"	m	class:TestCheckers
+test_multisnapshot_and_restore	code.google.com/p/vitess/test/tabletmanager.py	/^def test_multisnapshot_and_restore():$/;"	f
+test_multisnapshot_and_restore_vtctl	code.google.com/p/vitess/test/tabletmanager.py	/^def test_multisnapshot_and_restore_vtctl():$/;"	f
+test_multisnapshot_mysqlctl	code.google.com/p/vitess/test/tabletmanager.py	/^def test_multisnapshot_mysqlctl():$/;"	f
+test_multisnapshot_vtctl	code.google.com/p/vitess/test/tabletmanager.py	/^def test_multisnapshot_vtctl():$/;"	f
+test_nested_dict	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_nested_dict():$/;"	f
+test_nocache	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_nocache(self):$/;"	m	class:TestWillNotBeCached
+test_nodata	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_nodata(self):$/;"	m	class:TestCache
+test_none	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_none():$/;"	f
+test_nontx_dml	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_nontx_dml(self):$/;"	m	class:TestNocache
+test_nopass	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_nopass(self):$/;"	m	class:TestCache
+test_nopk	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_nopk(self):$/;"	m	class:TestWillNotBeCached
+test_not_assigned	code.google.com/p/vitess/test/vtctld_test.py	/^  def test_not_assigned(self):$/;"	m	class:TestDbTopo
+test_num_str	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_num_str(self):$/;"	m	class:TestCache
+test_ok	code.google.com/p/vitess/test/checkers_test.py	/^  def test_ok(self):$/;"	m	class:TestCheckers
+test_ok	code.google.com/p/vitess/test/checkers_test.py	/^  def test_ok(self):$/;"	m	class:TestRlookup
+test_only_few_requests_are_allowed	code.google.com/p/vitess/test/connection_test.py	/^  def test_only_few_requests_are_allowed(self):$/;"	m	class:TestAuthentication
+test_overrides	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_overrides(self):$/;"	m	class:TestCache
+test_pool_size	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_pool_size(self):$/;"	m	class:TestNocache
+test_problem	code.google.com/p/vitess/test/checkers_test.py	/^  def test_problem(self):$/;"	m	class:TestDifferentEncoding
+test_purge_cache	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def test_purge_cache(self):$/;"	m	class:RowCacheInvalidator
+test_query_cache	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_query_cache(self):$/;"	m	class:TestNocache
+test_query_stats	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_query_stats(self):$/;"	m	class:TestNocache
+test_query_timeout	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_query_timeout(self):$/;"	m	class:TestNocache
+test_reconnect	code.google.com/p/vitess/test/connection_test.py	/^  def test_reconnect(self):$/;"	m	class:TestConnection
+test_rename	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_rename(self):$/;"	m	class:TestCache
+test_rollback	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_rollback(self):$/;"	m	class:TestNocache
+test_schema_reload_time	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_schema_reload_time(self):$/;"	m	class:TestNocache
+test_secondary_credentials	code.google.com/p/vitess/test/connection_test.py	/^  def test_secondary_credentials(self):$/;"	m	class:TestAuthentication
+test_service_disabled	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def test_service_disabled(self):$/;"	m	class:RowCacheInvalidator
+test_simple_read	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_simple_read(self):$/;"	m	class:TestNocache
+test_sorted_row_list_difference	code.google.com/p/vitess/test/checkers_test.py	/^  def test_sorted_row_list_difference(self):$/;"	m	class:TestSortedRowListDifference
+test_sqls	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_sqls(self):$/;"	m	class:TestNocache
+test_stop_replication	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def test_stop_replication(self):$/;"	m	class:RowCacheInvalidator
+test_tablet_restart	code.google.com/p/vitess/test/rowcache_invalidator.py	/^  def test_tablet_restart(self):$/;"	m	class:RowCacheInvalidator
+test_trailing_comment	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_trailing_comment(self):$/;"	m	class:TestNocache
+test_transaction_cap	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_transaction_cap(self):$/;"	m	class:TestNocache
+test_transaction_timeout	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_transaction_timeout(self):$/;"	m	class:TestNocache
+test_types	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_types(self):$/;"	m	class:TestCache
+test_types	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^  def test_types(self):$/;"	m	class:TestNocache
+test_uncache	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^  def test_uncache(self):$/;"	m	class:TestCache
+test_union	code.google.com/p/vitess/test/queryservice_tests/stream_tests.py	/^  def test_union(self):$/;"	m	class:TestStream
+test_unpack_uint64	code.google.com/p/vitess/py/cbson/test_cbson.py	/^def test_unpack_uint64():$/;"	f
+test_vtocc_has_gone_away	code.google.com/p/vitess/test/connection_test.py	/^  def test_vtocc_has_gone_away(self):$/;"	m	class:TestConnection
+test_vtocc_not_there	code.google.com/p/vitess/test/connection_test.py	/^  def test_vtocc_not_there(self):$/;"	m	class:TestConnection
+threading	code.google.com/p/vitess/py/checkers/checker.py	/^import threading$/;"	i
+threading	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import threading$/;"	i
+threading	code.google.com/p/vitess/test/update_stream.py	/^import threading$/;"	i
+time	code.google.com/p/vitess/py/checkers/checker.py	/^import time$/;"	i
+time	code.google.com/p/vitess/py/net/gorpc.py	/^import time$/;"	i
+time	code.google.com/p/vitess/py/vtdb/sharded.py	/^import time$/;"	i
+time	code.google.com/p/vitess/py/vtdb/times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+time	code.google.com/p/vitess/py/vtdb/vt_occ2.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/connection_test.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/tablet.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/tabletmanager.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/update_stream.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/utils.py	/^import time$/;"	i
+time	code.google.com/p/vitess/test/zkocc.py	/^import time$/;"	i
+timedelta	code.google.com/p/vitess/py/vtdb/times.py	/^from datetime import date, datetime, time, timedelta$/;"	i
+timeout	code.google.com/p/vitess/py/vtdb/sharded.py	/^  timeout = 0$/;"	v	class:ShardedClient
+times	code.google.com/p/vitess/py/vtdb/field_types.py	/^from vtdb import times$/;"	i
+timestamp	code.google.com/p/vitess/py/cbson/cbson.c	/^  timestamp,$/;"	e	enum:ElementTypes	file:
+tmp_root	code.google.com/p/vitess/test/utils.py	/^tmp_root = os.path.join(vtdataroot, 'tmp')$/;"	v
+to_json	code.google.com/p/vitess/py/zk/zkjson.py	/^  def to_json(self):$/;"	m	class:ZkJsonObject
+to_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^to_opt:$/;"	l
+too_short	code.google.com/p/vitess/py/cbson/cbson.c	/^static inline uint32_t too_short(BufIter* buf_iter, uint32_t remaining) {$/;"	f	file:
+topology	code.google.com/p/vitess/test/secure.py	/^from vtdb import topology$/;"	i
+topology	code.google.com/p/vitess/test/sharded.py	/^from vtdb import topology$/;"	i
+traceback	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import traceback$/;"	i
+traceback	code.google.com/p/vitess/test/update_stream.py	/^import traceback$/;"	i
+transaction_id	code.google.com/p/vitess/py/vtdb/tablet2.py	/^  transaction_id = 0$/;"	v	class:TabletConnection
+transaction_id	code.google.com/p/vitess/py/vtdb/tablet3.py	/^  transaction_id = 0$/;"	v	class:TabletConnection
+uint64_struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^uint64_struct = struct.Struct('<Q')$/;"	v
+unary_operator	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^unary_operator:$/;"	l
+union_op	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^union_op:$/;"	l
+unittest	code.google.com/p/vitess/test/checkers_test.py	/^import unittest$/;"	i
+unittest	code.google.com/p/vitess/test/connection_test.py	/^import unittest$/;"	i
+unittest	code.google.com/p/vitess/test/framework.py	/^import unittest$/;"	i
+unittest	code.google.com/p/vitess/test/queryservice_test.py	/^import unittest$/;"	i
+unittest	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import unittest$/;"	i
+unittest	code.google.com/p/vitess/test/vtctld_test.py	/^import unittest$/;"	i
+unpack	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/network.py	/^from struct import unpack$/;"	i
+unpack_binary_struct	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^unpack_binary_struct = binary_struct.unpack_from$/;"	v
+unpack_length	code.google.com/p/vitess/py/net/bsonrpc.py	/^unpack_length = len_struct.unpack_from$/;"	v
+unpack_length	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^unpack_length = length_struct.unpack_from$/;"	v
+update	code.google.com/p/vitess/py/checkers/checker.py	/^  def update(self, key, from_time, items=0):$/;"	m	class:Stats
+update_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^update_expression:$/;"	l
+update_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^update_list:$/;"	l
+update_statement	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^update_statement:$/;"	l
+update_stream_service	code.google.com/p/vitess/test/rowcache_invalidator.py	/^from vtdb import update_stream_service$/;"	i
+update_stream_service	code.google.com/p/vitess/test/update_stream.py	/^from vtdb import update_stream_service$/;"	i
+url	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		url = "http:\/\/github.com\/martinkou\/bson"$/;"	v
+urllib	code.google.com/p/vitess/test/utils.py	/^import urllib$/;"	i
+urllib2	code.google.com/p/vitess/test/queryservice_tests/cases_framework.py	/^import urllib2$/;"	i
+urllib2	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import urllib2$/;"	i
+urllib2	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import urllib2$/;"	i
+urllib2	code.google.com/p/vitess/test/vtctld_test.py	/^import urllib2$/;"	i
+urlparse	code.google.com/p/vitess/py/checkers/checker.py	/^import urlparse$/;"	i
+urlparse	code.google.com/p/vitess/py/net/gorpc.py	/^import urlparse$/;"	i
+use_streaming	code.google.com/p/vitess/py/vtdb/sharded.py	/^  use_streaming = False$/;"	v	class:ShardedClient
+user	code.google.com/p/vitess/py/vtdb/sharded.py	/^  user = ''$/;"	v	class:ShardedClient
+using_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^using_opt:$/;"	l
+utc	code.google.com/p/vitess/py/cbson/cbson.c	/^  utc,$/;"	e	enum:ElementTypes	file:
+utils	code.google.com/p/vitess/test/checkers_test.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/loadgen.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/queryservice_test.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/resharding.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/schema.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/secure.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/sharded.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/tablet.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/tabletmanager.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/update_stream.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/vtctld_test.py	/^import utils$/;"	i
+utils	code.google.com/p/vitess/test/zkocc.py	/^import utils$/;"	i
+validate_topology	code.google.com/p/vitess/test/utils.py	/^def validate_topology(ping_tablets=False):$/;"	f
+value	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^value:$/;"	l
+value_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^value_expression:$/;"	l
+value_expression_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^value_expression_list:$/;"	l
+values	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^values:$/;"	l
+version	code.google.com/p/vitess/py/cbson/setup.py	/^      version = '0.1',$/;"	v
+version	code.google.com/p/vitess/third_party/py/bson-0.3.2/setup.py	/^		version="0.3.2",$/;"	v
+vquery	code.google.com/p/vitess/test/tablet.py	/^  def vquery(self, query, path='', user=None, password=None, driver=None,$/;"	m	class:Tablet
+vt_close	code.google.com/p/vitess/go/mysql/vtmysql.c	/^void vt_close(VT_CONN *conn) {$/;"	f
+vt_close_result	code.google.com/p/vitess/go/mysql/vtmysql.c	/^void vt_close_result(VT_CONN *conn) {$/;"	f
+vt_conn	code.google.com/p/vitess/go/mysql/vtmysql.h	/^typedef struct vt_conn {$/;"	s
+vt_connect	code.google.com/p/vitess/go/mysql/vtmysql.c	/^int vt_connect($/;"	f
+vt_errno	code.google.com/p/vitess/go/mysql/vtmysql.c	/^unsigned int vt_errno(VT_CONN *conn) {$/;"	f
+vt_error	code.google.com/p/vitess/go/mysql/vtmysql.c	/^const char *vt_error(VT_CONN *conn) {$/;"	f
+vt_execute	code.google.com/p/vitess/go/mysql/vtmysql.c	/^int vt_execute(VT_CONN *conn, const char *stmt_str, unsigned long length, int stream) {$/;"	f
+vt_fetch_next	code.google.com/p/vitess/go/mysql/vtmysql.c	/^VT_ROW vt_fetch_next(VT_CONN *conn) {$/;"	f
+vt_library_init	code.google.com/p/vitess/go/mysql/vtmysql.c	/^void vt_library_init(void) {$/;"	f
+vt_occ2	code.google.com/p/vitess/test/connection_test.py	/^from vtdb import vt_occ2$/;"	i
+vt_occ2	code.google.com/p/vitess/test/queryservice_tests/cache_tests.py	/^from vtdb import vt_occ2$/;"	i
+vt_occ2	code.google.com/p/vitess/test/queryservice_tests/nocache_tests.py	/^from vtdb import vt_occ2$/;"	i
+vt_occ2	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^from vtdb import vt_occ2$/;"	i
+vt_occ2	code.google.com/p/vitess/test/rowcache_invalidator.py	/^from vtdb import vt_occ2$/;"	i
+vt_occ2	code.google.com/p/vitess/test/update_stream.py	/^from vtdb import vt_occ2$/;"	i
+vt_row	code.google.com/p/vitess/go/mysql/vtmysql.h	/^typedef struct vt_row {$/;"	s
+vt_server_cert	code.google.com/p/vitess/test/secure.py	/^  vt_server_cert = cert_dir + "\/vt-server-cert.pem"$/;"	v
+vt_server_key	code.google.com/p/vitess/test/secure.py	/^  vt_server_key = cert_dir + "\/vt-server-key.pem"$/;"	v
+vt_server_req	code.google.com/p/vitess/test/secure.py	/^  vt_server_req = cert_dir + "\/vt-server-req.pem"$/;"	v
+vt_thread_id	code.google.com/p/vitess/go/mysql/vtmysql.c	/^unsigned long vt_thread_id(VT_CONN *conn) {$/;"	f
+vtclient2	code.google.com/p/vitess/test/utils.py	/^def vtclient2(uid, path, query, bindvars=None, user=None, password=None, driver=None,$/;"	f
+vtctld	code.google.com/p/vitess/test/vtctld_test.py	/^vtctld = Vtctld()$/;"	v
+vtdataroot	code.google.com/p/vitess/test/connection_test.py	/^  vtdataroot = os.getenv("VTDATAROOT") or "\/vt"$/;"	v	class:BaseTest
+vtdataroot	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  vtdataroot = os.getenv("VTDATAROOT") or "\/vt"$/;"	v	class:VtoccTestEnv
+vtdataroot	code.google.com/p/vitess/test/utils.py	/^vtdataroot = os.environ.get('VTDATAROOT', '\/vt')$/;"	v
+vtocc_port	code.google.com/p/vitess/test/connection_test.py	/^  vtocc_port = 9461$/;"	v	class:BaseTest
+vtocc_test	code.google.com/p/vitess/test/test_data/test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	t
+vtocc_test.binval	code.google.com/p/vitess/test/test_data/test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+vtocc_test.charval	code.google.com/p/vitess/test/test_data/test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+vtocc_test.floatval	code.google.com/p/vitess/test/test_data/test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+vtocc_test.intval	code.google.com/p/vitess/test/test_data/test_schema.sql	/^create table vtocc_test(intval int, floatval float, charval varchar(256), binval varbinary(256), primary key(intval)) comment 'vtocc_nocache'$/;"	F
+vtocc_uri	code.google.com/p/vitess/test/connection_test.py	/^  def vtocc_uri(self):$/;"	m	class:BaseTest
+vtoccport	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  vtoccport = 9461$/;"	v	class:VtoccTestEnv
+vtportstart	code.google.com/p/vitess/test/utils.py	/^vtportstart = int(os.environ.get('VTPORTSTART', '6700'))$/;"	v
+vtroot	code.google.com/p/vitess/test/connection_test.py	/^  vtroot = os.getenv("VTROOT")$/;"	v	class:BaseTest
+vtroot	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  vtroot = os.getenv("VTROOT")$/;"	v	class:VtoccTestEnv
+vtroot	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  vtroot = os.getenv("VTROOT")$/;"	v	class:VttabletTestEnv
+vtroot	code.google.com/p/vitess/test/utils.py	/^vtroot = os.environ['VTROOT']$/;"	v
+vttop	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  vttop = os.getenv("VTTOP")$/;"	v	class:VtoccTestEnv
+vttop	code.google.com/p/vitess/test/queryservice_tests/test_env.py	/^  vttop = os.getenv("VTTOP")$/;"	v	class:VttabletTestEnv
+vttop	code.google.com/p/vitess/test/utils.py	/^vttop = os.environ['VTTOP']$/;"	v
+wait_check_db_var	code.google.com/p/vitess/test/tablet.py	/^  def wait_check_db_var(self, name, value):$/;"	m	class:Tablet
+wait_db_read_only	code.google.com/p/vitess/test/utils.py	/^def wait_db_read_only(uid):$/;"	f
+wait_for_completion	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^void wait_for_completion(completion_data *data) {$/;"	f
+wait_for_vttablet_state	code.google.com/p/vitess/test/tablet.py	/^  def wait_for_vttablet_state(self, expected, timeout=5.0, port=None):$/;"	m	class:Tablet
+wait_for_watch	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^watch_data *wait_for_watch() {$/;"	f
+wait_procs	code.google.com/p/vitess/test/utils.py	/^def wait_procs(proc_list, raise_on_error=True):$/;"	f
+warnings	code.google.com/p/vitess/test/checkers_test.py	/^import warnings$/;"	i
+warnings	code.google.com/p/vitess/test/rowcache_invalidator.py	/^import warnings$/;"	i
+warnings	code.google.com/p/vitess/test/tablet.py	/^import warnings$/;"	i
+warnings	code.google.com/p/vitess/test/tabletmanager.py	/^import warnings$/;"	i
+warnings	code.google.com/p/vitess/test/update_stream.py	/^import warnings$/;"	i
+warnings	code.google.com/p/vitess/third_party/py/bson-0.3.2/bson/codec.py	/^import warnings$/;"	i
+watch_available	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^static pthread_cond_t  watch_available = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+watch_context	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^    void *watch_context;$/;"	m	struct:_watch_data
+watch_data	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.h	/^} watch_data;$/;"	t	typeref:struct:_watch_data
+watch_handler	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^watcher_fn watch_handler = _watch_handler;$/;"	v
+watch_mutex	code.google.com/p/vitess/third_party/go/launchpad.net/gozk/zookeeper/helpers.c	/^static pthread_mutex_t watch_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+when_expression	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^when_expression:$/;"	l
+when_expression_list	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^when_expression_list:$/;"	l
+where_expression_opt	code.google.com/p/vitess/go/vt/sqlparser/sql.y	/^where_expression_opt:$/;"	l
+write	code.google.com/p/vitess/py/checkers/checker.py	/^  def write(self, s):$/;"	m	class:AtomicWriter
+write_request	code.google.com/p/vitess/py/net/gorpc.py	/^  def write_request(self, request_data):$/;"	m	class:_GoRpcConn
+ws	code.google.com/p/vitess/py/checkers/checker.py	/^ws = re.compile(r'\\s+')$/;"	v
+zkNodes	code.google.com/p/vitess/test/zkocc.py	/^  zkNodes = zkocc_client.getv(["\/zk\/test_nj\/zkocc1\/data1", "\/zk\/test_nj\/zkocc1\/data2", "\/zk\/test_nj\/zkocc1\/data3"])$/;"	v
+zk_cat	code.google.com/p/vitess/test/utils.py	/^def zk_cat(path):$/;"	f
+zk_ls	code.google.com/p/vitess/test/utils.py	/^def zk_ls(path):$/;"	f
+zk_port_base	code.google.com/p/vitess/test/utils.py	/^zk_port_base = reserve_ports(3)$/;"	v
+zk_setup	code.google.com/p/vitess/test/utils.py	/^def zk_setup():$/;"	f
+zk_teardown	code.google.com/p/vitess/test/utils.py	/^def zk_teardown():$/;"	f
+zk_wipe	code.google.com/p/vitess/test/utils.py	/^def zk_wipe():$/;"	f
+zkjson	code.google.com/p/vitess/py/zk/zkns_query.py	/^from zk import zkjson$/;"	i
+zkns_query	code.google.com/p/vitess/py/vtdb/sharded.py	/^from zk import zkns_query$/;"	i
+zkocc	code.google.com/p/vitess/py/vtdb/sharded.py	/^from zk import zkocc$/;"	i
+zkocc	code.google.com/p/vitess/py/vtdb/topology.py	/^from zk import zkocc$/;"	i
+zkocc	code.google.com/p/vitess/test/secure.py	/^from zk import zkocc$/;"	i
+zkocc	code.google.com/p/vitess/test/sharded.py	/^from zk import zkocc$/;"	i
+zkocc	code.google.com/p/vitess/test/zkocc.py	/^from zk import zkocc$/;"	i
+zkocc_client	code.google.com/p/vitess/py/vtdb/sharded.py	/^  zkocc_client = None$/;"	v	class:ShardedClient
+zkocc_kill	code.google.com/p/vitess/test/utils.py	/^def zkocc_kill(sp):$/;"	f
+zkocc_port_base	code.google.com/p/vitess/test/utils.py	/^zkocc_port_base = reserve_ports(3)$/;"	v
+zkocc_start	code.google.com/p/vitess/test/utils.py	/^def zkocc_start(cells=['test_nj'], extra_params=[]):$/;"	f
